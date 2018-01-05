@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Safen_cdr
 safen_cdr을 종전 trigger 방식의 자바 프로그래밍 방식으로 변경 합니다.
 
@@ -21,3 +22,7 @@ safen_cdr을 종전 trigger 방식의 자바 프로그래밍 방식으로 변경
 > $sh ./status.sh
 
 
+=======
+# safen_point
+point crontab 1분 프로젝트를 java로 변환
+>>>>>>> 048db2e23b2d26d18d06ec7526b8e98c7cfdd002
