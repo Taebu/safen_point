@@ -1,0 +1,36 @@
+1월 11, 2017 4:43:57 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 11, 2017 4:43:57 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:43:57 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:43:57 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:44:07 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+경고: DB서비스가 올라왔는지 확인하세요!
+1월 11, 2017 4:44:07 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:44:07 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:44:17 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+경고: DB서비스가 올라왔는지 확인하세요!
+1월 11, 2017 4:44:17 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:44:17 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:44:27 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+경고: DB서비스가 올라왔는지 확인하세요!
+1월 11, 2017 4:44:27 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:44:27 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:44:37 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+경고: DB서비스가 올라왔는지 확인하세요!
+1월 11, 2017 4:44:37 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:44:37 오후 kr.co.cashq.safen_cdr.DBConn dbConCheck
+경고: com.mysql.jdbc.Driver
+1월 11, 2017 4:47:35 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 11, 2017 4:47:37 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive

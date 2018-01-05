@@ -1,0 +1,4 @@
+1월 12, 2017 9:46:01 오전 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 12, 2017 9:46:06 오전 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive

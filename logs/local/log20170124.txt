@@ -1,0 +1,48 @@
+1월 24, 2017 12:34:59 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 24, 2017 12:35:01 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 24, 2017 12:36:01 오후 kr.co.cashq.safen_cdr.DBConn isExistTableYYYYMM
+경고: Table 'sktl.prq_cdr' doesn't exist
+1월 24, 2017 1:29:03 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 24, 2017 1:29:04 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 24, 2017 1:30:26 오후 kr.co.cashq.safen_cdr.DBConn isExistTableYYYYMM
+경고: Table 'sktl.prq_cdr' doesn't exist
+1월 24, 2017 1:35:31 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 24, 2017 1:35:33 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 24, 2017 1:36:13 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: insert into safen_cdr_201701 select * from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 24, 2017 1:36:13 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: delete from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 24, 2017 1:38:43 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: insert into safen_cdr_201701 select * from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 24, 2017 1:38:43 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: delete from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 24, 2017 1:40:36 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: insert into safen_cdr_201701 select * from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 24, 2017 1:40:36 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: delete from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 24, 2017 1:59:47 오후 kr.co.cashq.safen_cdr.DBConn isExistTable
+경고: Communications link failure
+
+The last packet successfully received from the server was 1,137,134 milliseconds ago.  The last packet sent successfully to the server was 20 milliseconds ago.
+1월 24, 2017 1:59:47 오후 kr.co.cashq.safen_cdr.DBConn isExistTableYYYYMM
+경고: No operations allowed after statement closed.
+1월 24, 2017 1:59:47 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: Operation not allowed after ResultSet closed
+1월 24, 2017 1:59:48 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 24, 2017 2:00:39 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 24, 2017 2:00:41 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 24, 2017 2:02:49 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: insert into safen_cdr_201701 select * from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 24, 2017 2:02:49 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: delete from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 24, 2017 2:31:13 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive

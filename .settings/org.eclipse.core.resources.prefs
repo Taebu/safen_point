@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/kr/co/cashq/safen_point/CdrTrigger.java=UTF-8
+encoding//src/kr/co/cashq/safen_point/DBConn.java=UTF-8
+encoding//src/kr/co/cashq/safen_point/Env.java=UTF-8
+encoding//src/kr/co/cashq/safen_point/MyDataObject.java=UTF-8
+encoding//src/kr/co/cashq/safen_point/SAFEN_CDR.java=UTF-8
+encoding//src/kr/co/cashq/safen_point/Safen_cmd_queue.java=UTF-8
+encoding//src/kr/co/cashq/safen_point/Safen_master.java=UTF-8
+encoding//src/kr/co/cashq/safen_point/Site_push_log.java=UTF-8
+encoding//src/kr/co/cashq/safen_point/Smsq_send.java=UTF-8
+encoding//src/kr/co/cashq/safen_point/Utils.java=UTF-8

@@ -1,0 +1,64 @@
+1월 25, 2017 1:55:44 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 25, 2017 1:55:45 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 25, 2017 2:11:53 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: Communications link failure
+
+The last packet successfully received from the server was 903,299 milliseconds ago.  The last packet sent successfully to the server was 31 milliseconds ago.
+1월 25, 2017 2:11:56 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 25, 2017 2:12:19 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 25, 2017 2:12:20 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 25, 2017 2:13:07 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+정보: is_callpt
+1월 25, 2017 2:13:08 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: insert into safen_cdr_201701 select * from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 25, 2017 2:13:08 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: delete from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 25, 2017 2:15:32 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: insert into safen_cdr_201701 select * from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 25, 2017 2:15:54 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: delete from safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 25, 2017 2:19:18 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 25, 2017 2:19:20 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 25, 2017 2:19:54 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+정보: is_callpt
+1월 25, 2017 2:20:25 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: insert into safen_cdr_201701 select * from sktl.safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 25, 2017 2:20:25 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: delete from sktl.safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 25, 2017 4:56:10 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 25, 2017 4:56:12 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 25, 2017 4:56:27 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue get_daycnt
+경고: SELECT count(*) cnt FROM `cashq`.`0507_point` WHERE mb_hp=? AND date(st_dt)=date(now()) AND status in ('1','2','3','4')  AND ed_type not in ('downpt','reviewpt') 
+1월 25, 2017 4:56:28 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+정보: is_callpt call day  cnt  : 0,mb_hp : 01064194420
+1월 25, 2017 5:00:01 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: insert into safen_cdr_201701 select * from sktl.safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 25, 2017 5:00:01 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: delete from sktl.safen_cdr where seq=?처리결과가 [1]가 아닙니다.[0]
+1월 25, 2017 5:01:23 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue get_daycnt
+경고: SELECT count(*) cnt FROM `cashq`.`0507_point` WHERE mb_hp=? AND date(st_dt)=date(now()) AND status in ('1','2','3','4')  AND ed_type not in ('downpt','reviewpt') 
+1월 25, 2017 5:02:01 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+정보: is_callpt call day  cnt  : 0,mb_hp : 01071428420
+1월 25, 2017 5:07:36 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue get_user_event_index
+경고: Communications link failure
+
+The last packet successfully received from the server was 373,163 milliseconds ago.  The last packet sent successfully to the server was 27 milliseconds ago.
+1월 25, 2017 5:10:30 오후 kr.co.cashq.safen_cdr.SAFEN_CDR main
+정보: SAFEN_CDR program started!
+1월 25, 2017 5:10:32 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+1월 25, 2017 5:49:34 오후 kr.co.cashq.safen_cdr.Safen_cmd_queue doMainProcess
+경고: Communications link failure
+
+The last packet successfully received from the server was 2,315,332 milliseconds ago.  The last packet sent successfully to the server was 59 milliseconds ago.
+1월 25, 2017 5:49:35 오후 kr.co.cashq.safen_cdr.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
