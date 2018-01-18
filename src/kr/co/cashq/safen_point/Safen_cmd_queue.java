@@ -1,5 +1,13 @@
 package kr.co.cashq.safen_point;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.text.DateFormat;
@@ -7,98 +15,78 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
-
+import java.util.HashMap;
+import java.util.Map;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+import java.io.InputStreamReader;
 //import com.nostech.safen.SafeNo;
 
 /**
 
- * safen_cmd_queue �뀒�씠釉� 愿��젴 媛앹껜
- * @author mtb
- * 2017-03-10 (湲�) 13:36:49 
- *  由щ럭 �룷�씤�듃 90�씪 60�씪濡� 蹂�寃�
+ * safen_cmd_queue 테이블 관련 객체
+ * @author 문태부.
+ * 2018-01-06 (토) 10:48:05  
+ *  @param : "crontab -e"
+ *  vi /etc/cashwrite.sh
+ *  curl -v http://cashq.co.kr/adm/0507_point_cash_write_dev2.php
+ *  @param['url']="http://cashq.co.kr/adm/0507_point_cash_status.php";
+ *  @param['param']= "board=0507_point&status2=1&".cr_post($chk_seq,'chk_seq',1);
+ *  @since
+ *  @date : 2018-01-06 오전 11:26:30
+ *  @date : 2018-01-06 오전 11:46:07
  *  
- *  2017-08-18 (湲�) 16:10:00
- *   �꽭�씪 �룷�씤�듃 異붽�
- *   �룞�떆 �쟻由� 媛��뒫�븯�룄濡� 蹂�寃� 
  */
 public class Safen_cmd_queue {
 	
 	/**
-	 * safen_cmd_queue �뀒�씠釉붿쓽 �뜲�씠�꽣瑜� 泥섎━�븯湲� �쐞�븳 二쇱슂�븳 泥섎━瑜� �닔�뻾�븳�떎.
+	 * safen_cmd_queue 테이블의 데이터를 처리하기 위한 주요한 처리를 수행한다.
+	 * 
 	 */
 	public static void doMainProcess() {
 		Connection con = DBConn.getConnection();
-
-		String ev_st_dt="";
-		String ev_ed_dt="";
-		String daily_st_dt="";
-		String daily_ed_dt="";
-		String review_ed_dt="";
-		String mb_hp="";
-		String eventcode="";
-		String cash="";
-		String ed_type="";
+		/* 대리점 정보 */
+		Map<String, String> agency_info   = new HashMap<String, String>();
+		/* 상점 정보 */
+		Map<String, String> store_info      = new HashMap<String, String>();
+		/* 포인트 정보 */
+		Map<String, String> point_info = new HashMap<String, String>();
+		/* 메세지 정보 */
+		Map<String, String> message_info = new HashMap<String, String>();
+		
 		String biz_code="";
-		String call_hangup_dt="";
-		String mb_id="";
-		String certi_code="";
-		String st_dt="";
-		String ed_dt="";
+		String token_id="";
+		String mb_hp="";
+		String appid="cashq";
+		String eventcode="";
+		String st_no="";
 		String moddate="1970-01-01 12:00:00";
 		String accdate="1970-01-01 12:00:00";
-		String str_hangup_time="";
-		String tel="";
-		String pt_stat="";
 
 		int eventcnt = 0;
-		int daycnt = 0;
-		int reviewdaycnt = 0;
-		int downdaycnt = 0;
-		int saledaycnt = 0;
-		int calldaycnt = 0;
-		int pt_day_cnt = 0;
-		int pt_event_cnt = 0;
-		int usereventindex = 0;
-		int user_event_dt_index = 0;
-		int tcl_seq = 0;
-		int service_sec=0;
-		int hangup_time=0;
-
-		boolean is_hp = false;
-		boolean is_freedailypt = false;
-		boolean is_freeuserpt = false;
-		boolean is_fivept = false;
-		boolean is_callpt = false;
-		boolean is_reviewpt = false;
-		boolean is_downpt = false;
-		boolean is_salept = false;
 		
-		boolean is_realcode=false;
-		boolean is_userpt=false;
-		boolean chk_realcode=false;
-		boolean is_answer=false;
+		/* 포인트 갯수를 센다. */
+		int point_count= 0;
+		
+		/* 핸드폰인지 여부 */
+		boolean is_hp = false;
+		
+		/* GCM 전송 성공 여부 */
+		boolean success_gcm = false;
+		
+		/* ATA 전송 성공 여부 */
+		boolean success_ata = false;
+		
+		/* SMS 전송 성공 여부 */
+		boolean success_sms = false;
 
-		/* �긽�젏 �젙蹂� */
-		String[] store_info			= new String[5];
-		/* �룷�씤�듃 �씠踰ㅽ듃 �젙蹂� */
+		
+		/* 포인트 이벤트 정보 */
 		String[] point_event_info	= new String[7];
-		/* �쑀�� �씠踰ㅽ듃 �젙蹂� */
+		/* 유저 이벤트 정보 */
 		String[] user_event_info	= new String[3];
 		
-		String status_cd="";
-		String conn_sdt="";
-		String conn_edt="";
-		String service_sdt="";
-		String safen="";
-		String safen_in="";
-		String safen_out="";
-		String calllog_rec_file="";
-
-		String store_name = "";
-		String pre_pay="";
-		String store_seq="";
-		String type="";
-		String str_tcl_seq="";
 
 		if (con != null) {
 			MyDataObject dao = new MyDataObject();
@@ -108,456 +96,75 @@ public class Safen_cmd_queue {
 			MyDataObject dao5 = new MyDataObject();
 
 			StringBuilder sb = new StringBuilder();
-			StringBuilder sb_log = new StringBuilder();
-
-			//sb.append("select exists(select 1 from safen_cdr) a");
-			//sb.append("select * from safen_cdr limit 1");
-			//sb.append("select * from safen_cdr where seq<192 limit 1;");
-			//sb.append("select * from safen_cdr where seq<221 limit 1;");
-			//sb.append("select * from safen_cdr limit 1;");
-			sb.append("select * from sktl.safen_cdr order by seq limit 1;");
+			//StringBuilder sb_log = new StringBuilder();
+			/* 
+			 * 1. 아래 조건을 만족하는 `0507_point` 테이블을 조회한다.  
+			 * 	조건 1) 오늘 입력된것.
+			 * 조건 2) 상태가 0인것.
+			 * 조건 3) "비즈코드"와 "이벤트코드"가 일치하는 것.
+			 * distinct는 할필요 없었다.
+			 */
+			sb.append("SELECT ");
+			sb.append(" *,substring_index(eventcode,'_',1) biz_ecode");
+			sb.append(" FROM ");
+			sb.append(" `0507_point` ");
+			sb.append("WHERE date(insdate)=date(now()) ");
+			sb.append(" and status='0' ");
+			sb.append("having biz_code=biz_ecode;");
 			
 			try {
 				dao.openPstmt(sb.toString());
-
 				dao.setRs(dao.pstmt().executeQuery());
-
-				if (dao.rs().next()) {
-					
+			  /* 2. 값이 있으면 */
+			   while(dao.rs().next()) {
 					SAFEN_CDR.heart_beat = 1;
-					Boolean chk_seq=dao.rs().getInt("seq")>0;
-
-					if (chk_seq) {
-						StringBuilder sb2 = new StringBuilder();
-						StringBuilder sb5 = new StringBuilder();
-						String hist_table = DBConn.isExistTableYYYYMM();
-						int resultCnt2 = 0;
-
-						/*	String status_cd �긽�깭肄붾뱶, */
-						status_cd=chkValue(dao.rs().getString("status_cd"));
-						
-						/*	String conn_sdt �떆�옉�떆媛�,  */
-						conn_sdt=chkValue(dao.rs().getString("conn_sdt"));
-						
-						/*	String conn_edt 醫낅즺�떆媛�, */
-						conn_edt=chkValue(dao.rs().getString("conn_edt"));
-						
-						/*	String service_sdt, 諛섏쓳�떆媛� */
-						service_sdt=chkValue(dao.rs().getString("service_sdt"));
-						
-						/*	String safen �븞�떖踰덊샇, 050 */
-						safen=chkValue(dao.rs().getString("safen"));
-						tel=safen;
-
-						/*	String safen_in �긽�젏踰덊샇, */
-						safen_in=chkValue(dao.rs().getString("safen_in"));
-						
-						/*	String calllog_rec_file	肄쒕줈洹� �끃�쓬�뙆�씪( */
-						safen_out=chkValue(dao.rs().getString("safen_out"));
-						
-						/*	String status_cd �긽�깭肄붾뱶, */
-						calllog_rec_file=chkValue(dao.rs().getString("calllog_rec_file"));
-						
-						/*	String status_cd �긽�깭肄붾뱶, */
-						service_sec=dao.rs().getInt("service_sec");
-						
-						/*	String status_cd �긽�깭肄붾뱶, */
-						call_hangup_dt=chkValue(dao.rs().getString("service_sdt"));
-						
-						/*	String status_cd �긽�깭肄붾뱶, */
-						st_dt=chkValue(dao.rs().getString("conn_sdt"));
-						
-						/*	String status_cd �긽�깭肄붾뱶, */
-						ed_dt=chkValue(dao.rs().getString("conn_edt"));
-						
-						st_dt=chgDatetime(st_dt);
-						ed_dt=chgDatetime(ed_dt);
-						mb_hp=safen_out;
-						
-						is_answer = status_cd.equals("1");
-						/* cashq.TB_CALL_LOG�뿉 �꽭�똿�빀�땲�떎. */
-						tcl_seq = set_TB_CALL_LOG(status_cd, conn_sdt,conn_edt, service_sdt, safen,safen_in,safen_out,calllog_rec_file);
-						str_tcl_seq=Integer.toString(tcl_seq);
-						str_hangup_time=Integer.toString(service_sec);
-
-						/* cashq.store.callcnt 媛깆떊*/
-						update_stcall(safen);
-						
-						/* 4-2. Store Info 議고쉶 */
-						//store_info=getStoreInfo(safen_in);
-						store_info=getStoreInfo(safen);
-						/**
-						* store_info[0] = store_name, �긽�젏�씠由� 
-						* store_info[1] = pre_pay, 怨⑤뱶,�떎踰�,罹먯떆�걧,�씪諛�,PRQ 
-						* store_info[2] = biz_code, 鍮꾩쫰肄붾뱶 
-						* store_info[3] = store_seq, �긽�젏怨좎쑀踰덊샇 
-						* store_info[4] = type, �긽�젏���엯(�삁, 移섑궓,�뵾�옄 �벑�벑�쓽 肄붾뱶) 
-						*/
-						store_name=store_info[0];
-						pre_pay=store_info[1];
-						biz_code=store_info[2];
-						store_seq=store_info[3];
-						type=store_info[4];
-
-						/* 4-3. Event Info 議고쉶*/
-						if(biz_code!=null||biz_code!="")
-						{
-						point_event_info=getEventCodeInfo(biz_code);
-						/**
-						* point_event_info[0] = ev_st_dt, �씠踰ㅽ듃 �떆�옉�씪
-						* point_event_info[1] = ev_ed_dt, �씠踰ㅽ듃 醫낅즺�씪
-						* point_event_info[2] = eventcode, �씠踰ㅽ듃 肄붾뱶 
-						* point_event_info[3] = cash, 罹먯떆
-						* point_event_info[4] = pt_day_cnt, �씪�젙由쎌젣�븳 媛��닔
-						* point_event_info[5] = pt_event_cnt, �씠踰ㅽ듃肄붾뱶 �젙由� �젣�븳 媛��닔
-						* point_event_info[6] = ed_type, �씠踰ㅽ듃肄붾뱶 ���엯
-						*/
-						ev_st_dt=point_event_info[0];
-						ev_ed_dt=point_event_info[1];
-						eventcode=point_event_info[2]!=null?point_event_info[2]:"";
-						cash=point_event_info[3]!=null?point_event_info[3]:"";
-						pt_day_cnt = point_event_info[4]!=null?Integer.parseInt(point_event_info[4]):0;
-						pt_event_cnt = point_event_info[5]!=null?Integer.parseInt(point_event_info[5]):0;
-						ed_type=point_event_info[6];
-						
-
-						
-						if(eventcode.length()>3&&biz_code.length()>3){
-							chk_realcode=is_realcode(eventcode,biz_code);
-						}
-
-						/** 
-						* 4-4. �씠踰ㅽ듃 媛��닔 移댁슫�듃&amp;
-						* 4-5-1. call �븯猷� �룷�씤�듃 �븳踰� �룷�씤�듃 �뿬遺�
-						* 4-5-2. reviewpt �븯猷� �룷�씤�듃 �븳踰� �룷�씤�듃 �뿬遺�
-						* 4-5-2. �븯猷� �룷�씤�듃 �븳踰� �룷�씤�듃 �뿬遺�
-						* 4-6. �빖�뱶�룿 踰덊샇 �뿬遺�
-						* 4-7. �룷�씤�듃 �옱�쟻由� �떆媛� �뿬遺� �떒�쐞
-						*      point_event_dt, pt_event_cnt
-						* 4-8. NEW freedailypt �뿬遺� 議고쉶
-						* 4-9. NEW �삤�뒛�쓣 湲곗��쑝濡� 60�씪 肄붾뱶瑜� 媛��졇�삩�떎.
-						* 4-10. NEW freeuserpt �뿬遺� 議고쉶
-						* 4-11. NEW usereventcnt
-						* 4-12. NEW
-						* 4-13. NEW pt_stat
-						*/
-
-
-						
-						/* 4-5 */
-						//String[] callArray = new String[] {"reviewpt","downpt"};
-						String[] callArray = new String[] {"fivept","freedailypt","freeuserpt","freept"};
-						String[] reviewArray = new String[] {"reviewpt","downpt"};
-						
-						/* 4-6 */
-						is_hp = is_hp(safen_out);
-
-						/* 4-8 */
-						is_freedailypt = is_freedailypt(ed_type);
-						
-						/* 4-10 */
-						is_freeuserpt = is_freeuserpt(ed_type);
-
-						/* 4-10-1 */
-						is_fivept=is_fivept(ed_type);
-						
-						
-						/* 4-10-2 */
-						is_reviewpt=is_reviewpt(ed_type);
-						/* 4-10-3 */
-						is_downpt=is_downpt(ed_type);
-						/* 4-10-4 */
-						is_callpt=Arrays.asList(callArray).contains(ed_type);
-
-						/* 4-10-5 */
-						is_salept=is_salept(ed_type);
-						
-						
-						if(is_callpt){
-						//calldaycnt = get_daycnt(mb_hp,"callpt");
-						calldaycnt = get_checkpoint("callpt",mb_hp);
-						}else if(is_reviewpt){
-						reviewdaycnt = get_checkpoint("reviewpt",mb_hp);
-						}else if(is_downpt){
-						downdaycnt =  get_checkpoint("downpt",mb_hp);
-						}else if(is_salept){
-						saledaycnt =  get_checkpoint("salept",mb_hp);
-						}
-
-						
-						
-						daily_st_dt=Utils.getyyyymmdd();
-						daily_ed_dt=Utils.add60day();
-						//review_ed_dt=Utils.add90day();
-						review_ed_dt=Utils.add60day();
-						
-						/* 4-11 */
-						if(is_freeuserpt){
-							usereventindex = get_user_event_index(mb_hp, biz_code);
-						}
-						 
-						/* 4-12 */
-						if(is_freeuserpt&&usereventindex==0&&is_hp&&is_answer){
-							/* user_event �깮�꽦�븯湲� */
-							daily_st_dt=Utils.getyyyymmdd();
-							daily_ed_dt=Utils.add60day();
-							eventcode=biz_code+"_1";
-							user_event_dt_index = set_user_event_dt(biz_code, mb_hp, daily_st_dt,daily_ed_dt,eventcode);
-						}else if(is_freeuserpt&&usereventindex>0&&is_hp&&is_answer){
-							/* user_event 議고쉶�븯湲� */
-							user_event_info = get_userevent(biz_code, mb_hp);
-							if(is_datepoint(user_event_info[0],user_event_info[1])){
-								daily_st_dt=user_event_info[0];
-								daily_ed_dt=user_event_info[1];
-								eventcode=user_event_info[2];
-							}else{
-								daily_st_dt=Utils.getyyyymmdd();
-								daily_ed_dt=Utils.add60day();
-								eventcode=chg_userevent(user_event_info[2]);
-								user_event_dt_index = set_user_event_dt(biz_code, mb_hp, daily_st_dt,daily_ed_dt,eventcode);
-							
-							}
-						}
-						}/* if(biz_code!=null||biz_code!=""){ ... } */
-
-						/* 4-4 */
-						eventcnt = get_eventcnt(mb_hp,eventcode,ed_type);
-						/* 4-13 */
-						pt_stat=chk_pt5(ed_type);
-
-						/* fivept, freept 6. �쟻由쎌“嫄�*/
-						if(is_point(pre_pay)
-							&&service_sec>9
-							&&is_datepoint(ev_st_dt,ev_ed_dt)
-							&&calldaycnt==0
-							&&eventcnt<pt_event_cnt
-							&&is_hp
-							&&is_fivept
-							&&is_answer
-							&&chk_realcode
-							&&is_callpt
-						){
-							set_0507_point(
-								mb_hp,store_name, str_hangup_time, 
-								biz_code, call_hangup_dt, ev_st_dt, 
-								ev_ed_dt, eventcode, mb_id, 
-								certi_code, st_dt, ed_dt, 
-								store_seq, str_tcl_seq, moddate, 
-								accdate,ed_type,type,
-								tel,pre_pay,pt_stat);
-							
-							set_checkpoint("callpt",mb_hp);
-						}else if(is_point(pre_pay)
-							&&service_sec>9
-							&&is_datepoint(ev_st_dt,ev_ed_dt)
-							&&calldaycnt==0
-							&&eventcnt<pt_event_cnt
-							&&is_hp
-							&&is_answer
-							&&is_freedailypt
-							&&chk_realcode
-							&&is_callpt
-						){
-							/* freedailypt 7. �쟻由쎌“嫄�*/
-							daily_st_dt=Utils.getyyyymmdd();
-							daily_ed_dt=Utils.add60day();
-							
-
-							/* 7-1 */
-							set_0507_point(
-								mb_hp,store_name, str_hangup_time, 
-								biz_code, call_hangup_dt, daily_st_dt,
-								daily_ed_dt, eventcode, mb_id, 
-								certi_code, st_dt, ed_dt, 
-								store_seq, str_tcl_seq, moddate, 
-								accdate,ed_type,type,
-								tel,pre_pay,pt_stat);
-							
-							set_checkpoint("callpt",mb_hp);
-						}else if(is_point(pre_pay)
-							&&service_sec>9
-							&&is_datepoint(ev_st_dt,ev_ed_dt)
-							&&calldaycnt==0
-							&&eventcnt<pt_event_cnt
-							&&is_hp
-							&&is_answer
-							&&is_freeuserpt
-							&&chk_realcode
-							&&is_callpt
-						){
-							/* freeuserpt 8. �쟻由쎌“嫄�*/
-							/* 8-1 */
-							set_0507_point(
-								mb_hp,store_name, str_hangup_time, 
-								biz_code, call_hangup_dt, daily_st_dt, 
-								daily_ed_dt, eventcode, mb_id, 
-								certi_code, st_dt, ed_dt, 
-								store_seq, str_tcl_seq, moddate, 
-								accdate,ed_type,type,
-								tel,pre_pay,pt_stat);
-							
-							set_checkpoint("callpt",mb_hp);
-						}else if(is_point(pre_pay)
-								&&service_sec>9
-								&&is_datepoint(ev_st_dt,ev_ed_dt)
-								&&reviewdaycnt==0
-								&&eventcnt<pt_event_cnt
-								&&is_hp
-								&&is_answer
-								&&is_reviewpt
-								&&chk_realcode
-							){
-								/* reviewpt 9. �쟻由쎌“嫄�*/
-								/* 9-1 */
-								set_0507_point(
-									mb_hp,store_name, str_hangup_time, 
-									biz_code, call_hangup_dt, daily_st_dt, 
-									review_ed_dt, eventcode, mb_id, 
-									certi_code, st_dt, ed_dt, 
-									store_seq, str_tcl_seq, moddate, 
-									accdate,ed_type,type,
-									tel,pre_pay,pt_stat);
-								
-								set_checkpoint("reviewpt",mb_hp);
-							}else if(is_point(pre_pay)
-									&&service_sec>9
-									&&is_datepoint(ev_st_dt,ev_ed_dt)
-									&&downdaycnt==0
-									&&eventcnt<pt_event_cnt
-									&&is_hp
-									&&is_answer
-									&&is_downpt
-									&&chk_realcode
-								){
-									/* downpt 10. �쟻由쎌“嫄�*/
-									/* 10-1 */
-									set_0507_point(
-										mb_hp,store_name, str_hangup_time, 
-										biz_code, call_hangup_dt, daily_st_dt, 
-										daily_ed_dt, eventcode, mb_id, 
-										certi_code, st_dt, ed_dt, 
-										store_seq, str_tcl_seq, moddate, 
-										accdate,ed_type,type,
-										tel,pre_pay,pt_stat);
-									
-									set_checkpoint("downpt",mb_hp);
-								}else if(is_point(pre_pay)
-										&&is_datepoint(ev_st_dt,ev_ed_dt)
-										&&saledaycnt==0
-										&&eventcnt<pt_event_cnt
-										&&is_hp
-										&&is_answer
-										&&is_salept
-										&&chk_realcode
-								){
-									/* salept 11. �쟻由쎌“嫄�*/
-									/* 11-1 */
-									set_0507_point(
-										mb_hp,store_name, str_hangup_time, 
-										biz_code, call_hangup_dt, daily_st_dt, 
-										daily_ed_dt, eventcode, mb_id, 
-										certi_code, st_dt, ed_dt, 
-										store_seq, str_tcl_seq, moddate, 
-										accdate,ed_type,type,
-										tel,pre_pay,pt_stat);
-									
-									set_checkpoint("salept",mb_hp);
-								}
-						
-
-
-						sb2.append("insert into sktl.");
-						sb2.append(hist_table);
-						/* 泥섎━媛� 吏꾪뻾以묒씤寃껋� �룷�븿�븯吏� �븡�뒗�떎. */
-						sb2.append(" select * from sktl.safen_cdr where seq=?");
-						
-						// insert into safen_cmd_hist_201607 select * from
-						// safen_cmd_queue where status_cd != ''
-						dao2.openPstmt(sb2.toString());
-						dao2.pstmt().setInt(1, dao.rs().getInt("seq"));
-
- 						resultCnt2 = dao2.pstmt().executeUpdate();
-						if(resultCnt2!=1) {
-							Utils.getLogger().warning(dao2.getWarning(resultCnt2,1));
-							DBConn.latest_warning = "ErrPOS027";
-						}
-
-						// region 3 start --->
-						StringBuilder sb3 = new StringBuilder();
-
-						/* 泥섎━媛� 吏꾪뻾以묒씤寃껋� 吏��슦吏� �븡�뒗�떎. */
-						sb3.append("delete from sktl.safen_cdr where seq=?");
+					biz_code=dao.rs().getString("biz_code");
+					mb_hp=dao.rs().getString("mb_hp");
+					
+					eventcode=dao.rs().getString("eventcode");
+					//st_no=dao.rs().getString("st_no");
 				
-						// insert into safen_cmd_hist_201607 select * from
-						// safen_cmd_queue where status_cd != ''
-						dao3.openPstmt(sb3.toString());
-						dao3.pstmt().setInt(1, dao.rs().getInt("seq"));
-
-						int resultCnt3 = dao3.pstmt().executeUpdate();
-						if(resultCnt3!=1) {
-							Utils.getLogger().warning(dao3.getWarning(resultCnt3,1));
-							DBConn.latest_warning = "ErrPOS028";
-						}
-						// region 3 end <---
-
-						// region 4 start --->
-						/*
-						StringBuilder sb4 = new StringBuilder();
+					/* 3. 포인트를 사용가능으로 변경합니다. */
+					update_point(dao.rs().getString("seq"));
+					
+					/* 4. 포인트 갯수를 센다.  */	
+					point_count=get_point_count(mb_hp,eventcode);
+					
+					/* 5. 10개 이하 인가? */
+					if(point_count<10)
+					{
+						/* 10개 이하 이면 */
+						/* 13. 대리점 정보를 불러 옵니다.*/
+						agency_info=get_agency(biz_code);
 						
-						sb4.append("select * from safen_cdr limit 1");
-						dao4.openPstmt(sb4.toString());
-
-						dao4.setRs(dao4.pstmt().executeQuery());
-
-						if (dao4.rs().next()) {
-							int seq = dao4.rs().getInt("seq");
-							String safen = dao4.rs().getString("safen");
-							String safen_in = dao4.rs().getString("safen_in");
-							doMapping(seq, safen, safen_in);
-						}
-						*/
-						// region 4 end <---
-					} else {
-						//Utils.getLogger().info("chk_seq false log");
-						if (!"".equals(Env.confirmSafen)) {
-							// cmq_queue�뿉�뒗 �뾾�뒗 寃쎌슦�씪硫�
-							//SafeNo safeNo = new SafeNo();
-							String retCode = "";
-							try {
-								//retCode = safeNo.SafeNoAsk(Env.getInstance().CORP_CODE,Env.confirmSafen);
-							} catch (Exception e) {
-								Utils.getLogger().warning(e.getMessage());
-								Utils.getLogger().warning(Utils.stack(e));
-								DBConn.latest_warning = "ErrPOS029";
-							}
-
-							if (-1 < retCode.indexOf(Env.confirmSafen_in)) {
-								/* retCode = "01040421182,01040421182" �� 媛숈� �삎�깭濡� 由ы꽩�릺�뒗 �떇�엫 */
-								Utils.getLogger().info(
-										"OK 李⑹떊�뿰寃곗꽦怨�" + Env.confirmSafen + "->"
-												+ Env.confirmSafen_in);
-							} else {// 痍⑥냼�맂 寃쎌슦 recCode = "E401"�씠 由ы꽩�맖
-								if (Env.NULL_TEL_NUMBER
-										.equals(Env.confirmSafen_in)
-										&& "E401".equals(retCode)) {
-									Utils.getLogger().info(
-											"OK 李⑹떊痍⑥냼�꽦怨�" + Env.confirmSafen
-													+ ", retCode:[" + retCode
-													+ "]");
-								} else {
-									Utils.getLogger().warning(
-											"Error! " + Env.confirmSafen + "->"
-													+ Env.confirmSafen_in
-													+ "? retCode:[" + retCode
-													+ "]");
-									DBConn.latest_warning = "ErrPOS030";
-								}
-							}
-
-							Env.confirmSafen = "";
-						}
-					}
-				}				
+						/* "대리점 정보"에서 appid를 불러온다. */
+						appid=agency_info.get("appid");
+						
+						/* 토큰아이디를 불러 옵니다. */
+						token_id=get_tokenid(mb_hp,appid);
+						
+						/* 12. 상점 정보를 불러 옵니다. */
+						store_info=get_store(st_no);
+						
+						/* 템플릿 메세지를 가져옵니다. */
+						message_info=get_bt_template("cashq");
+						System.out.println(message_info.get("gcm_message"));
+						/* GCM 적립메세지 */
+						success_gcm=set_gcm(message_info.get("gcm_message"),message_info.get("gcm_message"),"01043391517","cashq");
+					} /* if(point_count<10){...} */
+					
+					
+					/* 4-5 */
+					//String[] callArray = new String[] {"reviewpt","downpt"};
+					String[] callArray = new String[] {"fivept","freedailypt","freeuserpt","freept"};
+					String[] reviewArray = new String[] {"reviewpt","downpt"};
+					/*
+					daily_st_dt=Utils.getyyyymmdd();
+					daily_ed_dt=Utils.add60day();
+					//review_ed_dt=Utils.add90day();
+					review_ed_dt=Utils.add60day();
+					 */					
+				} /* while(dao.rs().next()) {...} */
 			} catch (SQLException e) {
 				Utils.getLogger().warning(e.getMessage());
 				DBConn.latest_warning = "ErrPOS031";
@@ -574,158 +181,243 @@ public class Safen_cmd_queue {
 				dao5.closePstmt();
 			}
 			
-			//肄쒕줈洹� 留덉뒪�꽣 �젙蹂댁쓽 �젅肄붾뱶 1媛쒕�� 媛깆떊�쓣 �떆�룄�븳�떎.
+			//콜로그 마스터 정보의 레코드 1개를 갱신을 시도한다.
 			//Safen_master.doWark2();
 		}
 	}
 
+
+	
 	/**
-	 * 痍⑥냼�떆�뒗 safen_in010�뿉 "1234567890"�쓣 �꽔�뼱�빞 �븿. 由ы꽩肄붾뱶4�옄由ъ뿉 �뵲瑜� �쓽誘�
-	 * 
-	 * 0000:�꽦怨� 泥섎━(�씤利앹꽌踰꾩뿉�꽌 �슂泥� 泥섎━媛� �꽦怨�.) E101:Network �옣�븷(�씤利앹꽌踰꾩� �뿰寃� �떎�뙣.) E102:System
-	 * �옣�븷(�씤利앹꽌踰꾩쓽 �씪�떆�쟻 �옣�븷. �옱�떆�룄 �슂留�.) E201:�젣�쑕�궗 �씤利� �떎�뙣(�쑀�슚�븳 �젣�쑕�궗 肄붾뱶媛� �븘�떂.) E202:�쑀�슚 湲곌컙
-	 * 留뚮즺(�젣�쑕�궗���쓽 怨꾩빟湲곌컙 留뚮즺.) E301:�븞�떖 踰덊샇 �냼吏�(�쑀�슚�븳 �븞�떖踰덊샇 �옄�썝�씠 �뾾�쓬.) E401:Data Not
-	 * Found(�슂泥��븳 Data�� �씪移섑븯�뒗 Data媛� �뾾�쓬.) E402:Data Overlap(�슂泥��븳 Data媛� �씠誘� 議댁옱�븿.)
-	 * E501:�쟾臾� �삤瑜�(�쟾臾� 怨듯넻遺� �샊�� 蹂몃Ц�쓽 Data媛� 鍮꾩젙�긽�씪 寃쎌슦.) E502:�쟾�솕 踰덊샇(�삤瑜� �슂泥��븳 李⑹떊踰덊샇媛� 留듯븨遺덇� 踰덊샇�씪
-	 * 寃쎌슦.)
+	 * @기능 : 
+	 * 1. GCM을 전송한다. 
+	 * 2. 변수에 성공 실패 여부를 반환한다.
+	 * 3. 성공 실패로그를 기록한다.
+	 * 4. GCM 성공 여부를 반환한다.
+	 * 5. 함수를 종료한다.
+	 *  
+	 * @date : 2018-01-16 오후 8:21:00 
+	 * @return
 	 */
-	private static String doMapping(int seq, String safen0504,
-			String safen_in010) {
-
-		String corpCode = Env.getInstance().CORP_CODE;
-		String safeNum = null;
-		String telNum1 = null;// "1234567890";
-		String newNum1 = null;
-		String telNum2 = null;
-		String newNum2 = null;
-
-		int mapping_option = 0;
-		if (Env.NULL_TEL_NUMBER.equals(safen_in010)) {
-			// 痍⑥냼
-			mapping_option = 2;
-
-			String safen_in = getSafenInBySafen(safen0504);
-
-			safeNum = safen0504;
-			telNum1 = safen_in;
-			newNum1 = Env.NULL_TEL_NUMBER;// "1234567890";;
-			telNum2 = safen_in;
-			newNum2 = Env.NULL_TEL_NUMBER;
-		} else {
-			// �벑濡� Create
-			mapping_option = 1;
-			safeNum = safen0504;
-			telNum1 = Env.NULL_TEL_NUMBER;// "1234567890";
-			newNum1 = safen_in010;
-			telNum2 = Env.NULL_TEL_NUMBER;
-			newNum2 = safen_in010;
-		}
-
-		// String groupCode = "anpr_1";
-		String groupCode = "grp_1";
+	private static boolean set_gcm(String message,String mms_title,String mb_hp,String appid) 
+	{
+		// TODO Auto-generated method stub
+		/* 1. GCM을 전송한다. */
 		
-		groupCode = Safen_master.getGroupCode(safen0504);
+		/* 2. 변수에 성공 실패 여부를 반환한다. */
+		/* 공통부분 */
+/*
+		URL url = new URL("JSON 주소");
+		InputStreamReader isr = new InputStreamReader(url.openConnection().getInputStream(), "UTF-8");
+		JSONObject object = (JSONObject)JSONValue.parse(isr);
 
-		String reserved1 = "";
-		String reserved2 = "";
-		String retCode = "";
-
-		//SafeNo safeNo = new SafeNo();
-
+		출처: http://javastudy.tistory.com/80 [믿지마요 후회해요]
+		*/
+		Boolean is_gcm=false;
+		String query="";
+		URL targetURL;
+		URLConnection urlConn;
+		query+="&message="+message;
+		query+="&title="+mms_title;
+		query+="&mb_hp="+mb_hp;
+		query+="&appid="+appid;
+		
 		try {
-			update_cmd_queue(seq, safen0504, safen_in010, mapping_option, "");
-			//retCode = safeNo.SafeNoMod(corpCode, safeNum, telNum1, newNum1,telNum2, newNum2, groupCode, reserved1, reserved2);
-		} catch (Exception e) {
+			targetURL = new URL("http://cashq.co.kr/adm/ajax/set_gcm_point.php");
+			urlConn = targetURL.openConnection();
+			HttpURLConnection cons = (HttpURLConnection) urlConn;
+			// 헤더값을 설정한다.
+			cons.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+
+			cons.setRequestMethod("GET");
+			//cons.getOutputStream().write("LOGIN".getBytes("UTF-8"));
+			cons.setDoOutput(true);
+			cons.setDoInput(true);
+			cons.setUseCaches(false);
+			cons.setDefaultUseCaches(false);
+			
+			/*
+			PrintWriter out = new PrintWriter(cons.getOutputStream());
+			out.close();*/
+			//System.out.println(query);
+			OutputStream opstrm=cons.getOutputStream();
+			opstrm.write(query.getBytes());
+			opstrm.flush();
+			opstrm.close();
+
+			String buffer = null;
+			String bufferHtml="";
+			BufferedReader in = new BufferedReader(new InputStreamReader(cons.getInputStream()));
+
+			 while ((buffer = in.readLine()) != null) {
+				 bufferHtml += buffer;
+			}
+			 JSONObject object = (JSONObject)JSONValue.parse(bufferHtml);
+			 String success=object.get("success").toString();
+			 
+			int success_count=Integer.parseInt(success);
+			 if(success_count>0){
+				 is_gcm=true;
+			 }
+			//Utils.getLogger().info(bufferHtml);
+			in.close();
+			
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 			Utils.getLogger().warning(e.getMessage());
 			Utils.getLogger().warning(Utils.stack(e));
-			DBConn.latest_warning = "ErrPOS033";
+			DBConn.latest_warning = "ErrPOS035";
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS036";
 		}
+		return is_gcm;
+	}
 
-		// �썑泥섎━
-		if ("0000".equals(retCode)) {
-			Safen_master.update_safen_master(safen0504, safen_in010,
-					mapping_option);
 
-			Env.confirmSafen = safen0504;
-			Env.confirmSafen_in = safen_in010;// 痍⑥냼�씤寃쎌슦�뒗 1234567890 �엫
+	/**
+	 * @param appid
+	 * @return
+	 */
+	private static Map<String, String> get_bt_template(String appid) {
+		// TODO Auto-generated method stub
+		Map<String, String> message=new HashMap<String, String>();
 
+		
+		StringBuilder sb = new StringBuilder();
+		MyDataObject dao = new MyDataObject();
+		sb.append("select * from cashq.bt_template where appid = ?");
+		try {
+			dao.openPstmt(sb.toString());
+			dao.pstmt().setString(1, appid);
+			dao.setRs (dao.pstmt().executeQuery());
+
+			while(dao.rs().next()) 
+			{
+				message.put("bt_type",dao.rs().getString("bt_type"));
+				System.out.println(dao.rs().getString("bt_type"));
+				if(dao.rs().getString("bt_type").equals("gcm"))
+				{
+					message.put("gcm_title",dao.rs().getString("bt_name"));
+					message.put("gcm_message",dao.rs().getString("bt_content"));
+					message.put("gcm_regex",dao.rs().getString("bt_regex"));
+				}
+				else if(dao.rs().getString("bt_type").equals("ata"))
+				{
+					message.put("ata_title",dao.rs().getString("bt_name"));					
+					message.put("ata_message",dao.rs().getString("bt_content"));
+					message.put("ata_regex",dao.rs().getString("bt_regex"));
+				}
+				else if(dao.rs().getString("bt_type").equals("sms"))
+				{
+					message.put("sms_title",dao.rs().getString("bt_name"));
+					message.put("sms_message",dao.rs().getString("bt_content"));
+					message.put("sms_regex",dao.rs().getString("bt_regex"));
+				}
+			}			
+		}catch (SQLException e) {
+			Utils.getLogger().warning(e.getMessage());
+			DBConn.latest_warning = "ErrPOS039";
+			e.printStackTrace();
+		}catch (Exception e) {
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS040";
 		}
-		update_cmd_queue(seq, safen0504, safen_in010, mapping_option, retCode);
+		finally {
+			dao.closePstmt();
+		}
+		return message;
 
-		return retCode;
+	}
+
+
+	/**
+	 * @param string
+	 * @return
+	 */
+	private static Map<String, String> get_store(String string) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	/**
-	 * �븞�떖踰덊샇�뀒�씠釉붿쓣 媛깆떊�븳�떎. �떒, �씠�븣 retCode媛� 怨듬갚�씠硫� status_cd瑜� i濡� �꽔怨� 吏꾪뻾以묒쑝濡쒕쭔 留덊궧�븯怨� �봽濡쒖꽭�뒪瑜�
-	 * 醫낅즺�븳�떎. retCode媛� "0000"(�꽦怨�)�씤寃쎌슦�뿉�뒗 status_cd媛믪쓣 "s"濡� 洹몃젃吏� �븡�� 寃쎌슦�뿉�뒗 "e"濡� �뀑�똿�븳 �썑 �걧瑜�
-	 * 吏��슦怨� 濡쒓렇濡� 蹂대궦�떎. 
+	 * @param string
+	 * @return
+	 */
+	private static String get_tokenid(String mb_hp,String appid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/**
+	 * 대리점 정보를 biz_code로 불러 옵니다. 
+	 * 불러온 정보는 hashMap  에 적재하여 리턴합니다.
+	 * @param string
+	 * @return HashMap
+	 */
+	private static Map<String, String> get_agency(String biz_code) {
+		// TODO Auto-generated method stub
+		Map<String, String> agency=new HashMap<String, String>();
+		agency.put("appid","cashq");
+		agency.put("agency_name","대리점명");
+		
+		StringBuilder sb = new StringBuilder();
+		MyDataObject dao = new MyDataObject();
+		sb.append("select * from cashq.agencyMember where biz_code = ?");
+		try {
+			dao.openPstmt(sb.toString());
+			dao.pstmt().setString(1, biz_code);
+			dao.setRs (dao.pstmt().executeQuery());
+
+			if (dao.rs().next()) {
+				agency.put("appid",dao.rs().getString("appid"));
+				agency.put("agency_name",dao.rs().getString("agency_name"));
+			}			
+		}catch (SQLException e) {
+			Utils.getLogger().warning(e.getMessage());
+			DBConn.latest_warning = "ErrPOS039";
+			e.printStackTrace();
+		}catch (Exception e) {
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS040";
+		}
+		finally {
+			dao.closePstmt();
+		}
+
+		return agency;
+	}
+
+
+	/**
+	 * 해당 상점을 사용 가능으로 변경한다.
 	 * @param safen0504
 	 * @param safen_in010
 	 * @param mapping_option
 	 * @param retCode
 	 */
-	private static void update_cmd_queue(int seq, String safen0504,
-			String safen_in010, int mapping_option, String retCode) {
+	private static void update_point(String seq) {
 
 		MyDataObject dao = new MyDataObject();
-		MyDataObject dao2 = new MyDataObject();
-		MyDataObject dao3 = new MyDataObject();
 		
 		try {
-			if ("".equals(retCode)) {
 				StringBuilder sb = new StringBuilder();
-				sb.append("update safen_cmd_queue set status_cd=? where seq=?");
-
-				// status_cd 而щ읆�쓣 "i"<吏꾪뻾以�>�긽�깭濡� 諛붽씔�떎.
+				sb.append("update cashq.0507_point set status='1' where seq=?");
 				dao.openPstmt(sb.toString());
-
-				dao.pstmt().setString(1, "i");
-				dao.pstmt().setInt(2, seq);
+				dao.pstmt().setString(1, seq);
 
 				int cnt = dao.pstmt().executeUpdate();
 				if(cnt!=1) {
 					Utils.getLogger().warning(dao.getWarning(cnt,1));
 					DBConn.latest_warning = "ErrPOS034";
 				}
-
 				dao.tryClose();
-
-			} else {
-				StringBuilder sb = new StringBuilder();
-				sb.append("update safen_cmd_queue set status_cd=?,result_cd=? where seq=?");
-
-				if ("0000".equals(retCode)) {
-					// status_cd 而щ읆�쓣 "s"<�꽦怨�>�긽�깭濡� 諛붽씔�떎.
-					
-					dao2.openPstmt(sb.toString());
-
-					dao2.pstmt().setString(1, "s");
-					dao2.pstmt().setString(2, retCode);
-					dao2.pstmt().setInt(3, seq);
-
-					int cnt = dao2.pstmt().executeUpdate();
-					if(cnt!=1) {
-						Utils.getLogger().warning(dao2.getWarning(cnt,1));
-						DBConn.latest_warning = "ErrPOS035";
-					}
-
-					dao2.tryClose();
-				} else {
-					// status_cd 而щ읆�쓣 "e"<�삤瑜�>�긽�깭濡� 諛붽씔�떎.
-					dao3.openPstmt(sb.toString());
-
-					dao3.pstmt().setString(1, "e");
-					dao3.pstmt().setString(2, retCode);
-					dao3.pstmt().setInt(3, seq);
-
-					int cnt = dao3.pstmt().executeUpdate();
-					if(cnt!=1) {
-						Utils.getLogger().warning(dao3.getWarning(cnt,1));
-						DBConn.latest_warning = "ErrPOS036";
-					}					
-					dao3.tryClose();
-				}
-			}
 		} catch (SQLException e) {
 			Utils.getLogger().warning(e.getMessage());
 			DBConn.latest_warning = "ErrPOS037";
@@ -738,13 +430,11 @@ public class Safen_cmd_queue {
 		}
 		finally {
 			dao.closePstmt();
-			dao2.closePstmt();
-			dao3.closePstmt();
 		}
 	}
 
 	/**
-	 * 留덉뒪�꽣 �뀒�씠釉붿뿉�꽌 �븞�떖踰덊샇�뿉 �뵲瑜� 李⑹떊踰덊샇瑜� 由ы꽩�븳�떎.
+	 * 마스터 테이블에서 안심번호에 따른 착신번호를 리턴한다.
 	 * @param safen0504
 	 * @return
 	 */
@@ -783,12 +473,12 @@ public class Safen_cmd_queue {
 
 	
 	/**
-	 * TB_CALL_LOG�뿉 異붽��븳�떎.
-	 * @param String status_cd	肄쒕줈洹� �긽�깭 肄붾뱶
-	 * @param String conn_sdt	肄쒕줈洹� �떆�옉�떆媛�
-	 * @param String conn_edt	肄쒕줈洹� 醫낅즺�떆媛�
-	 * @param String service_sdt	肄쒕줈洹� �젣怨듭떆媛�
-	 * @param String safen	�븞�떖踰덊샇
+	 * TB_CALL_LOG에 추가한다.
+	 * @param String status_cd	콜로그 상태 코드
+	 * @param String conn_sdt	콜로그 시작시간
+	 * @param String conn_edt	콜로그 종료시간
+	 * @param String service_sdt	콜로그 제공시간
+	 * @param String safen	안심번호
 	 * @param String safen_in
 	 * @param String safen_out
 	 * @param String calllog_rec_file
@@ -826,10 +516,10 @@ public class Safen_cmd_queue {
 			//Utils.getLogger().warning(sb.toString());
 
 			if ("1".equals(status_cd)) {
-			/* GCM LOG 諛쒖깮*/
+			/* GCM LOG 발생*/
 			set_stgcm(safen, safen_in);
 
-			/* �넻�솕�꽦怨� */
+			/* 통화성공 */
 			dao.pstmt().setString(1, conn_sdt);
 			dao.pstmt().setString(2, conn_edt);
 			dao.pstmt().setString(3, service_sdt);
@@ -839,7 +529,7 @@ public class Safen_cmd_queue {
 			dao.pstmt().setString(7, calllog_rec_file);
 			dao.pstmt().setString(8, status_cd);
 			}else{
-			/* �넻�솕�떎�뙣*/
+			/* 통화실패*/
 			dao.pstmt().setString(1, conn_sdt);
 			dao.pstmt().setString(2, conn_edt);
 			dao.pstmt().setString(3, "1970-01-01 09:00:00");
@@ -865,7 +555,7 @@ public class Safen_cmd_queue {
 			Utils.getLogger().warning(e.getMessage());
 			Utils.getLogger().warning(Utils.stack(e));
 			DBConn.latest_warning = "ErrPOS060";
-			/* grant濡� �빐�떦 �궗�슜�옄�뿉 ���븳 沅뚰븳�쓣 二쇱뼱 臾몄젣 �빐寃곗씠 媛��뒫�븯�떎.
+			/* grant로 해당 사용자에 대한 권한을 주어 문제 해결이 가능하다.
 			grant all privileges on cashq.site_push_log to sktl@"%" identified by 'sktl@9495';
 			grant all privileges on cashq.site_push_log to sktl@"localhost" identified by 'sktl@9495';
 			 */
@@ -884,7 +574,7 @@ public class Safen_cmd_queue {
 
 
 	/**
-	 * 0507_point�뿉 異붽��븳�떎.
+	 * 0507_point에 추가한다.
 	* @param  mb_hp, 
 	* @param  store_name, 
 	* @param  hangup_time,
@@ -966,7 +656,7 @@ public class Safen_cmd_queue {
            seq: 945834
          mb_hp: 01077430009
          point: 2000
-    store_name: 蹂몄궗�룷�씤�듃 �뀒�뒪�듃
+    store_name: 본사포인트 테스트
           type:
    hangup_time: 18
 call_hangup_dt: 2016-07-22 18:13:16
@@ -1025,7 +715,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 			Utils.getLogger().warning(e.getMessage());
 			Utils.getLogger().warning(Utils.stack(e));
 			DBConn.latest_warning = "ErrPOS060";
-			/* grant濡� �빐�떦 �궗�슜�옄�뿉 ���븳 沅뚰븳�쓣 二쇱뼱 臾몄젣 �빐寃곗씠 媛��뒫�븯�떎.
+			/* grant로 해당 사용자에 대한 권한을 주어 문제 해결이 가능하다.
 			grant all privileges on cashq.site_push_log to sktl@"%" identified by 'sktl@9495';
 			grant all privileges on cashq.site_push_log to sktl@"localhost" identified by 'sktl@9495';
 			 */
@@ -1043,11 +733,11 @@ call_hangup_dt: 2016-07-22 18:13:16
 
 	
 	/**
-	 * cdr �뿉 異붽��븳�떎.
-	 * @param String status_cd	肄쒕줈洹� �긽�깭 肄붾뱶
-	 * @param String conn_sdt	肄쒕줈洹� �떆�옉�떆媛�
-	 * @param String conn_edt	肄쒕줈洹� 醫낅즺�떆媛�
-	 * @param String service_sdt	肄쒕줈洹� �젣怨듭떆媛�
+	 * cdr 에 추가한다.
+	 * @param String status_cd	콜로그 상태 코드
+	 * @param String conn_sdt	콜로그 시작시간
+	 * @param String conn_edt	콜로그 종료시간
+	 * @param String service_sdt	콜로그 제공시간
 	 * @param String safen	
 	 * @param String safen_in
 	 * @param String safen_out
@@ -1097,7 +787,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 			Utils.getLogger().warning(e.getMessage());
 			Utils.getLogger().warning(Utils.stack(e));
 			DBConn.latest_warning = "ErrPOS060";
-			/* grant濡� �빐�떦 �궗�슜�옄�뿉 ���븳 沅뚰븳�쓣 二쇱뼱 臾몄젣 �빐寃곗씠 媛��뒫�븯�떎.
+			/* grant로 해당 사용자에 대한 권한을 주어 문제 해결이 가능하다.
 			grant all privileges on cashq.site_push_log to sktl@"%" identified by 'sktl@9495';
 			grant all privileges on cashq.site_push_log to sktl@"localhost" identified by 'sktl@9495';
 			 */
@@ -1114,8 +804,8 @@ call_hangup_dt: 2016-07-22 18:13:16
 	
 	
 	/**
-	 * �긽�젏 肄쒕줈洹몃줈 媛깆떊�븳�떎.  retCode媛� "0000"(�꽦怨�)�씤寃쎌슦�뿉�뒗 status_cd媛믪쓣 "s"濡� 洹몃젃吏� �븡�� 寃쎌슦�뿉�뒗 "e"濡� �뀑�똿�븳 �썑 �걧瑜�
-	 * 吏��슦怨� 濡쒓렇濡� 蹂대궦�떎. 
+	 * 상점 콜로그로 갱신한다.  retCode가 "0000"(성공)인경우에는 status_cd값을 "s"로 그렇지 않은 경우에는 "e"로 셋팅한 후 큐를
+	 * 지우고 로그로 보낸다. 
 	 * @param safen_in
 	 * @param retCode
 	 */
@@ -1127,7 +817,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 			StringBuilder sb = new StringBuilder();
 			sb.append("UPDATE `cashq`.`store` SET callcnt=callcnt+1 WHERE tel=?");
 
-			// status_cd 而щ읆�쓣 "i"<吏꾪뻾以�>�긽�깭濡� 諛붽씔�떎.
+			// status_cd 컬럼을 "i"<진행중>상태로 바꾼다.
 			dao.openPstmt(sb.toString());
 
 			dao.pstmt().setString(1, safen);
@@ -1159,7 +849,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 
 
 	/**
-	 * 罹먯떆�걧 �긽�젏�뿉�꽌 �븞�떖踰덊샇�뿉 �뵲瑜� �긽�젏 �젙蹂대�� 由ы꽩�븳�떎.
+	 * 캐시큐 상점에서 안심번호에 따른 상점 정보를 리턴한다.
 	 * @param safen
 	 * @return
 	 */
@@ -1200,7 +890,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 	}
 
 	/**
-	 * 鍮꾩쫰肄붾뱶�뿉 �뵲瑜� �씠踰ㅽ듃 肄붾뱶 �젙蹂대�� 由ы꽩�븳�떎.
+	 * 비즈코드에 따른 이벤트 코드 정보를 리턴한다.
 	 * @param biz_code
 	 * @return
 	 */
@@ -1272,22 +962,19 @@ call_hangup_dt: 2016-07-22 18:13:16
 	* @param eventcode
 	* @return int
 	*/
-	private static int get_eventcnt(String mb_hp, String eventcode,String ed_type){
+	private static int get_point_count(String mb_hp, String eventcode){
 		int retVal = 0;
 		StringBuilder sb = new StringBuilder();
-
 		MyDataObject dao = new MyDataObject();
 		sb.append("SELECT count(*) cnt FROM `cashq`.`0507_point` ");
 		sb.append("WHERE mb_hp=? ");
 		sb.append("AND eventcode=? ");
-		sb.append("AND ed_type=? ");
 		sb.append("AND status in ('1','2','3','4');");
 
 		try {
 			dao.openPstmt(sb.toString());
 			dao.pstmt().setString(1, mb_hp);
 			dao.pstmt().setString(2, eventcode);
-			dao.pstmt().setString(3, ed_type);
 			
 			dao.setRs (dao.pstmt().executeQuery());
 
@@ -1516,14 +1203,14 @@ call_hangup_dt: 2016-07-22 18:13:16
 
 
 	/**
-	 * set_user_event_dt�뿉 異붽��븳�떎.
-	 * @param String biz_code	肄쒕줈洹� �긽�깭 肄붾뱶
-	 * @param String mb_hp	肄쒕줈洹� �떆�옉�떆媛�
-	 * @param String conn_edt	肄쒕줈洹� 醫낅즺�떆媛�
-	 * @param String service_sdt	肄쒕줈洹� �젣怨듭떆媛�
-	 * @param String safen	�븞�떖踰덊샇
-	 * @param String safen_in	留곹겕�맂踰덊샇
-	 * @param String safen_out	�냼鍮꾩옄 踰덊샇
+	 * set_user_event_dt에 추가한다.
+	 * @param String biz_code	콜로그 상태 코드
+	 * @param String mb_hp	콜로그 시작시간
+	 * @param String conn_edt	콜로그 종료시간
+	 * @param String service_sdt	콜로그 제공시간
+	 * @param String safen	안심번호
+	 * @param String safen_in	링크된번호
+	 * @param String safen_out	소비자 번호
 	 * @param String calllog_rec_file	
 	 * @return
 	 */
@@ -1565,7 +1252,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 			Utils.getLogger().warning(e.getMessage());
 			Utils.getLogger().warning(Utils.stack(e));
 			DBConn.latest_warning = "ErrPOS060";
-			/* grant濡� �빐�떦 �궗�슜�옄�뿉 ���븳 沅뚰븳�쓣 二쇱뼱 臾몄젣 �빐寃곗씠 媛��뒫�븯�떎.
+			/* grant로 해당 사용자에 대한 권한을 주어 문제 해결이 가능하다.
 			grant all privileges on cashq.site_push_log to sktl@"%" identified by 'sktl@9495';
 			grant all privileges on cashq.site_push_log to sktl@"localhost" identified by 'sktl@9495';
 			 */
@@ -1629,7 +1316,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 
 	
 	/**
-	 * app_toeken �븘�씠�뵒�쓽 吏��뿭 �젙蹂대�� 媛깆떊�빐�꽌 �꽔�뒗�떎.
+	 * app_toeken 아이디의 지역 정보를 갱신해서 넣는다.
 
 	 * @param biz_code
 	 * @param mb_hp
@@ -1674,7 +1361,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 
 
 	/**
-	 * set_stgcm �븘�씠�뵒�쓽 吏��뿭 �젙蹂대�� 媛깆떊�빐�꽌 �꽔�뒗�떎.
+	 * set_stgcm 아이디의 지역 정보를 갱신해서 넣는다.
 	 * set_stgcm(safen, safen_in);
 	 * @param safen
 	 * @param safen_in
@@ -1745,7 +1432,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		try{
 
-		/* null check �븯�굹�씪�룄 �꼸�씠硫� �뿉�윭 */
+		/* null check 하나라도 널이면 에러 */
 		if(ev_st_dt==null||ev_ed_dt==null){
 
 		}else{
@@ -1754,10 +1441,10 @@ call_hangup_dt: 2016-07-22 18:13:16
 			Date historyDate = sdf.parse(ev_st_dt);
 			Date futureDate = sdf.parse(ev_ed_dt);
 
-			/* 湲곌컙 �씠�궡 */
+			/* 기간 이내 */
 			is_date=todayDate.after(historyDate)&&todayDate.before(futureDate);
 			
-			/* �씠踰ㅽ듃 醫낅즺 �떆媛꾧낵 媛숈� �궇 */
+			/* 이벤트 종료 시간과 같은 날 */
 			if(sdf.format(todayDate).equals(sdf.format(futureDate))){
 				is_date=true;
 			}		
@@ -1771,7 +1458,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 	}
 
 
-	// yyyy-MM-dd HH:mm:ss.0 �쓣 yyyy-MM-dd HH:mm:ss�궇吏쒕줈 蹂�寃�
+	// yyyy-MM-dd HH:mm:ss.0 을 yyyy-MM-dd HH:mm:ss날짜로 변경
 	public static String chgDatetime(String str)
 	{
 		String retVal="";
@@ -1789,7 +1476,7 @@ call_hangup_dt: 2016-07-22 18:13:16
 
     /**
      * chkValue
-	 *  �뜲�씠�꽣 �쑀�슚�꽦 null 泥댄겕�뿉 ���븳 媛믪쓣 "" 濡� 由ы꽩�븳�떎.
+	 *  데이터 유효성 null 체크에 대한 값을 "" 로 리턴한다.
      * @param str
      * @return String
      */
