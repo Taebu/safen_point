@@ -55,6 +55,7 @@ public class Safen_cmd_queue {
 		/* 메세지 정보 */
 		Map<String, String> message_info = new HashMap<String, String>();
 		
+		Map<String, String> push_info = new HashMap<String, String>();
 		String biz_code="";
 		String token_id="";
 		String mb_hp="";
@@ -63,7 +64,8 @@ public class Safen_cmd_queue {
 		String st_no="";
 		String moddate="1970-01-01 12:00:00";
 		String accdate="1970-01-01 12:00:00";
-
+		String[] regex_rule;
+		String[] regex_array;
 		int eventcnt = 0;
 		
 		/* 포인트 갯수를 센다. */
@@ -80,7 +82,8 @@ public class Safen_cmd_queue {
 		
 		/* SMS 전송 성공 여부 */
 		boolean success_sms = false;
-
+		String regex_key="";
+		String regex_value="";
 		
 		/* 포인트 이벤트 정보 */
 		String[] point_event_info	= new String[7];
@@ -122,7 +125,9 @@ public class Safen_cmd_queue {
 					mb_hp=dao.rs().getString("mb_hp");
 					
 					eventcode=dao.rs().getString("eventcode");
-					//st_no=dao.rs().getString("st_no");
+					
+					/* 매장의 고유 번호를 불러 옵니다. */
+					st_no=dao.rs().getString("store_seq");
 				
 					/* 3. 포인트를 사용가능으로 변경합니다. */
 					update_point(dao.rs().getString("seq"));
@@ -139,18 +144,40 @@ public class Safen_cmd_queue {
 						
 						/* "대리점 정보"에서 appid를 불러온다. */
 						appid=agency_info.get("appid");
-						
-						/* 토큰아이디를 불러 옵니다. */
-						token_id=get_tokenid(mb_hp,appid);
-						
+						System.out.println(appid);
 						/* 12. 상점 정보를 불러 옵니다. */
 						store_info=get_store(st_no);
 						
 						/* 템플릿 메세지를 가져옵니다. */
-						message_info=get_bt_template("cashq");
+						message_info=get_bt_template(appid);
 						System.out.println(message_info.get("gcm_message"));
-						/* GCM 적립메세지 */
-						success_gcm=set_gcm(message_info.get("gcm_message"),message_info.get("gcm_message"),"01043391517","cashq");
+						regex_rule=message_info.get("gcm_regex").split("&");
+						
+						Map<String, String> messageMap=new HashMap<String, String>();
+						messageMap.put("store.name",store_info.get("name"));
+						messageMap.put("store.tel",store_info.get("tel"));
+						messageMap.put("agencyMember.point_items",getPointSet(agency_info.get("point_items")));
+						messageMap.put("agencyMember.min_point",String.format("%,d", Integer.parseInt(agency_info.get("min_point")))+"원");
+						
+						
+						/* 템플릿을 정해진 패턴대로 변경 합니다. 
+						 * @param bt_content 템플릿 내용, 
+						 * @param bt_regex 템플릿 패턴
+						 * @param messageMap 템플릿 패턴을 바꿀 내용
+						 * */
+						/* gcm messages */
+						String messages=chg_regexrule(message_info.get("gcm_message"),message_info.get("gcm_regex"), messageMap);
+						System.out.println(messages);
+						/* ata messages */
+						regex_rule=message_info.get("ata_regex").split("&");
+						messages=chg_regexrule(message_info.get("ata_message"),message_info.get("ata_regex"), messageMap);						
+						System.out.println(messages);
+						/* GCM 적립메세지 성공 여부 */
+						success_gcm=set_gcm(messages,"title","01043391517","cashq");
+						
+						push_info.put("appid",appid);
+						/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
+						set_site_push_log(push_info);
 					} /* if(point_count<10){...} */
 					
 					
@@ -189,6 +216,51 @@ public class Safen_cmd_queue {
 
 	
 	/**
+	 * 사이트 푸시로그를 전송합니다.  
+	 * 입력 : 푸시 인포.앱아이디, stype,biz_code, caller, called, wr_subject, wr_content result
+	 */
+	private static void set_site_push_log(Map<String, String> push_info) {
+		// TODO Auto-generated method stub
+		StringBuilder sb = new StringBuilder();
+		MyDataObject dao = new MyDataObject();
+
+		sb.append("insert into `site_push_log` set ");
+		sb.append("appid=?,");
+		sb.append("stype=?,");
+		sb.append("biz_code=?,");
+		sb.append("caller=?,");
+		sb.append("called=?,");
+		sb.append("wr_subject=?,");
+		sb.append("wr_content=?,");
+		sb.append("regdate=now(),");
+		sb.append("result=?;");
+		try {
+			dao.openPstmt(sb.toString());
+			dao.pstmt().setString(1, push_info.get("appid"));
+			dao.pstmt().setString(2, push_info.get("stype"));
+			dao.pstmt().setString(3, push_info.get("biz_code"));
+			dao.pstmt().setString(4, push_info.get("caller"));
+			dao.pstmt().setString(5, push_info.get("called"));
+			dao.pstmt().setString(6, push_info.get("wr_subject"));
+			dao.pstmt().setString(7, push_info.get("wr_content"));
+			dao.pstmt().setString(8, push_info.get("result"));
+			dao.pstmt().executeUpdate();
+		} catch (SQLException e) {
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS060";
+		} catch (Exception e) {
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS061";
+		} finally {
+			dao.closePstmt();
+		}
+	}
+
+
+
+	/**
 	 * @기능 : 
 	 * 1. GCM을 전송한다. 
 	 * 2. 변수에 성공 실패 여부를 반환한다.
@@ -206,7 +278,7 @@ public class Safen_cmd_queue {
 		
 		/* 2. 변수에 성공 실패 여부를 반환한다. */
 		/* 공통부분 */
-/*
+		/*
 		URL url = new URL("JSON 주소");
 		InputStreamReader isr = new InputStreamReader(url.openConnection().getInputStream(), "UTF-8");
 		JSONObject object = (JSONObject)JSONValue.parse(isr);
@@ -228,8 +300,8 @@ public class Safen_cmd_queue {
 			HttpURLConnection cons = (HttpURLConnection) urlConn;
 			// 헤더값을 설정한다.
 			cons.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
-
-			cons.setRequestMethod("GET");
+			cons.setRequestMethod("POST");
+			
 			//cons.getOutputStream().write("LOGIN".getBytes("UTF-8"));
 			cons.setDoOutput(true);
 			cons.setDoInput(true);
@@ -240,6 +312,7 @@ public class Safen_cmd_queue {
 			PrintWriter out = new PrintWriter(cons.getOutputStream());
 			out.close();*/
 			//System.out.println(query);
+			/* parameter setting */
 			OutputStream opstrm=cons.getOutputStream();
 			opstrm.write(query.getBytes());
 			opstrm.flush();
@@ -332,7 +405,6 @@ public class Safen_cmd_queue {
 			dao.closePstmt();
 		}
 		return message;
-
 	}
 
 
@@ -340,19 +412,40 @@ public class Safen_cmd_queue {
 	 * @param string
 	 * @return
 	 */
-	private static Map<String, String> get_store(String string) {
+	private static Map<String, String> get_store(String st_no) {
 		// TODO Auto-generated method stub
-		return null;
+		Map<String, String> store_info=new HashMap<String, String>();
+		store_info.put("name","매장명");
+		store_info.put("tel","05012341234");
+		
+		StringBuilder sb = new StringBuilder();
+		MyDataObject dao = new MyDataObject();
+		sb.append("select * from cashq.store where seq=? limit 1;");
+		try {
+			dao.openPstmt(sb.toString());
+			dao.pstmt().setString(1, st_no);
+			dao.setRs (dao.pstmt().executeQuery());
+
+			if (dao.rs().next()) {
+				store_info.put("name",dao.rs().getString("name"));
+				store_info.put("tel",dao.rs().getString("tel"));
+			}			
+		}catch (SQLException e) {
+			Utils.getLogger().warning(e.getMessage());
+			DBConn.latest_warning = "ErrPOS039";
+			e.printStackTrace();
+		}catch (Exception e) {
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS040";
+		}
+		finally {
+			dao.closePstmt();
+		}
+		return store_info;
 	}
 
-	/**
-	 * @param string
-	 * @return
-	 */
-	private static String get_tokenid(String mb_hp,String appid) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 
 	/**
 	 * 대리점 정보를 biz_code로 불러 옵니다. 
@@ -365,6 +458,10 @@ public class Safen_cmd_queue {
 		Map<String, String> agency=new HashMap<String, String>();
 		agency.put("appid","cashq");
 		agency.put("agency_name","대리점명");
+		agency.put("pointset","off");
+		agency.put("point_items","5_10000&10_20000");
+		agency.put("min_point","12000");
+		
 		
 		StringBuilder sb = new StringBuilder();
 		MyDataObject dao = new MyDataObject();
@@ -377,6 +474,12 @@ public class Safen_cmd_queue {
 			if (dao.rs().next()) {
 				agency.put("appid",dao.rs().getString("appid"));
 				agency.put("agency_name",dao.rs().getString("agency_name"));
+				if(dao.rs().getString("pointset").equals("on"))
+				{
+					agency.put("pointset","on");
+					agency.put("point_items",dao.rs().getString("point_items"));
+				}
+				agency.put("min_point",dao.rs().getString("min_point"));
 			}			
 		}catch (SQLException e) {
 			Utils.getLogger().warning(e.getMessage());
@@ -405,9 +508,9 @@ public class Safen_cmd_queue {
 	private static void update_point(String seq) {
 
 		MyDataObject dao = new MyDataObject();
+		StringBuilder sb = new StringBuilder();
 		
 		try {
-				StringBuilder sb = new StringBuilder();
 				sb.append("update cashq.0507_point set status='1' where seq=?");
 				dao.openPstmt(sb.toString());
 				dao.pstmt().setString(1, seq);
@@ -1632,6 +1735,73 @@ call_hangup_dt: 2016-07-22 18:13:16
 		}
 
 		return retVal;
+	}
+
+	/**
+	 * @param bt_content
+	 * 메세지 전문과 변환될 텍스트가 지정 되어 있습니다. 정해진 룰의 패턴이 지정 되어 있습니다.
+	 *  패턴의 예 
+	 *  #{매장명}을 이용해 주셔서 #{050번호}
+	 * 
+	 * @param bt_regex
+	 *  룰의 규칙을 넣습니다. bt_content에서 선언한 #{키값}의 모든 패턴은 아래와 같이 모두 선언 되어 있어야 합니다.        
+	 *  
+	 *  예) 
+	 *  #{매장명}=store.name&#{050번호}=store.tel
+	 *  
+	 *  라면 두개의 규칙이 존재하고 #{매장명}을 store.name의 맵의 키로 지정합니다.  
+	 * @param messageMap
+	 *  위에서 지정한 store.name의 키가 함수 호출전에 아래와 같은 형태로 정의 되어 인수로 들어가야 합니다.
+	 *  Map<String, String> messageMap=new HashMap<String, String>();
+		messageMap.put("store.name","태부치킨");
+	 * @return
+	 */
+	private static String chg_regexrule(String bt_content, String bt_regex, Map<String, String> messageMap) {
+		// TODO Auto-generated method stub
+		String returnValue="";
+		try{
+			if(bt_regex.indexOf("&")>-1)
+			{
+				String[] regex_array=bt_regex.split("&");
+				String[] keys;
+				/* bt_regex 의 크기 만큼 반복하여 변환한다. */
+				for (int i = 0; i < regex_array.length; i++) {
+					keys=regex_array[i].split("=");
+					bt_content=bt_content.replace(keys[0], messageMap.get(keys[1]));
+				}
+				returnValue=bt_content;
+			}else{
+				returnValue=bt_content;
+			}
+		}catch(NullPointerException e){
+			returnValue=bt_content;
+		}
+		return returnValue;
+	}
+
+	/**
+	 * @param point_set ="3_5000&5_10000&10_20000"
+	 * @return
+	 * 3개 5,000원
+	 * 5개 10,000원
+	 * 10개 20,000원
+	 */
+	private static String getPointSet(String point_set) {
+		// TODO Auto-generated method stub
+		String[] regex_array=point_set.split("&");
+		String[] keys;
+		String returnValue="";
+		try{
+			/* bt_regex 의 크기 만큼 반복하여 변환한다. */
+			for (int i = 0; i < regex_array.length; i++) {
+				keys=regex_array[i].split("_");
+				returnValue=returnValue+keys[0]+"개 "+String.format("%,d", Integer.parseInt(keys[1]))+"원\n";
+			}
+		}catch(ArrayIndexOutOfBoundsException e){
+			returnValue="5개 10,000원\n";
+			returnValue="10개 20,000원\n";
+		}
+		return returnValue;
 	}
 
 }
