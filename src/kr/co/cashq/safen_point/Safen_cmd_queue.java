@@ -82,9 +82,13 @@ public class Safen_cmd_queue {
 		
 		/* SMS 전송 성공 여부 */
 		boolean success_sms = false;
-		String regex_key="";
-		String regex_value="";
 		
+		/* 비즈톡에 입력된 값 */
+		int wr_idx=0;
+		String regex_key="";
+		String sender_key="";
+		String regex_value="";
+		String result_message="전달성공";
 		/* 포인트 이벤트 정보 */
 		String[] point_event_info	= new String[7];
 		/* 유저 이벤트 정보 */
@@ -133,6 +137,7 @@ public class Safen_cmd_queue {
 					update_point(dao.rs().getString("seq"));
 					
 					/* 4. 포인트 갯수를 센다.  */	
+
 					point_count=get_point_count(mb_hp,eventcode);
 					
 					/* 5. 10개 이하 인가? */
@@ -145,6 +150,7 @@ public class Safen_cmd_queue {
 						/* "대리점 정보"에서 appid를 불러온다. */
 						appid=agency_info.get("appid");
 						System.out.println(appid);
+						
 						/* 12. 상점 정보를 불러 옵니다. */
 						store_info=get_store(st_no);
 						
@@ -154,11 +160,20 @@ public class Safen_cmd_queue {
 						regex_rule=message_info.get("gcm_regex").split("&");
 						
 						Map<String, String> messageMap=new HashMap<String, String>();
+						/* 매장이름 */
 						messageMap.put("store.name",store_info.get("name"));
-						messageMap.put("store.tel",store_info.get("tel"));
-						messageMap.put("agencyMember.point_items",getPointSet(agency_info.get("point_items")));
-						messageMap.put("agencyMember.min_point",String.format("%,d", Integer.parseInt(agency_info.get("min_point")))+"원");
 						
+						/* 매장(상점)전화번호 */
+						messageMap.put("store.tel",store_info.get("tel"));
+						
+						/* 미션조건 */
+						messageMap.put("agencyMember.point_items",getPointSet(agency_info.get("point_items")));
+						
+						/* 포인트 최소 인정금액 */
+						messageMap.put("agencyMember.min_point",String.format("%,d", Integer.parseInt(agency_info.get("min_point"))));
+						
+						/* 대리점 관리자의 핸드폰 번호를 불러 옵니다. 기본값 01077430009 */
+						messageMap.put("agencyMember.cell",agency_info.get("cell"));
 						
 						/* 템플릿을 정해진 패턴대로 변경 합니다. 
 						 * @param bt_content 템플릿 내용, 
@@ -168,16 +183,59 @@ public class Safen_cmd_queue {
 						/* gcm messages */
 						String messages=chg_regexrule(message_info.get("gcm_message"),message_info.get("gcm_regex"), messageMap);
 						System.out.println(messages);
-						/* ata messages */
-						regex_rule=message_info.get("ata_regex").split("&");
-						messages=chg_regexrule(message_info.get("ata_message"),message_info.get("ata_regex"), messageMap);						
-						System.out.println(messages);
-						/* GCM 적립메세지 성공 여부 */
-						success_gcm=set_gcm(messages,"title","01043391517","cashq");
 						
+						/* GCM 적립메세지 성공 여부 */
+						success_gcm=set_gcm(messages,messages,"01043391517",appid);
+						
+						if(!success_gcm)
+						{
+							result_message="전송 실패";
+						}
+						/* ata messages */
 						push_info.put("appid",appid);
+						push_info.put("stype","PNT_GCM");
+						push_info.put("biz_code",biz_code);
+						push_info.put("caller",mb_hp);
+						push_info.put("called",store_info.get("r_tel"));
+						push_info.put("wr_subject",messages);
+						push_info.put("wr_content","JAVA Safen_point TEST");
+						push_info.put("result",result_message);
 						/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
 						set_site_push_log(push_info);
+						success_gcm=false;
+						/* ATA 전송 */
+						if(!success_gcm)
+						{
+							/* gcm 전송 실패시  */
+							regex_rule=message_info.get("ata_regex").split("&");
+							messages=chg_regexrule(message_info.get("ata_message"),message_info.get("ata_regex"), messageMap);
+							System.out.println(messages);
+							
+							sender_key=getSenderKey(appid);
+							System.out.println("sender_key : "+sender_key);
+							/* ATA 전송*/
+							Map<String, String> ata_info = new HashMap<String, String>();
+							ata_info.put("template_code",message_info.get("bt_code"));
+							ata_info.put("content",messages);
+							//ata_info.put("mb_hp",mb_hp);
+							ata_info.put("mb_hp","01043391517");
+							ata_info.put("tel",store_info.get("tel"));
+							ata_info.put("sender_key",sender_key);
+							wr_idx=set_em_mmt_tran(ata_info);
+							
+							/* Site_push_log*/
+							push_info.put("appid",appid);
+							push_info.put("stype","ATASEND");
+							push_info.put("biz_code",biz_code);
+							push_info.put("caller",mb_hp);
+							push_info.put("called",store_info.get("r_tel"));
+							push_info.put("wr_subject",messages);
+							push_info.put("wr_content","JAVA Safen_point TEST");
+							push_info.put("result","전송대기");
+							push_info.put("wr_idx",String.valueOf(wr_idx));
+							/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
+							set_site_push_log(push_info);
+						}
 					} /* if(point_count<10){...} */
 					
 					
@@ -216,6 +274,42 @@ public class Safen_cmd_queue {
 
 	
 	/**
+	 * @param appid
+	 * @return
+	 */
+	private static String getSenderKey(String appid) {
+		// TODO Auto-generated method stub
+
+		String sender_key="";
+		StringBuilder sb = new StringBuilder();
+		MyDataObject dao = new MyDataObject();
+		sb.append("SELECT sender_key FROM cashq.bt_sender where appid = ?");
+		try {
+			dao.openPstmt(sb.toString());
+			dao.pstmt().setString(1, appid);
+			dao.setRs (dao.pstmt().executeQuery());
+			while(dao.rs().next()) 
+			{
+				sender_key=dao.rs().getString("sender_key");
+			}			
+		}catch (SQLException e) {
+			Utils.getLogger().warning(e.getMessage());
+			DBConn.latest_warning = "ErrPOS039";
+			e.printStackTrace();
+		}catch (Exception e) {
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS040";
+		}
+		finally {
+			dao.closePstmt();
+		}
+		return sender_key;
+	}
+
+
+
+	/**
 	 * 사이트 푸시로그를 전송합니다.  
 	 * 입력 : 푸시 인포.앱아이디, stype,biz_code, caller, called, wr_subject, wr_content result
 	 */
@@ -233,7 +327,8 @@ public class Safen_cmd_queue {
 		sb.append("wr_subject=?,");
 		sb.append("wr_content=?,");
 		sb.append("regdate=now(),");
-		sb.append("result=?;");
+		sb.append("result=?,");
+		sb.append("wr_idx=?;");
 		try {
 			dao.openPstmt(sb.toString());
 			dao.pstmt().setString(1, push_info.get("appid"));
@@ -244,6 +339,7 @@ public class Safen_cmd_queue {
 			dao.pstmt().setString(6, push_info.get("wr_subject"));
 			dao.pstmt().setString(7, push_info.get("wr_content"));
 			dao.pstmt().setString(8, push_info.get("result"));
+			dao.pstmt().setString(9, push_info.get("wr_idx"));
 			dao.pstmt().executeUpdate();
 		} catch (SQLException e) {
 			Utils.getLogger().warning(e.getMessage());
@@ -258,6 +354,60 @@ public class Safen_cmd_queue {
 		}
 	}
 
+	/**
+	 * 비즈톡에 알림톡(카카오톡 비즈니스 메세지를 전송합니다.)를 전송합니다.  
+	 * 입력 : 푸시 인포.앱아이디, stype,biz_code, caller, called, wr_subject, wr_content result
+	 */
+	private static int set_em_mmt_tran(Map<String, String> ata_info) {
+		// TODO Auto-generated method stub
+		StringBuilder sb = new StringBuilder();
+		StringBuilder sb2 = new StringBuilder();
+		MyDataObject dao = new MyDataObject();
+		MyDataObject dao2 = new MyDataObject();
+		int wr_idx=0;
+		sb.append("INSERT INTO biztalk.em_mmt_tran SET ");
+		sb.append("date_client_req=SYSDATE(), ");
+		sb.append("template_code=?,");
+		sb.append("content=?,");
+		sb.append("recipient_num=?,");
+		sb.append("callback=?,");
+		sb.append("msg_status='1',");
+		sb.append("subject=' ', ");
+		sb.append("sender_key=?, ");
+		sb.append("service_type='3', ");
+		sb.append("msg_type='1008';");
+		try {
+
+			dao.openPstmt(sb.toString());
+			dao.pstmt().setString(1, ata_info.get("template_code"));
+			dao.pstmt().setString(2, ata_info.get("content"));
+			dao.pstmt().setString(3, ata_info.get("mb_hp"));
+			dao.pstmt().setString(4, ata_info.get("tel"));
+			dao.pstmt().setString(5, ata_info.get("sender_key"));
+			dao.pstmt().executeUpdate();
+			
+			sb2.append("select LAST_INSERT_ID() last_id;");
+			dao2.openPstmt(sb2.toString());
+			dao2.setRs(dao2.pstmt().executeQuery());
+			
+			if (dao2.rs().next()) {
+				wr_idx= dao2.rs().getInt("last_id");
+			}
+		} catch (SQLException e) {
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS060";
+		} catch (Exception e) {
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS061";
+		} finally {
+			dao.closePstmt();
+			dao2.closePstmt();
+		}
+		return wr_idx;
+		
+	}
 
 
 	/**
@@ -363,7 +513,7 @@ public class Safen_cmd_queue {
 		
 		StringBuilder sb = new StringBuilder();
 		MyDataObject dao = new MyDataObject();
-		sb.append("select * from cashq.bt_template where appid = ?");
+		sb.append("select * from cashq.bt_template where po_status='1' and appid=? and bt_status='access' ");
 		try {
 			dao.openPstmt(sb.toString());
 			dao.pstmt().setString(1, appid);
@@ -384,6 +534,7 @@ public class Safen_cmd_queue {
 					message.put("ata_title",dao.rs().getString("bt_name"));					
 					message.put("ata_message",dao.rs().getString("bt_content"));
 					message.put("ata_regex",dao.rs().getString("bt_regex"));
+					message.put("bt_code",dao.rs().getString("bt_code"));
 				}
 				else if(dao.rs().getString("bt_type").equals("sms"))
 				{
@@ -417,6 +568,7 @@ public class Safen_cmd_queue {
 		Map<String, String> store_info=new HashMap<String, String>();
 		store_info.put("name","매장명");
 		store_info.put("tel","05012341234");
+		store_info.put("r_tel","0212341234");
 		
 		StringBuilder sb = new StringBuilder();
 		MyDataObject dao = new MyDataObject();
@@ -429,6 +581,7 @@ public class Safen_cmd_queue {
 			if (dao.rs().next()) {
 				store_info.put("name",dao.rs().getString("name"));
 				store_info.put("tel",dao.rs().getString("tel"));
+				store_info.put("r_tel",dao.rs().getString("r_tel"));
 			}			
 		}catch (SQLException e) {
 			Utils.getLogger().warning(e.getMessage());
@@ -461,6 +614,7 @@ public class Safen_cmd_queue {
 		agency.put("pointset","off");
 		agency.put("point_items","5_10000&10_20000");
 		agency.put("min_point","12000");
+		agency.put("cell","01077430009");
 		
 		
 		StringBuilder sb = new StringBuilder();
@@ -480,6 +634,7 @@ public class Safen_cmd_queue {
 					agency.put("point_items",dao.rs().getString("point_items"));
 				}
 				agency.put("min_point",dao.rs().getString("min_point"));
+				agency.put("cell",dao.rs().getString("cell"));
 			}			
 		}catch (SQLException e) {
 			Utils.getLogger().warning(e.getMessage());
