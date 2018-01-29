@@ -1,15 +1,11 @@
 package kr.co.cashq.safen_point;
 
-import java.io.Closeable;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.nio.charset.Charset;
-import java.text.ParseException;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -19,7 +15,7 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 /**
- * 怨듯넻 Utils �븿�닔 �젣怨� �삤瑜섏퐫�뱶 理쒓퀬媛�: ErrPOS074
+ * 공통 Utils 함수 제공 오류코드 최고값: ErrPOS074
  * 
  * @author pgs
  * 
@@ -49,16 +45,16 @@ public class Utils {
 	private static boolean checked_logs;
 
 	/**
-	 * 濡쒓굅瑜� 由ы꽩�븳�떎.
-	 * new File�쓣 �븯湲� �쟾�뿉 SAFEN_CDR.strPrePath瑜� �뜑�빐�빞 �븿�뿉 �쑀�쓽�빐�빞 �븳�떎.
-	 * linux�뿉�꽌 cd寃쎈줈 臾몄젣 �븣臾몄뿉
+	 * 로거를 리턴한다.
+	 * new File을 하기 전에 SAFEN_CDR.strPrePath를 더해야 함에 유의해야 한다.
+	 * linux에서 cd경로 문제 때문에
 	 * 
 	 * @return
 	 */
 	public static Logger getLogger() {
 		String strHandler = getLoggerFilePath();
 
-		File logsf = new File(SAFEN_CDR.strPrePath + "logs");// logs�뤃�뜑
+		File logsf = new File(SAFEN_CDR.strPrePath + "logs");// logs폴더
 
 		if (checked_logs == false && logsf.exists() == false) {
 			logsf.mkdirs();
@@ -91,8 +87,8 @@ public class Utils {
 	}
 
 	/**
-	 * pathSeparatorChar �뒗 �쐢�룄�슦�뿉�꽌�뒗 ;�씠怨�, 由щ늼�뒪�뿉�꽌�뒗 :�씠�떎. separatorChar�뒗 �쐢�룄�슦�뿉�꽌�뒗 \�씠怨�
-	 * 由щ늼�뒪�뿉�꽌�뒗 /�씠�떎.
+	 * pathSeparatorChar 는 윈도우에서는 ;이고, 리눅스에서는 :이다. separatorChar는 윈도우에서는 \이고
+	 * 리눅스에서는 /이다.
 	 * 
 	 * @return
 	 */
@@ -101,31 +97,31 @@ public class Utils {
 	}
 
 	/**
-	 * 8�옄由� �궇吏쒕�� 由ы꽩�븳�떎. �삁) 20160718
+	 * 8자리 날짜를 리턴한다. 예) 20160718
 	 * 
 	 * @return
 	 */
 	public static String getYMD() {
-		// �빐�떦�썡�쓽 媛믪쓣 由ы꽩�븳�떎.
+		// 해당월의 값을 리턴한다.
 		Date now = new Date();
 		String strDate = sdf_YMD.format(now);
 		return strDate;
 	}
 
 	/**
-	 * �빐�떦�뀈�썡�쓽 媛믪쓣 由ы꽩�븳�떎. �삁: 201607
+	 * 해당년월의 값을 리턴한다. 예: 201607
 	 * 
 	 * @return
 	 */
 	public static String getYYYYMM() {
-		// �빐�떦�뀈�썡�쓽 媛믪쓣 由ы꽩�븳�떎.
+		// 해당년월의 값을 리턴한다.
 		Date now = new Date();
 		String strDate = sdf_YYYYMM.format(now);
 		return strDate;
 	}
 
 	/**
-	 * �뀈�썡�씪�떆媛꾩젙蹂대�� 由ы꽩�븳�떎. �삁:)2016071817
+	 * 년월일시간정보를 리턴한다. 예:)2016071817
 	 * 
 	 * @return
 	 */
@@ -136,7 +132,7 @@ public class Utils {
 	}
 
 	/**
-	 * �쁽�옱�떆媛꾩쓣 24�떆媛� �삎�떇�쑝濡� 由ы꽩�븳�떎.
+	 * 현재시간을 24시간 형식으로 리턴한다.
 	 * 
 	 * @return
 	 */
@@ -147,7 +143,7 @@ public class Utils {
 	}
 
 	/**
-	 * �닽�옄瑜� �븣�뙆踰� �븫�샇�솕 �븳�떎. 9 -> z濡� 諛붽씔�떎.
+	 * 숫자를 알파벳 암호화 한다. 9 -> z로 바꾼다.
 	 * 
 	 * @param str0504
 	 * @return
@@ -161,7 +157,7 @@ public class Utils {
 	}
 
 	/**
-	 * 怨듬갚�쓽 �닔留뚰겮�쓽 臾몄옄�뿴�쓣 由ы꽩�븳�떎.
+	 * 공백의 수만큼의 문자열을 리턴한다.
 	 * 
 	 * @param cnt
 	 * @return
@@ -178,7 +174,7 @@ public class Utils {
 	}
 
 	/**
-	 * 臾몄옄�뿴�쓽 湲몄씠瑜� 由ы꽩�븳�떎.
+	 * 문자열의 길이를 리턴한다.
 	 * 
 	 * @param str
 	 * @return
@@ -188,7 +184,7 @@ public class Utils {
 	}
 
 	/**
-	 * 二쇱뼱吏� 湲몄씠留뚰겮 怨듬갚�쑝濡� 梨꾩슫 �썑 臾몄옄�뿴�쓣 �쇊履쎌젙�젹濡� �븯�뿬 異쒕젰�븯�뿬 寃곌뎅 二쇱뼱吏� 湲몄씠留뚰겮�쓽 湲몄씠濡� 由ы꽩�븳�떎.
+	 * 주어진 길이만큼 공백으로 채운 후 문자열을 왼쪽정렬로 하여 출력하여 결국 주어진 길이만큼의 길이로 리턴한다.
 	 * 
 	 * @param len
 	 * @param str
@@ -206,7 +202,7 @@ public class Utils {
 	}
 
 	/**
-	 * substring�뿰�궛�쓣 �닔�뻾�븳 �썑 trim�쑝濡� 怨듬갚�쓣 �젣嫄고븳 媛믪쓣 由ы꽩�븳�떎.
+	 * substring연산을 수행한 후 trim으로 공백을 제거한 값을 리턴한다.
 	 * 
 	 * @param str
 	 * @param s
@@ -218,8 +214,8 @@ public class Utils {
 	}
 
 	/**
-	 * Mysql datatime �옄猷뚰삎�쑝濡� 泥섎━�븷 �닔 �엳�뒗 �궇吏쒕줈 蹂�寃쏀븳�떎. yyyyMMddHHmmss瑜� �궇吏쒕줈 蹂�寃쏀븳 �썑 �궇吏쒕��
-	 * MySql datetime泥섎━ 媛��뒫�븳 臾몄옄�뿴濡� 蹂�寃쏀븳�떎.
+	 * Mysql datatime 자료형으로 처리할 수 있는 날짜로 변경한다. yyyyMMddHHmmss를 날짜로 변경한 후 날짜를
+	 * MySql datetime처리 가능한 문자열로 변경한다.
 	 * 
 	 * @param str
 	 * @return
@@ -241,7 +237,7 @@ public class Utils {
 	}
 
 	/**
-	 * �뒪�깮�삤瑜섎�� 臾몄옄�뿴濡� 異쒕젰�븳�떎.
+	 * 스택오류를 문자열로 출력한다.
 	 * 
 	 * @param e
 	 * @return
@@ -254,7 +250,7 @@ public class Utils {
 	}
 
 	/**
-	 * �뒪�깮�삤瑜섎�� 臾몄옄�뿴濡� 異쒕젰�븳�떎.
+	 * 스택오류를 문자열로 출력한다.
 	 * 
 	 * @param e
 	 * @return
@@ -267,12 +263,12 @@ public class Utils {
 	}
 
 	/**
-	 * �쁽�옱�쓽 �슂�씪�쓣 由ы꽩�븳�떎. 1:�씪, 2:�썡, 3:�솕, 4:�닔, 5:紐�, 6:湲�, 7:�넗
+	 * 현재의 요일을 리턴한다. 1:일, 2:월, 3:화, 4:수, 5:목, 6:금, 7:토
 	 * 
 	 * @return
 	 */
 	public static int getWeekDay() {
-		Calendar oCalendar = Calendar.getInstance(); // �쁽�옱 �궇吏�/�떆媛� �벑�쓽 媛곸쥌 �젙蹂� �뼸湲�
+		Calendar oCalendar = Calendar.getInstance(); // 현재 날짜/시간 등의 각종 정보 얻기
 		return oCalendar.get(Calendar.DAY_OF_WEEK);
 	}
 
@@ -285,7 +281,7 @@ public class Utils {
 		return msg.substring(ifrom, ito);
 	}
 	
-	//�궇吏� �쑀�땳�뒪���엫�쑝濡� 蹂�寃�
+	//날짜 유닉스타임으로 변경
 	public static long date2unix(String str)  
 	{
 	  long unixTime=0L;
@@ -305,10 +301,10 @@ public class Utils {
 	}
 
 
-	//�쑀�땳�뒪���엫 �궇吏쒕줈 蹂�寃�
+	//유닉스타임 날짜로 변경
 	public static String unix2date(String str)
 	{
-		String source = str; //DB�뿉 ���옣�맂 �쑀�땳�뒪���엫 �삎�떇 �궇吏�
+		String source = str; //DB에 저장된 유닉스타임 형식 날짜
 		long t = Long.parseLong(source + "000"); 
 		SimpleDateFormat simpleDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		return simpleDate.format(t);
@@ -344,11 +340,11 @@ public class Utils {
 		return retVal;
 	}
 	/** getyyyymmdd()
-	 * 12�옄由� �궇吏쒕�� 由ы꽩�븳�떎. �삁) 2016-07-18
+	 * 12자리 날짜를 리턴한다. 예) 2016-07-18
 	 * @return String.format("yyyy-MM-dd")
 	 */
 	public static String getyyyymmdd() {
-		// �빐�떦�썡�쓽 媛믪쓣 由ы꽩�븳�떎.
+		// 해당월의 값을 리턴한다.
 		Date now = new Date();
 		String strDate = sdf_yyyy_mm_dd.format(now);
 		return strDate;

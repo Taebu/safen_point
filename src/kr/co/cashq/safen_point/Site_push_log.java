@@ -3,7 +3,7 @@ package kr.co.cashq.safen_point;
 import java.sql.SQLException;
 
 /**
- * site_push_log �뀒�씠釉붿쓽 �뜲�씠�꽣 泥섎━ �뾽臾댁쿂由щ�� �닔�뻾�븳�떎.
+ * site_push_log 테이블의 데이터 처리 업무처리를 수행한다.
  * 
  * @author pgs
  * 
@@ -11,14 +11,14 @@ import java.sql.SQLException;
 public class Site_push_log {
 
 	/**
-	 * 湲곕낯�깮�꽦�옄
+	 * 기본생성자
 	 */
 	public Site_push_log() {
 
 	}
 
 	/**
-	 * site_push_log�뿉 異붽��븳�떎.
+	 * site_push_log에 추가한다.
 	 * @param sms_phones
 	 * @param msg
 	 * @return
@@ -59,7 +59,7 @@ public class Site_push_log {
 			Utils.getLogger().warning(e.getMessage());
 			Utils.getLogger().warning(Utils.stack(e));
 			DBConn.latest_warning = "ErrPOS060";
-			/* grant濡� �빐�떦 �궗�슜�옄�뿉 ���븳 沅뚰븳�쓣 二쇱뼱 臾몄젣 �빐寃곗씠 媛��뒫�븯�떎.
+			/* grant로 해당 사용자에 대한 권한을 주어 문제 해결이 가능하다.
 			grant all privileges on cashq.site_push_log to sktl@"%" identified by 'sktl@9495';
 			grant all privileges on cashq.site_push_log to sktl@"localhost" identified by 'sktl@9495';
 			 */

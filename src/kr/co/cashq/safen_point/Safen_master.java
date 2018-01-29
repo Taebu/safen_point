@@ -5,19 +5,19 @@ import java.sql.SQLException;
 //import com.nostech.safen.SafeNo;
 
 /**
- * safen_master �뀒�씠釉� 愿��젴 媛앹껜
+ * safen_master 테이블 관련 객체
  * @author pgs
  *
  */
 public class Safen_master {
 
 	/**
-	 * 留덉뒪�꽣�뀒�씠釉붿뿉 李⑹떊踰덊샇瑜� �벑濡앺븯嫄곕굹, 痍⑥냼�븳�떎.
+	 * 마스터테이블에 착신번호를 등록하거나, 취소한다.
 	 * 
 	 * @param safen0504
 	 * @param safen_in010
 	 * @param mapping_option
-	 *            1:�벑濡�, 2:痍⑥냼
+	 *            1:등록, 2:취소
 	 */
 	public static void update_safen_master(String safen0504,
 			String safen_in010, int mapping_option) {
@@ -28,11 +28,11 @@ public class Safen_master {
 			sb.append("update safen_master set safen_in=?, status_cd=?, update_dt=now() where safen=?");
 
 			dao.openPstmt(sb.toString());
-			if (mapping_option == 1) {// �벑濡�
+			if (mapping_option == 1) {// 등록
 				dao.pstmt().setString(1, safen_in010);
 				dao.pstmt().setString(2, "u");// used
 				dao.pstmt().setString(3, safen0504);
-			} else if (mapping_option == 2) {// 痍⑥냼
+			} else if (mapping_option == 2) {// 취소
 				dao.pstmt().setString(1, Env.NULL_TEL_NUMBER);
 				dao.pstmt().setString(2, "e");// enabled
 				dao.pstmt().setString(3, safen0504);
@@ -59,7 +59,7 @@ public class Safen_master {
 	}
 
 	/**
-	 * �븞�떖踰덊샇�쓽 洹몃９踰덊샇瑜� 由ы꽩�븳�떎.
+	 * 안심번호의 그룹번호를 리턴한다.
 	 * 
 	 * @param safen0504
 	 * @return
@@ -95,7 +95,7 @@ public class Safen_master {
 	}
 
 	/**
-	 * �븞�떖踰덊샇�뿉�뵲瑜� �뾽泥댁긽�젏�쟾�솕踰덊샇瑜� 由ы꽩�븳�떎.
+	 * 안심번호에따른 업체상점전화번호를 리턴한다.
 	 * 
 	 * @param safen0504
 	 * @return
@@ -133,7 +133,7 @@ public class Safen_master {
 	}
 
 	/**
-	 * �븞�떖踰덊샇�뿉 �뵲瑜� 李⑹떊踰덊샇瑜� 由ы꽩�븳�떎.
+	 * 안심번호에 따른 착신번호를 리턴한다.
 	 * @param safen0504
 	 * @param strHint
 	 * @return
@@ -167,7 +167,7 @@ public class Safen_master {
 		}
 
 		if ("".equals(strHint) && Env.NULL_TEL_NUMBER.equals(strSafen_in)) {
-			// �븘臾닿쾬�룄 �븞�븿.
+			// 아무것도 안함.
 		} else {
 			if (Env.NULL_TEL_NUMBER.equals(strSafen_in)) {
 				String strSafen_in2;
@@ -184,7 +184,7 @@ public class Safen_master {
 	}
 
 	/**
-	 * �븞�떖踰덊샇�뿉 �뵲瑜� �꽌踰꾩젙蹂대�� 媛��졇���꽌 DB�뿉 媛깆떊�븳�떎.
+	 * 안심번호에 따른 서버정보를 가져와서 DB에 갱신한다.
 	 * @param safen0504
 	 * @return
 	 */
@@ -192,7 +192,7 @@ public class Safen_master {
 		//SafeNo safeNo = new SafeNo();
 		String retCode2 = null;
 		try {
-			//retCode2 = safeNo.SafeNoAsk(Env.getInstance().CORP_CODE, safen0504);// 議고쉶
+			//retCode2 = safeNo.SafeNoAsk(Env.getInstance().CORP_CODE, safen0504);// 조회
 
 			if (-1 < retCode2.indexOf(",")) {
 				String safen_in;
@@ -247,8 +247,8 @@ public class Safen_master {
 	}
 
 	/**
-	 * �븞�떖踰덊샇 留덉뒪�꽣 �뀒�씠釉붿쓽 珥덇린�긽�깭�씤 寃쎌슦�굹 �뼱�젣 吏꾪뻾�룄以� �삤瑜섍� 諛쒖깮�븳 寃쎌슦�쓽 �뜲�씠�꽣媛� 議댁옱�븯硫� �꽌踰꾩쓽 �긽�깭瑜� 媛��졇�� 媛깆떊�븳�떎.
-	 * update safen_master set status_cd='a';//�씠�윴 �떇�쑝濡� 珥덇린�뿉 �씤�뒪�넧�씠 �븘�슂�븳�떎.
+	 * 안심번호 마스터 테이블의 초기상태인 경우나 어제 진행도중 오류가 발생한 경우의 데이터가 존재하면 서버의 상태를 가져와 갱신한다.
+	 * update safen_master set status_cd='a';//이런 식으로 초기에 인스톨이 필요한다.
 	 */
 	public static void doWark2() {
 		MyDataObject dao2 = new MyDataObject();
@@ -280,12 +280,12 @@ public class Safen_master {
 	}
 
 	/**
-	 * 肄쒕줈洹멸� �뱾�뼱�삩 �떆媛꾩쓣 媛깆떊�븳�떎. 媛��졊 safen_master�쓽 媛믪씠 �옉��寃껋쓣 異붾━湲� �쐞�븿�씠�떎.
+	 * 콜로그가 들어온 시간을 갱신한다. 가령 safen_master의 값이 작은것을 추리기 위함이다.
 	 * 
 	 * @param safen0504
 	 */
 	public static void dealed(String safen0504) {
-		// 理쒓렐 �궗�슜�맂 �쟾�솕踰덊샇�씤吏�瑜� �뙋�떒�븯�뒗 �젙蹂대줈 �솢�슜�븯湲� �쐞�븿�씠�떎.
+		// 최근 사용된 전화번호인지를 판단하는 정보로 활용하기 위함이다.
 		StringBuilder sb = new StringBuilder();
 		sb.append("update safen_master set dealed_dt=now() where safen=?");
 

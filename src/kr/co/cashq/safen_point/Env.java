@@ -7,28 +7,28 @@ import java.util.InvalidPropertiesFormatException;
 import java.util.Properties;
 
 /**
- * �솚寃쎈��닔 愿��젴 媛앹껜
+ * 환경변수 관련 객체
  * @author pgs
  *
  */
 public class Env {
 
-	public String CORP_CODE = "";//�뾽泥댁퐫�뱶 4�옄由�
+	public String CORP_CODE = "";//업체코드 4자리
 	public static final String NULL_TEL_NUMBER = "1234567890";
-	public static final int MINUTE = 60;//1遺� = 60珥�
+	public static final int MINUTE = 60;//1분 = 60초
 	
-	public static final String CALL_LOG_WORK_1000 = "1000";//�젒�냽 �슂泥�
-	public static final String CALL_LOG_WORK_2000 = "2000";//�젒�냽 �슂泥� �쓳�떟
-	public static final String CALL_LOG_WORK_1031 = "1031";//CallLog �쟾�넚
-	public static final String CALL_LOG_WORK_2031 = "2031";//CallLog �쟾�넚 �쓳�떟
-	public static final String CALL_LOG_WORK_7777 = "7777";//HEART_BEAT �슂泥�
-	public static final String CALL_LOG_WORK_7778 = "7778";//HEART_BEAT �슂泥� �쓳�떟
-	public static final String SPACE = " ";//�뒪�럹�씠�뒪 �븳媛�
-	public static final String CALL_LOG_RET_0000 = "0000";//�꽦怨듭쿂由�_�젙�긽
-	public static final String CALL_LOG_RET_0001 = "0001";//�옱�쟾�넚�슂泥�_�젣�쑕�뾽泥� 痢≪뿉�꽌 �븘�슂�뿉 �뵲�씪 �빐�떦 Call Log�쓽 �옱�쟾�넚 �슂泥��떆 �궗�슜
-	public static final String CALL_LOG_RET_0002 = "0002";//濡쒓렇�삩�떎�뙣 以묐났 濡쒓렇�씤 �씠嫄곕굹 濡쒓렇�씤�쓣 �븯吏� �븡�� 寃쎌슦�씠嫄곕굹�엫.
+	public static final String CALL_LOG_WORK_1000 = "1000";//접속 요청
+	public static final String CALL_LOG_WORK_2000 = "2000";//접속 요청 응답
+	public static final String CALL_LOG_WORK_1031 = "1031";//CallLog 전송
+	public static final String CALL_LOG_WORK_2031 = "2031";//CallLog 전송 응답
+	public static final String CALL_LOG_WORK_7777 = "7777";//HEART_BEAT 요청
+	public static final String CALL_LOG_WORK_7778 = "7778";//HEART_BEAT 요청 응답
+	public static final String SPACE = " ";//스페이스 한개
+	public static final String CALL_LOG_RET_0000 = "0000";//성공처리_정상
+	public static final String CALL_LOG_RET_0001 = "0001";//재전송요청_제휴업체 측에서 필요에 따라 해당 Call Log의 재전송 요청시 사용
+	public static final String CALL_LOG_RET_0002 = "0002";//로그온실패 중복 로그인 이거나 로그인을 하지 않은 경우이거나임.
 
-	public boolean USE_FILTER = false;//肄쒕줈洹몄뿉 李⑹떊踰덊샇媛� �뾾�뒗 濡쒓렇媛� �뱾�뼱�삤�뒗 寃쎌슦 �엯�젰�븯吏� �븡�쓣寃쎌슦 true濡� �꽕�젙�븿.
+	public boolean USE_FILTER = false;//콜로그에 착신번호가 없는 로그가 들어오는 경우 입력하지 않을경우 true로 설정함.
 	
 	public static String confirmSafen = "";
 	public static String confirmSafen_in = "";
@@ -61,7 +61,7 @@ public class Env {
 	}
 	
 	/**
-	 * �솚寃쎈��닔 �씤�뒪�꽩�뒪瑜� static�븳 諛⑸쾿�쑝濡� 媛��졇�삩�떎.
+	 * 환경변수 인스턴스를 static한 방법으로 가져온다.
 	 * @return
 	 */
 	public static Env getInstance() {
@@ -98,7 +98,7 @@ public class Env {
 	}
 
 	/**
-	 * sms愿��젴�맂 �솚寃쎈��닔瑜� 媛��졇�삩�떎.
+	 * sms관련된 환경변수를 가져온다.
 	 * @param prop
 	 */
 	private static void updateSmsProperties(Properties prop) {
@@ -114,7 +114,7 @@ public class Env {
 	}
 
 	/**
-	 * �솚寃쎈��닔 �뙆�씪(env.xml�뙆�씪)�쓣 以�鍮꾪븳�떎. 
+	 * 환경변수 파일(env.xml파일)을 준비한다. 
 	 * @return
 	 */
 	private static Properties loadEnvFile() {
@@ -145,7 +145,7 @@ public class Env {
 	}
 
 	/**
-	 * �솚寃쎈��닔瑜� �씫�뒗�떎.
+	 * 환경변수를 읽는다.
 	 * @param properties
 	 * @param key
 	 * @param defaultValue

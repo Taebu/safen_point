@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
- * cashq.SMSQ_SEND �뀒�씠釉붿쓽 �뜲�씠�꽣 泥섎━ �뾽臾댁쿂由щ�� �닔�뻾�븳�떎.
+ * cashq.SMSQ_SEND 테이블의 데이터 처리 업무처리를 수행한다.
  * 
  * @author pgs
  * 
@@ -16,10 +16,10 @@ public class Smsq_send {
 	}
 
 	/**
-	 * SKTL �꽦怨듭떆 SMS 硫붿떆吏�瑜� �쟾�넚�븳�떎. DB�엯�젰�꽦怨듭떆 true瑜� 由ы꽩�븳�떎.
+	 * SKTL 성공시 SMS 메시지를 전송한다. DB입력성공시 true를 리턴한다.
 	 * 
 	 * @param sms_phones
-	 *            : �쟾�솕踰덊샇�뱾�쓣 肄ㅻ쭏濡� 援щ텇�븯�뿬 �뿬�윭媛� 蹂대궪 �닔 �엳�떎.
+	 *            : 전화번호들을 콤마로 구분하여 여러개 보낼 수 있다.
 	 * 
 	 */
 	public static boolean sendSuccessMsg(String sms_phones) {
@@ -78,7 +78,7 @@ public class Smsq_send {
 	}
 
 	/**
-	 * SKTL �뿰寃� �떎�뙣�떆 SMS 硫붿떆吏�瑜� �쟾�넚�븳�떎. DB�엯�젰�꽦怨듭떆 true瑜� 由ы꽩�븳�떎.
+	 * SKTL 연결 실패시 SMS 메시지를 전송한다. DB입력성공시 true를 리턴한다.
 	 * 
 	 * @param sms_phones
 	 * @return

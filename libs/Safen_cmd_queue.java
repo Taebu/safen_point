@@ -137,116 +137,133 @@ public class Safen_cmd_queue {
 					update_point(dao.rs().getString("seq"));
 					
 					/* 4. 포인트 갯수를 센다.  */	
-					//point_count=get_point_count(mb_hp,eventcode);
-					
 
-					/* 10개 이하 이면 */
-					/* 13. 대리점 정보를 불러 옵니다.*/
-					agency_info=get_agency(biz_code);
+
+					point_count=get_point_count(mb_hp,eventcode);
 					
-					/* "대리점 정보"에서 appid를 불러온다. */
-					appid=agency_info.get("appid");
-					
-					System.out.println(appid);
-					
-					/* 12. 상점 정보를 불러 옵니다. */
-					store_info=get_store(st_no);
-					
-					/* 템플릿 메세지를 가져옵니다. */
-					message_info=get_bt_template(appid);
-					System.out.println(message_info.get("gcm_message"));
-					if(message_info.get("gcm_regex").indexOf("&")>-1)
+					/* 5. 10개 이하 인가? */
+					if(point_count<10)
 					{
-						regex_rule=message_info.get("gcm_regex").split("&");
-					}
-					
-					Map<String, String> messageMap=new HashMap<String, String>();
-					/* 매장이름 */
-					messageMap.put("store.name",store_info.get("name"));
-					
-					/* 매장(상점)전화번호 */
-					messageMap.put("store.tel",store_info.get("tel"));
-					
-					/* 미션조건 */
-					messageMap.put("agencyMember.point_items",getPointSet(agency_info.get("point_items")));
-					
-					/* 포인트 최소 인정금액 */
-					messageMap.put("agencyMember.min_point",String.format("%,d", Integer.parseInt(agency_info.get("min_point"))));
-					
-					/* 대리점 관리자의 핸드폰 번호를 불러 옵니다. 기본값 01077430009 */
-					messageMap.put("agencyMember.cell",agency_info.get("cell"));
-					
-					/* 랜덤 6자리 치환 */
-					messageMap.put("function.get_rand_int",String.valueOf(get_rand_int()));
-					
-					
-					
-					/* 템플릿을 정해진 패턴대로 변경 합니다. 
-					 * @param bt_content 템플릿 내용, 
-					 * @param bt_regex 템플릿 패턴
-					 * @param messageMap 템플릿 패턴을 바꿀 내용
-					 * */
-					/* gcm messages */
-					String messages=chg_regexrule(message_info.get("gcm_message"),message_info.get("gcm_regex"), messageMap);
-					System.out.println(messages);
-					
-					/* GCM 적립메세지 성공 여부 
-					 * 현금할인북(cashb) 만 예외처리 */
-					if(!"cashb".equals(appid))
-					{
-						success_gcm=set_gcm(messages,messages,mb_hp,appid);
-					}
-					
-					
-					if(!success_gcm)
-					{
-						result_message="전송 실패";
-					}
-					/* ata messages */
-					push_info.put("appid",appid);
-					push_info.put("stype","PNT_GCM");
-					push_info.put("biz_code",biz_code);
-					push_info.put("caller",mb_hp);
-					push_info.put("called",store_info.get("r_tel"));
-					push_info.put("wr_subject",messages);
-					push_info.put("wr_content","JAVA Safen_point TEST");
-					push_info.put("result",result_message);
-					/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
-					set_site_push_log(push_info);
-					//success_gcm=false;
-					/* ATA 전송 */
-					if(!success_gcm)
-					{
-						/* gcm 전송 실패시  */
-						regex_rule=message_info.get("ata_regex").split("&");
-						messages=chg_regexrule(message_info.get("ata_message"),message_info.get("ata_regex"), messageMap);
+						/* 10개 이하 이면 */
+						/* 13. 대리점 정보를 불러 옵니다.*/
+						agency_info=get_agency(biz_code);
+						
+						/* "대리점 정보"에서 appid를 불러온다. */
+						appid=agency_info.get("appid");
+						
+						System.out.println(appid);
+						
+						/* 12. 상점 정보를 불러 옵니다. */
+						store_info=get_store(st_no);
+						
+						/* 템플릿 메세지를 가져옵니다. */
+						message_info=get_bt_template(appid);
+						System.out.println(message_info.get("gcm_message"));
+						if(message_info.get("gcm_regex").indexOf("&")>-1)
+						{
+							regex_rule=message_info.get("gcm_regex").split("&");
+						}
+						
+						Map<String, String> messageMap=new HashMap<String, String>();
+						/* 매장이름 */
+						messageMap.put("store.name",store_info.get("name"));
+						
+						/* 매장(상점)전화번호 */
+						messageMap.put("store.tel",store_info.get("tel"));
+						
+						/* 미션조건 */
+						messageMap.put("agencyMember.point_items",getPointSet(agency_info.get("point_items")));
+						
+						/* 포인트 최소 인정금액 */
+						messageMap.put("agencyMember.min_point",String.format("%,d", Integer.parseInt(agency_info.get("min_point"))));
+						
+						/* 대리점 관리자의 핸드폰 번호를 불러 옵니다. 기본값 01077430009 */
+						messageMap.put("agencyMember.cell",agency_info.get("cell"));
+						
+						/* 랜덤 6자리 치환 */
+						messageMap.put("function.get_rand_int",String.valueOf(get_rand_int()));
+						
+						
+						
+						/* 템플릿을 정해진 패턴대로 변경 합니다. 
+						 * @param bt_content 템플릿 내용, 
+						 * @param bt_regex 템플릿 패턴
+						 * @param messageMap 템플릿 패턴을 바꿀 내용
+						 * */
+						/* gcm messages */
+						String messages=chg_regexrule(message_info.get("gcm_message"),message_info.get("gcm_regex"), messageMap);
 						System.out.println(messages);
 						
-						sender_key=getSenderKey(appid);
-						System.out.println("sender_key : "+sender_key);
-						/* ATA 전송*/
-						Map<String, String> ata_info = new HashMap<String, String>();
-						ata_info.put("template_code",message_info.get("bt_code"));
-						ata_info.put("content",messages);
-						//ata_info.put("mb_hp",mb_hp);
-						ata_info.put("mb_hp",mb_hp);
-						ata_info.put("tel",store_info.get("tel"));
-						ata_info.put("sender_key",sender_key);
-						wr_idx=set_em_mmt_tran(ata_info);
+						/* GCM 적립메세지 성공 여부 
+						 * 현금할인북(cashb) 만 예외처리 */
+						if(!"cashb".equals(appid))
+						{
+							success_gcm=set_gcm(messages,messages,mb_hp,appid);
+						}
 						
-						/* Site_push_log*/
+						
+						if(!success_gcm)
+						{
+							result_message="전송 실패";
+						}
+						/* ata messages */
 						push_info.put("appid",appid);
-						push_info.put("stype","ATASEND");
+						push_info.put("stype","PNT_GCM");
 						push_info.put("biz_code",biz_code);
 						push_info.put("caller",mb_hp);
 						push_info.put("called",store_info.get("r_tel"));
 						push_info.put("wr_subject",messages);
 						push_info.put("wr_content","JAVA Safen_point TEST");
-						push_info.put("result","전송대기");
-						push_info.put("wr_idx",String.valueOf(wr_idx));
+						push_info.put("result",result_message);
 						/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
 						set_site_push_log(push_info);
-					} /* ATA  전송 if(!success_gcm){...} */
+						//success_gcm=false;
+						/* ATA 전송 */
+						if(!success_gcm)
+						{
+							/* gcm 전송 실패시  */
+							regex_rule=message_info.get("ata_regex").split("&");
+							messages=chg_regexrule(message_info.get("ata_message"),message_info.get("ata_regex"), messageMap);
+							System.out.println(messages);
+							
+							sender_key=getSenderKey(appid);
+							System.out.println("sender_key : "+sender_key);
+							/* ATA 전송*/
+							Map<String, String> ata_info = new HashMap<String, String>();
+							ata_info.put("template_code",message_info.get("bt_code"));
+							ata_info.put("content",messages);
+							//ata_info.put("mb_hp",mb_hp);
+							ata_info.put("mb_hp",mb_hp);
+							ata_info.put("tel",store_info.get("tel"));
+							ata_info.put("sender_key",sender_key);
+							wr_idx=set_em_mmt_tran(ata_info);
+							
+							/* Site_push_log*/
+							push_info.put("appid",appid);
+							push_info.put("stype","ATASEND");
+							push_info.put("biz_code",biz_code);
+							push_info.put("caller",mb_hp);
+							push_info.put("called",store_info.get("r_tel"));
+							push_info.put("wr_subject",messages);
+							push_info.put("wr_content","JAVA Safen_point TEST");
+							push_info.put("result","전송대기");
+							push_info.put("wr_idx",String.valueOf(wr_idx));
+							/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
+							set_site_push_log(push_info);
+						}
+					} /* if(point_count<10){...} */
+					
+					
+					/* 4-5 */
+					//String[] callArray = new String[] {"reviewpt","downpt"};
+					String[] callArray = new String[] {"fivept","freedailypt","freeuserpt","freept"};
+					String[] reviewArray = new String[] {"reviewpt","downpt"};
+					/*
+					daily_st_dt=Utils.getyyyymmdd();
+					daily_ed_dt=Utils.add60day();
+					//review_ed_dt=Utils.add90day();
+					review_ed_dt=Utils.add60day();
+					 */					
 				} /* while(dao.rs().next()) {...} */
 			} catch (SQLException e) {
 				Utils.getLogger().warning(e.getMessage());

@@ -7,23 +7,23 @@ import java.io.IOException;
 import java.util.Calendar;
 
 /**
- * �븞�떖踰덊샇 留ㅽ븨 �뾽臾댁� 肄쒕줈洹� �뾽臾� 媛앹껜
+ * 안심번호 매핑 업무와 콜로그 업무 객체
  * 
  * @author pgs
  * 
  */
 public class SAFEN_CDR {
 	
-	public static String strPrePath = "";//寃쎈줈媛� �엯�젰�맂寃쎌슦�뒗 �빐�떦 寃쎈줈瑜� 濡쒓렇�굹 �솚寃쎈��닔�뿉�꽌 �씫�뼱�삤寃� �븳�떎.
+	public static String strPrePath = "";//경로가 입력된경우는 해당 경로를 로그나 환경변수에서 읽어오게 한다.
 	
-	private static final long N600000 = 600000;//10遺� = 60留뚯큹
+	private static final long N600000 = 600000;//10분 = 60만초
 	// private static final boolean TEST_MODE = false;
 	public static int heart_beat = 0;
 	private static int call_log_skip_count = 60;
 	private static Calendar pivotFutureTime;
 	private static long loggedTime = 0;
 
-	// �봽濡쒖꽭�뒪�쓽 �떆�옉�젏
+	// 프로세스의 시작점
 	public static void main(String[] args) {
 		
 		if(0 < args.length)
@@ -32,15 +32,15 @@ public class SAFEN_CDR {
 			strPrePath += File.separatorChar;
 		}
 		
-		Utils.getLogger().info("SAFEN_CDR program started!");
+		Utils.getLogger().info("0507_POINT program started!");
 		try {
-			terminate_this();// killme.txt�뙆�씪�씠 議댁옱�븯�뿬�룄 �봽濡쒓렇�옩援щ룞�떆 �젙�긽援щ룞�릺�룄濡�
-							// killme.txt�뙆�씪�쓣 吏��슦怨� �떆�옉�븳�떎.
+			terminate_this();// killme.txt파일이 존재하여도 프로그램구동시 정상구동되도록
+							// killme.txt파일을 지우고 시작한다.
 			doMainProcess();
 			DBConn.close();
 			CdrTrigger w = CdrTrigger.getInstance();
 			w.disconnectCallLogServer();
-			Utils.getLogger().info("SAFEN_CDR program ended!");
+			Utils.getLogger().info("0507_POINT program ended!");
 		} catch (Exception e) {
 			Utils.getLogger().warning(e.getMessage());
 			Utils.getLogger().warning(Utils.stack(e));
@@ -69,7 +69,7 @@ public class SAFEN_CDR {
 	}
 
 	/**
-	 * 硫붿씤�봽濡쒖꽭�뒪
+	 * 메인프로세스
 	 */
 	private static void doMainProcess() {
 		Thread this_thread = Thread.currentThread();
@@ -80,30 +80,30 @@ public class SAFEN_CDR {
 						if (DBConn.getConnection() != null) {
 							Calendar nowTime = Calendar.getInstance();
 							if (pivotFutureTime == null) {
-								pivotFutureTime = nowTime;// 誘몃옒�떆媛꾩쑝濡� �뀑�똿�맖
+								pivotFutureTime = nowTime;// 미래시간으로 셋팅됨
 							}
 
 							long delta_time = pivotFutureTime.getTimeInMillis() - nowTime.getTimeInMillis();
 
-							/* 1遺꾧컙寃� �샊�� 5珥�*60�씠硫� 5遺� 媛꾧꺽�쑝濡� 肄쒕줈洹몃�� 媛깆떊�븳�떎. */
+							/* 1분간격 혹은 5초*60이면 5분 간격으로 콜로그를 갱신한다. */
 							if (60 <= call_log_skip_count++ || delta_time <= 0)
 							{
 								call_log_skip_count = 0;
 								pivotFutureTime = nowTime;
-								pivotFutureTime.add(Calendar.SECOND, 5);//5珥� �썑濡� �뀑�똿�븳�떎.(湲곗〈 5珥�)
+								pivotFutureTime.add(Calendar.SECOND, 5);//5초 후로 셋팅한다.(기존 5초)
 								doProcessCallLog();
 							}
 
 							if (heart_beat < Env.MINUTE) {
-								this_thread.wait(1000);// 1珥� ��湲�
+								this_thread.wait(1000);// 1초 대기
 							} else if (heart_beat < Env.MINUTE * 2) {
-								this_thread.wait(2000);// 2珥� ��湲�
+								this_thread.wait(2000);// 2초 대기
 							} else if (heart_beat < Env.MINUTE * 4) {
-								this_thread.wait(3000);// 3珥� ��湲�
+								this_thread.wait(3000);// 3초 대기
 							} else if (heart_beat < Env.MINUTE * 8) {
-								this_thread.wait(4000);// 4珥� ��湲�
-							} else {// 洹� �쇅�뒗 5珥� ��湲�
-								this_thread.wait(5000);// 5珥� ��湲�
+								this_thread.wait(4000);// 4초 대기
+							} else {// 그 외는 5초 대기
+								this_thread.wait(5000);// 5초 대기
 							}
 
 							if (log10Minute()) {
@@ -118,8 +118,8 @@ public class SAFEN_CDR {
 							*/
 
 						} else {
-							this_thread.wait(10000);// 10珥� ��湲� db媛� �삱�씪�삤湲곕�� 湲곕떎由곕떎.
-							Utils.getLogger().warning("DB�꽌鍮꾩뒪媛� �삱�씪�솕�뒗吏� �솗�씤�븯�꽭�슂!");
+							this_thread.wait(10000);// 10초 대기 db가 올라오기를 기다린다.
+							Utils.getLogger().warning("DB서비스가 올라왔는지 확인하세요!");
 							DBConn.latest_warning = "ErrPOS064";
 						}
 					}
@@ -133,12 +133,12 @@ public class SAFEN_CDR {
 	}
 
 	/**
-	 * SMS愿��젴�맂 �옉�뾽�쓣 泥섎━�븳�떎.
+	 * SMS관련된 작업을 처리한다.
 	 */
 	private static void doSMSProcess() {
-		if (CdrTrigger.nLogonAndCon == 1)// ;//0:理쒖큹(�궇吏쒓� 諛붾�뚮㈃ 0�쑝濡� 蹂�寃쏀븿), 1: �뿰寃�
-											// �꽦怨� 洹몃━怨� 濡쒓렇�씤 �꽦怨�, 2:�뿰寃곗떎�뙣 �샊�� 濡쒓렇�씤 �떎�뙣
-		{// �뿰寃곗꽦怨�
+		if (CdrTrigger.nLogonAndCon == 1)// ;//0:최초(날짜가 바뀌면 0으로 변경함), 1: 연결
+											// 성공 그리고 로그인 성공, 2:연결실패 혹은 로그인 실패
+		{// 연결성공
 			String strYMDH = Utils.getYMDH();
 			if (!strYMDH.equals(CdrTrigger.strYMD_success)) {
 				String[] arrWeekDays = Env.getInstance().sms_success_week_days
@@ -155,7 +155,7 @@ public class SAFEN_CDR {
 					}
 				}
 			}
-		} else {// �뿰寃곗떎�뙣
+		} else {// 연결실패
 			String strYMD = Utils.getYMD();
 			
 			if(!strYMD.equals(CdrTrigger.strYMD_fail))
@@ -165,13 +165,13 @@ public class SAFEN_CDR {
 			}
 			
 		}
-		// CdrTrigger.strYMD_success = "";//SMS�쟾�넚�븳 �궇吏� 留ㅼ＜ 湲덉슂�씪 �삤�쟾 10�떆�뿉 �븳 踰덈쭔
-		// 蹂대깂<nLogonAndCon蹂��닔�� 愿�怨꾧� �엳�떎.>
+		// CdrTrigger.strYMD_success = "";//SMS전송한 날짜 매주 금요일 오전 10시에 한 번만
+		// 보냄<nLogonAndCon변수와 관계가 있다.>
 		// CdrTrigger.strYMD_fail="";
 	}
 
 	/***
-	 * 10遺꾨쭔�떎 濡쒓렇瑜� 李띾룄濡� �븯�뒗 議곌굔�쑝濡� 10遺꾩씠 �쓽���뒗吏�瑜� 泥댄겕�븳�떎.
+	 * 10분만다 로그를 찍도록 하는 조건으로 10분이 흘렀는지를 체크한다.
 	 * 
 	 * @return
 	 */
@@ -186,7 +186,7 @@ public class SAFEN_CDR {
 	}
 
 	/**
-	 * 肄쒕줈洹� �봽濡쒖꽭�뒪 �닔�뻾
+	 * 콜로그 프로세스 수행
 	 */
 	private static void doProcessCallLog() {
 		try {
@@ -209,24 +209,24 @@ public class SAFEN_CDR {
 		}
 	}
 
-	/** n 諛�由촶ec �룞�븞 ��湲고븳�떎.
+	/** n 밀리sec 동안 대기한다.
 	 * 
 	 */
 	private static void waitMiliSec(int n5000) {
 		Thread this_thread = Thread.currentThread();
 		synchronized (this_thread) {
 			try {
-				this_thread.wait(n5000);// 5珥덇컙 ��湲고븳�떎.
+				this_thread.wait(n5000);// 5초간 대기한다.
 			} catch (InterruptedException e) {
 				Utils.getLogger().warning(e.getMessage());
 				DBConn.latest_warning = "ErrPOS012";
 				e.printStackTrace();
-			}// 5珥� ��湲고븿.
+			}// 5초 대기함.
 		}
 	}
 
 	/**
-	 * �븞�쟾�븳 醫낅즺瑜� �닔�뻾�븷吏� �뙋�떒�븳 �썑 臾댄븳猷⑦봽瑜� 吏꾩엯�빐�빞 �븳�떎硫� true瑜� 由ы꽩�븳�떎.
+	 * 안전한 종료를 수행할지 판단한 후 무한루프를 진입해야 한다면 true를 리턴한다.
 	 * 
 	 * @return
 	 */
@@ -234,21 +234,21 @@ public class SAFEN_CDR {
 		if (terminate_this()) {
 			return false;
 		} else {
-			// /�뿬湲곗꽌 DB瑜� �씫�뼱�꽌 �옉�뾽�븳�떎.
+			// /여기서 DB를 읽어서 작업한다.
 			Safen_cmd_queue.doMainProcess();
 			return true;
 		}
 	}
 
 	/**
-	 * 醫낅즺瑜� �닔�뻾�븷吏� 寃곗젙�븳�떎. killme.txt�뙆�씪�씠 議댁옱�븯硫� �븞�쟾�븳 醫낅즺瑜� �닔�뻾�븳�떎. 泥섏쓬 �떆�옉�떆�뿉 �샇異쒕릺湲곕룄 �븯吏�留� 二쎌씠�뒗 湲곕뒫�씠
-	 * �븘�땲�씪 �떎�쓬�뿉 �븞�쟾�븳 醫낅즺瑜� �쐞�븳 �븞�젙�쟻�씤 �닔�뻾�쓣 �쐞�븳 諛⑹븞�씠�떎.
+	 * 종료를 수행할지 결정한다. killme.txt파일이 존재하면 안전한 종료를 수행한다. 처음 시작시에 호출되기도 하지만 죽이는 기능이
+	 * 아니라 다음에 안전한 종료를 위한 안정적인 수행을 위한 방안이다.
 	 * 
 	 * @return
 	 */
 	private static boolean terminate_this() {
 		boolean is_file_exist = false;
-		// 醫낅즺瑜� 紐낅졊�븯�뒗 �뙆�씪�씠 �엳�쑝硫� �븞�쟾�븳 醫낅즺瑜� �닔�뻾�븳�떎.
+		// 종료를 명령하는 파일이 있으면 안전한 종료를 수행한다.
 		File file = new File(SAFEN_CDR.strPrePath + "killme.txt");
 		is_file_exist = file.exists();
 		if (is_file_exist) {

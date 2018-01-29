@@ -1,16 +1,16 @@
-/**
- * PreparedStatement�쓽 �뵒�옄�씤�뙣�꽩�쓣 �쐞�븳 �겢�옒�뒪�엫.
- * closePstmt �쓽 寃��깋寃곌낵 嫄댁닔�뒗
- * openPstmt 寃��깋寃곌낵 嫄댁닔�� �룞�씪�빐�빞 �븿.
- */
 package kr.co.cashq.safen_point;
+/**
+ * PreparedStatement의 디자인패턴을 위한 클래스임.
+ * closePstmt 의 검색결과 건수는
+ * openPstmt 검색결과 건수와 동일해야 함.
+ */
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * �뜲�씠�꽣 �빖�뱾留� 愿��젴 �뵒�옄�씤 �뙣�꽩怨� 愿��젴�맂�떎.
+ * 데이터 핸들링 관련 디자인 패턴과 관련된다.
  * <br>try{openPstmt}
  * <br>catch{}
  * <br>finally{closePstmt}
@@ -26,7 +26,7 @@ public class MyDataObject {
 	String pstmt_str = null;
 
 	/**
-	 * �봽由ы럹�뼱�뱶�뒪�뀒�씠�듃癒쇳듃瑜� �궡遺��쟻�쑝濡� �븷�떦�븳�떎.
+	 * 프리페어드스테이트먼트를 내부적으로 할당한다.
 	 * @param str
 	 * @throws SQLException
 	 */
@@ -36,7 +36,7 @@ public class MyDataObject {
 	}
 
 	/**
-	 * �봽由ы럹�씠�뱶�뒪�뀒�씠�듃癒쇳듃瑜� 由ы꽩�븳�떎.
+	 * 프리페이드스테이트먼트를 리턴한다.
 	 * @return
 	 */
 	public PreparedStatement pstmt() {
@@ -44,7 +44,7 @@ public class MyDataObject {
 	}
 
 	/**
-	 * ResultSet 諛� PreparedStatemet瑜� close�븳�떎.
+	 * ResultSet 및 PreparedStatemet를 close한다.
 	 */
 	public void closePstmt() {
 		pstmtClose();
@@ -86,19 +86,19 @@ public class MyDataObject {
 	}
 
 	/**
-	 * 媛앹껜媛� �냼硫몃맆 �븣 �샇異쒕맂�떎. �떎�닔濡� �빐�젣�릺吏� �븡�븯�뜕 �옄�썝�룄 �빐�젣�븯�뿬 硫붾え由� 臾몄젣瑜� �빐寃고븳�떎.
+	 * 객체가 소멸될 때 호출된다. 실수로 해제되지 않았던 자원도 해제하여 메모리 문제를 해결한다.
 	 */
 	@Override
 	protected void finalize() throws Throwable {
 		if (pstmt != null) {
-			tryClose();//close�븯吏� 紐삵븳怨녹뿉�꽌 硫붾え由� 由��쓣 諛⑹��븳�떎.
-			Utils.getLogger().warning("close�릺吏� �븡�� pstmt =>" + pstmt_str);
+			tryClose();//close하지 못한곳에서 메모리 릭을 방지한다.
+			Utils.getLogger().warning("close되지 않은 pstmt =>" + pstmt_str);
 			DBConn.latest_warning = "ErrPOS026";
 		}
 	}
 
 	/**
-	 * 由ъ젅�듃�뀑�쓣 �븷�떦�븳�떎.
+	 * 리절트셋을 할당한다.
 	 * @param p_rs
 	 * @throws SQLException
 	 */
@@ -111,7 +111,7 @@ public class MyDataObject {
 	}
 
 	/**
-	 * �븷�떦�릺�뿀�뜕 由ъ젅�듃�뀑�쓣 由ы꽩�븳�떎.
+	 * 할당되었던 리절트셋을 리턴한다.
 	 * @return
 	 */
 	public ResultSet rs() {
@@ -119,21 +119,21 @@ public class MyDataObject {
 	}
 
 	/**
-	 * finally遺�遺꾩씠 �븘�땶怨녹뿉�꽌 �샇異쒗븯�뒗 �뵒�옄�씤 �뙣�꽩遺��뿉�꽌 �옄�썝�빐�젣瑜� �쐞�븳 �슜�룄濡� �솢�슜�븳�떎.
+	 * finally부분이 아닌곳에서 호출하는 디자인 패턴부에서 자원해제를 위한 용도로 활용한다.
 	 */
 	public void tryClose() {
 		pstmtClose();
 	}
 
 	/**
-	 * 泥섎━�맂 媛��닔媛� �삁�긽怨� ��由닿꼍�슦 �삤瑜섎찓�떆吏� 臾몄옄�뿴�쓣 由ы꽩�빀�땲�떎.
-	 * @param realCount �떎�젣 泥섎━ 媛��닔
-	 * @param expectedCnt �삁�긽�릺�뒗 泥섎━ 媛��닔
+	 * 처리된 갯수가 예상과 틀릴경우 오류메시지 문자열을 리턴합니다.
+	 * @param realCount 실제 처리 갯수
+	 * @param expectedCnt 예상되는 처리 갯수
 	 * @return
 	 */
 	public String getWarning(int realCount, int expectedCnt) {
 		String retVal;
-		retVal=pstmt_str + "泥섎━寃곌낵媛� ["+expectedCnt+"]媛� �븘�떃�땲�떎.["+ realCount+"]";
+		retVal=pstmt_str + "처리결과가 ["+expectedCnt+"]가 아닙니다.["+ realCount+"]";
 		return retVal;
 	}
 

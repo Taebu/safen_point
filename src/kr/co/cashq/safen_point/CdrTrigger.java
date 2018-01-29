@@ -9,16 +9,16 @@ import java.net.UnknownHostException;
 import java.sql.SQLException;
 
 /**
- * 肄쒕줈洹멸��젴�맂 �뾽臾대줈吏곸쓣 泥섎━�븳�떎. safen_cdr �뀒�씠釉붽낵 愿��젴�맂�떎.
+ * 콜로그관련된 업무로직을 처리한다. safen_cdr 테이블과 관련된다.
  * 
  * @author pgs
  * 
  */
 public class CdrTrigger {
-	public static int nLogonAndCon = 0;//0:理쒖큹(�궇吏쒓� 諛붾�뚮㈃ 0�쑝濡� 蹂�寃쏀븿), 1: �뿰寃� �꽦怨� 洹몃━怨� 濡쒓렇�씤 �꽦怨�, 2:�뿰寃곗떎�뙣 �샊�� 濡쒓렇�씤 �떎�뙣	
-	public static String strYMD_success = "";//SMS�쟾�넚�븳 �궇吏� 留ㅼ＜ 湲덉슂�씪 �삤�쟾 10�떆�뿉 �븳 踰덈쭔 蹂대깂<nLogonAndCon蹂��닔�� 愿�怨꾧� �엳�떎.>
+	public static int nLogonAndCon = 0;//0:최초(날짜가 바뀌면 0으로 변경함), 1: 연결 성공 그리고 로그인 성공, 2:연결실패 혹은 로그인 실패	
+	public static String strYMD_success = "";//SMS전송한 날짜 매주 금요일 오전 10시에 한 번만 보냄<nLogonAndCon변수와 관계가 있다.>
 	
-	public static String strYMD_fail = "";//SMS�쟾�넚�떎�뙣�븳 �궇吏� 留ㅼ씪 �븳 踰� <nLogonAndCon 蹂��닔�� 愿�怨꾧� �엳�떎>
+	public static String strYMD_fail = "";//SMS전송실패한 날짜 매일 한 번 <nLogonAndCon 변수와 관계가 있다>
 	
 	private static final int PACKET_LENGTH_8192 = 8192;
 	private static final int N149 = 149;
@@ -38,7 +38,7 @@ public class CdrTrigger {
 	}
 
 	/**
-	 * 硫붿꽭吏�瑜� 蹂대궦�떎.
+	 * 메세지를 보낸다.
 	 * 
 	 * @param message
 	 */
@@ -59,7 +59,7 @@ public class CdrTrigger {
 	}
 
 	/**
-	 * 硫붿꽭吏�瑜� �닔�떊�븳�떎.
+	 * 메세지를 수신한다.
 	 * 
 	 * @return
 	 */
@@ -70,9 +70,9 @@ public class CdrTrigger {
 				byte[] buf = new byte[PACKET_LENGTH_8192];
 
 				int read = 0;
-				if ((read = bis.read(buf)) > 0) {// �뿬湲곗꽌 �쓳�떟�뾾�뒗 �쁽�긽�씠 �깮湲� �닔 �엳�떎. �듅�엳 �몢踰덉㎏
-													// 吏꾩엯�떆
-													// 洹몃윺 �닔 �엳�떎.
+				if ((read = bis.read(buf)) > 0) {// 여기서 응답없는 현상이 생길 수 있다. 특히 두번째
+													// 진입시
+													// 그럴 수 있다.
 					String str = new String(buf);
 					Utils.getLogger().info("rcv:[" + str.trim() + "]");
 					strbuf.append(new String(buf, 0, read));
@@ -87,7 +87,7 @@ public class CdrTrigger {
 	}
 
 	/**
-	 * 肄쒕줈洹몄꽌踰꾩��쓽 �뿰寃곗쓣 醫낅즺�븳�떎.
+	 * 콜로그서버와의 연결을 종료한다.
 	 */
 	public void disconnectCallLogServer() {
 		if (isConnected) {
@@ -106,7 +106,7 @@ public class CdrTrigger {
 	}
 
 	/**
-	 * DB�옉�뾽�쓣 �닔�뻾�븳�떎.
+	 * DB작업을 수행한다.
 	 * 
 	 * @param paramVal
 	 */
@@ -127,33 +127,33 @@ public class CdrTrigger {
 		String v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11;
 
 		int s = 0;
-		v1 = str.substring(s, s = s + 20).trim();// 怨좎쑀媛�20�옄由�
-		v2 = str.substring(s, s = s + 20).trim();// 諛쒖떊踰덊샇
-		v3 = str.substring(s, s = s + 20).trim();// �젒�냽踰덊샇
-		v4 = str.substring(s, s = s + 20).trim();// 李⑹떊踰덊샇
-		v5 = str.substring(s, s = s + 14).trim();// �뿰寃곗떆�옉�떆媛�
-		v6 = str.substring(s, s = s + 14).trim();// �뿰寃곗쥌猷뚯떆媛�
-		v7 = str.substring(s, s = s + 14).trim();// �꽌鍮꾩뒪�떆�옉�떆媛�
-		v8 = str.substring(s, s = s + 14).trim();// �꽌鍮꾩뒪醫낅즺�떆媛�
-		v9 = str.substring(s, s = s + 6).trim();// �넻�솕 �떆媛�
-		v10 = str.substring(s, s = s + 6).trim();// �꽌鍮꾩뒪 �떆媛�
-		v11 = str.substring(s, s = s + 1).trim();// �넻�솕寃곌낵
+		v1 = str.substring(s, s = s + 20).trim();// 고유값20자리
+		v2 = str.substring(s, s = s + 20).trim();// 발신번호
+		v3 = str.substring(s, s = s + 20).trim();// 접속번호
+		v4 = str.substring(s, s = s + 20).trim();// 착신번호
+		v5 = str.substring(s, s = s + 14).trim();// 연결시작시간
+		v6 = str.substring(s, s = s + 14).trim();// 연결종료시간
+		v7 = str.substring(s, s = s + 14).trim();// 서비스시작시간
+		v8 = str.substring(s, s = s + 14).trim();// 서비스종료시간
+		v9 = str.substring(s, s = s + 6).trim();// 통화 시간
+		v10 = str.substring(s, s = s + 6).trim();// 서비스 시간
+		v11 = str.substring(s, s = s + 1).trim();// 통화결과
 		/*
-		 * 1:�넻�솕 �꽦怨�, 2:李⑹떊 �넻�솕以�, 3:李⑹떊 臾댁쓳�떟, 4:李⑹떊痢� �쉶�꽑遺�議�, 5:李⑹떊踰덊샇 寃곕쾲 �샊�� �쑀�슚�븯吏��븡�� 踰덊샇,
-		 * 6:諛�/李⑹떊�옄 �넻�솕 �뿰寃� �삤瑜�, B:李⑹떊 �떆�룄 以� 諛쒖떊痢� �샇 醫낅즺, F:李⑹떊踰덊샇 �뾾�쓬
+		 * 1:통화 성공, 2:착신 통화중, 3:착신 무응답, 4:착신측 회선부족, 5:착신번호 결번 혹은 유효하지않은 번호,
+		 * 6:발/착신자 통화 연결 오류, B:착신 시도 중 발신측 호 종료, F:착신번호 없음
 		 */
 		String retVal = "";
 		if (dbCallLogProcess(v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11)) {
-			retVal = Utils.paddingLeft(20, v1) + "0000";// �쓳�떟
+			retVal = Utils.paddingLeft(20, v1) + "0000";// 응답
 		} else {
-			retVal = Utils.paddingLeft(20, v1) + "0001";// �굹以묒뿉 �옱�쟾�넚�빐以꾧쾬�쓣 �떦遺��븯�뿬 �꽌踰꾨줈
-														// �떎�떆蹂대깂 DB泥섎━瑜� �븯吏� 紐삵븯���쓬.
+			retVal = Utils.paddingLeft(20, v1) + "0001";// 나중에 재전송해줄것을 당부하여 서버로
+														// 다시보냄 DB처리를 하지 못하였음.
 		}
 		return retVal;
 	}
 
 	/**
-	 * �꽌踰꾩뿉 �떎�떆蹂대궡二쇨린瑜� �슂泥��븯�뒗 寃쎌슦�뿉�뒗 false瑜� 由ы꽩�븿.
+	 * 서버에 다시보내주기를 요청하는 경우에는 false를 리턴함.
 	 * 
 	 * @param v1
 	 * @param v2
@@ -176,7 +176,7 @@ public class CdrTrigger {
 
 		if (Env.getInstance().USE_FILTER == true && "".equals(v4)
 				&& "F".equals(v11)) {
-			// �븘臾닿쾬�룄 �븞�븿. 濡쒓렇�뿉 �뙎吏� �븡怨� �떒吏� 留덉뒪�꽣�뿉 理쒓렐�궗�슜�맂�궇吏쒕줈 ���옣�븳�떎.
+			// 아무것도 안함. 로그에 쌓지 않고 단지 마스터에 최근사용된날짜로 저장한다.
 			result = true;
 		} else {
 			StringBuilder sb = new StringBuilder();
@@ -207,9 +207,9 @@ public class CdrTrigger {
 				dao.pstmt().setString(n++, dt3);
 				dao.pstmt().setString(n++, dt4);
 				dao.pstmt().setInt(n++, Integer.parseInt(v10));
-				dao.pstmt().setString(n++, v3);// 0504踰덊샇
-				dao.pstmt().setString(n++, v4);// 李⑹떊踰덊샇
-				dao.pstmt().setString(n++, v2);// 諛쒖떊踰덊샇
+				dao.pstmt().setString(n++, v3);// 0504번호
+				dao.pstmt().setString(n++, v4);// 착신번호
+				dao.pstmt().setString(n++, v2);// 발신번호
 				dao.pstmt().setInt(n++,
 						Integer.parseInt(v9) - Integer.parseInt(v10));
 				dao.pstmt().setString(n++, v1);
@@ -225,12 +225,12 @@ public class CdrTrigger {
 					result = true;
 				}
 			} catch (SQLException e) {
-				if (-1 < e.getMessage().indexOf("uplicate")) {// 以묐났�씤 寃쎌슦 �꽦怨듭쑝濡�
-																// 媛꾩＜�븳�떎./Duplicate
-																// entry ...瑜�
-																// 由ы꽩�븯湲�
-																// �븣臾몄뿉
-					// �떒, �뾽�뜲�씠�듃瑜� �닔�뻾�븳�떎.? 洹몃깷 臾댁떆�븳�떎.
+				if (-1 < e.getMessage().indexOf("uplicate")) {// 중복인 경우 성공으로
+																// 간주한다./Duplicate
+																// entry ...를
+																// 리턴하기
+																// 때문에
+					// 단, 업데이트를 수행한다.? 그냥 무시한다.
 					result = true;
 				} else {
 					Utils.getLogger().warning(e.getMessage());

@@ -1,12 +1,11 @@
 package kr.co.cashq.safen_point;
 
-import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Database �뿰寃� 媛앹껜
+ * Database 연결 객체
  * @author pgs
  *
  */
@@ -27,9 +26,9 @@ public class DBConn {
 	}
 
 	/**
-	 * DB媛� �뿰寃곕맂 �긽�깭�씤吏� 泥댄겕�븯�뿬 �뿰寃곕릺吏� �븡�븯�쑝硫� �뿰寃고븳�떎.
-	 * �삉�븳 �뿰寃곗씠 �걡�뼱吏� 寃쎌슦 �떎�떆 �뿰寃곗쓣 �떆�룄�븳�떎.
-	 * �븯吏�留� DB媛� �븞�삱�씪�삩 寃쎌슦 怨꾩냽 �뿰寃곗쓣 �떆�룄�븯吏�留� �뿰寃곗씠 �븞�릺誘�濡� �쑀�쓽�빐�빞 �븳�떎.
+	 * DB가 연결된 상태인지 체크하여 연결되지 않았으면 연결한다.
+	 * 또한 연결이 끊어진 경우 다시 연결을 시도한다.
+	 * 하지만 DB가 안올라온 경우 계속 연결을 시도하지만 연결이 안되므로 유의해야 한다.
 	 * @throws SQLException
 	 */
 	public static void dbConCheck() {
@@ -76,7 +75,7 @@ public class DBConn {
 	
 	/**
 	 * jdbc:mysql://localhost:3306/sktl
-	 * �� 媛숈��떇�쑝濡� 由ы꽩�븳�떎.
+	 * 와 같은식으로 리턴한다.
 	 * @return
 	 */
 	private static String CON_STR() {
@@ -84,7 +83,7 @@ public class DBConn {
 	}
 
 	/**
-	 * DB 而⑤꽖�뀡媛앹껜瑜� 由ы꽩�븳�떎.
+	 * DB 컨넥션객체를 리턴한다.
 	 * @return
 	 * @throws Exception 
 	 */
@@ -94,7 +93,7 @@ public class DBConn {
 	}
 
 	/**
-	 * �봽濡쒓렇�옩 �젙�긽醫낅즺�떆 �븳 踰덈쭔 close�븯湲� 沅뚯옣�븿.
+	 * 프로그램 정상종료시 한 번만 close하길 권장함.
 	 */
 	public static void close() {
 		try {
@@ -117,9 +116,9 @@ public class DBConn {
 	}
 
 	/**
-	 * safen_cmd_hist_YYYYMM�뀒�씠釉붿쓽 議댁옱�꽦�쓣 �뙋�떒�븳 �썑
-	 * 議댁옱�븯吏� �븡�쑝硫� �뀒�씠釉붿쓣 �깮�꽦�븳�떎.
-	 * �삉�븳 議댁옱�븯吏� �븡�쑝硫� �빐�떦 �썡�쓽 �씠由꾩쑝濡� �맂 濡쒓렇�뙆�씪�쓣 吏��슫�떎.
+	 * safen_cmd_hist_YYYYMM테이블의 존재성을 판단한 후
+	 * 존재하지 않으면 테이블을 생성한다.
+	 * 또한 존재하지 않으면 해당 월의 이름으로 된 로그파일을 지운다.
 	 * @return
 	 */
 	public static String isExistTableYYYYMM() 
@@ -133,12 +132,12 @@ public class DBConn {
 //			
 //			if (f.exists()) 
 //			{
-//				f.delete();// �뙆�씪�쓣 吏��슫�떎.
+//				f.delete();// 파일을 지운다.
 //			}
 			
 			try {
 				stmt.execute("create table sktl." + hist_table
-						+ " as select * from sktl.safen_cdr limit 0");//�뀒�씠釉붾쭔 �깮�꽦�븯怨� �뜲�씠�꽣�뒗 �삷湲곗� �븡�뒗�떎.
+						+ " as select * from sktl.safen_cdr limit 0");//테이블만 생성하고 데이터는 옮기지 않는다.
 			} catch (SQLException e) {
 				Utils.getLogger().warning(e.getMessage());
 				DBConn.latest_warning = "ErrPOS018";
@@ -154,7 +153,7 @@ public class DBConn {
 	}
 
 	/**
-	 * �뀒�씠釉붿씠 議댁옱�븯�뒗吏� 議곗궗�븳 �썑 議곗궗�븯硫� true瑜� 由ы꽩�븳�떎.
+	 * 테이블이 존재하는지 조사한 후 조사하면 true를 리턴한다.
 	 * @param tname
 	 * @return
 	 */
@@ -163,7 +162,10 @@ public class DBConn {
 
 		boolean exi = false;
 
-		sb.append("select exists(SELECT 1 FROM information_schema.tables WHERE table_schema= '").append(CON_DBNM).append("' AND table_name = ?) a");
+		sb.append("select exists(SELECT 1 FROM information_schema.tables ");
+		sb.append(" WHERE table_schema= '");
+		sb.append(CON_DBNM);
+		sb.append("' AND table_name = ?) a");
 
 		MyDataObject dao = new MyDataObject();
 		try {
