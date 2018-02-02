@@ -56,6 +56,9 @@ public class Safen_cmd_queue {
 		Map<String, String> message_info = new HashMap<String, String>();
 		
 		Map<String, String> push_info = new HashMap<String, String>();
+		/* 플러스친구 */
+		Map<String, String> plusfriend=new HashMap<String, String>();
+		
 		String biz_code="";
 		String token_id="";
 		String mb_hp="";
@@ -64,6 +67,7 @@ public class Safen_cmd_queue {
 		String st_no="";
 		String moddate="1970-01-01 12:00:00";
 		String accdate="1970-01-01 12:00:00";
+		String messages="";
 		String[] regex_rule;
 		String[] regex_array;
 		int eventcnt = 0;
@@ -85,15 +89,9 @@ public class Safen_cmd_queue {
 		
 		/* 비즈톡에 입력된 값 */
 		int wr_idx=0;
-		String regex_key="";
 		String sender_key="";
-		String regex_value="";
 		String result_message="전달성공";
-		/* 포인트 이벤트 정보 */
-		String[] point_event_info	= new String[7];
-		/* 유저 이벤트 정보 */
-		String[] user_event_info	= new String[3];
-		
+
 
 		if (con != null) {
 			MyDataObject dao = new MyDataObject();
@@ -160,81 +158,128 @@ public class Safen_cmd_queue {
 						regex_rule=message_info.get("gcm_regex").split("&");
 					}
 					
-					Map<String, String> messageMap=new HashMap<String, String>();
-					/* 매장이름 */
-					messageMap.put("store.name",store_info.get("name"));
-					
-					/* 매장(상점)전화번호 */
-					messageMap.put("store.tel",store_info.get("tel"));
-					
-					/* 미션조건 */
-					messageMap.put("agencyMember.point_items",getPointSet(agency_info.get("point_items")));
-					
-					/* 포인트 최소 인정금액 */
-					messageMap.put("agencyMember.min_point",String.format("%,d", Integer.parseInt(agency_info.get("min_point"))));
-					
-					/* 대리점 관리자의 핸드폰 번호를 불러 옵니다. 기본값 01077430009 */
-					messageMap.put("agencyMember.cell",agency_info.get("cell"));
-					
-					/* 랜덤 6자리 치환 */
-					messageMap.put("function.get_rand_int",String.valueOf(get_rand_int()));
-					
-					
-					
-					/* 템플릿을 정해진 패턴대로 변경 합니다. 
-					 * @param bt_content 템플릿 내용, 
-					 * @param bt_regex 템플릿 패턴
-					 * @param messageMap 템플릿 패턴을 바꿀 내용
-					 * */
-					/* gcm messages */
-					String messages=chg_regexrule(message_info.get("gcm_message"),message_info.get("gcm_regex"), messageMap);
-					System.out.println(messages);
-					
-					/* GCM 적립메세지 성공 여부 
-					 * 현금할인북(cashb) 만 예외처리 */
-					if(!"cashb".equals(appid))
-					{
-						success_gcm=set_gcm(messages,messages,mb_hp,appid);
-					}
-					
-					
-					if(!success_gcm)
-					{
-						result_message="전송 실패";
-					}
-					/* ata messages */
-					push_info.put("appid",appid);
-					push_info.put("stype","PNT_GCM");
-					push_info.put("biz_code",biz_code);
-					push_info.put("caller",mb_hp);
-					push_info.put("called",store_info.get("r_tel"));
-					push_info.put("wr_subject",messages);
-					push_info.put("wr_content","JAVA Safen_point TEST");
-					push_info.put("result",result_message);
-					/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
-					set_site_push_log(push_info);
-					//success_gcm=false;
-					/* ATA 전송 */
-					if(!success_gcm)
-					{
-						/* gcm 전송 실패시  */
-						regex_rule=message_info.get("ata_regex").split("&");
-						messages=chg_regexrule(message_info.get("ata_message"),message_info.get("ata_regex"), messageMap);
+					/**/
+					if(message_info.get("gcm_status").equals("access")){
+
+						Map<String, String> messageMap=new HashMap<String, String>();
+						/* 매장이름 */
+						messageMap.put("store.name",store_info.get("name"));
+						
+						/* 매장(상점)전화번호 */
+						messageMap.put("store.tel",store_info.get("tel"));
+						
+						/* 미션조건 */
+						messageMap.put("agencyMember.point_items",getPointSet(agency_info.get("point_items")));
+						
+						/* 포인트 최소 인정금액 */
+						messageMap.put("agencyMember.min_point",String.format("%,d", Integer.parseInt(agency_info.get("min_point"))));
+						
+						/* 대리점 관리자의 핸드폰 번호를 불러 옵니다. 기본값 01077430009 */
+						messageMap.put("agencyMember.cell",agency_info.get("cell"));
+						
+						/* 랜덤 6자리 치환 */
+						messageMap.put("function.get_rand_int",String.valueOf(get_rand_int()));
+						
+						
+						
+						/* 템플릿을 정해진 패턴대로 변경 합니다. 
+						 * @param bt_content 템플릿 내용, 
+						 * @param bt_regex 템플릿 패턴
+						 * @param messageMap 템플릿 패턴을 바꿀 내용
+						 * */
+						/* gcm messages */
+						messages=chg_regexrule(message_info.get("gcm_message"),message_info.get("gcm_regex"), messageMap);
 						System.out.println(messages);
 						
-						sender_key=getSenderKey(appid);
-						System.out.println("sender_key : "+sender_key);
-						/* ATA 전송*/
-						Map<String, String> ata_info = new HashMap<String, String>();
-						ata_info.put("template_code",message_info.get("bt_code"));
-						ata_info.put("content",messages);
-						//ata_info.put("mb_hp",mb_hp);
-						ata_info.put("mb_hp",mb_hp);
-						ata_info.put("tel",store_info.get("tel"));
-						ata_info.put("sender_key",sender_key);
-						wr_idx=set_em_mmt_tran(ata_info);
+						/* GCM 적립메세지 성공 여부 
+						 * 현금할인북(cashb) 만 예외처리 */
+						if(!"cashb".equals(appid))
+						{
+							success_gcm=set_gcm(messages,messages,mb_hp,appid);
+						}
 						
-						/* Site_push_log*/
+						
+						if(!success_gcm)
+						{
+							result_message="전송 실패";
+						}
+						/* ata messages */
+						push_info.put("appid",appid);
+						push_info.put("stype","PNT_GCM");
+						push_info.put("biz_code",biz_code);
+						push_info.put("caller",mb_hp);
+						push_info.put("called",store_info.get("r_tel"));
+						push_info.put("wr_subject",messages);
+						push_info.put("wr_content","JAVA Safen_point TEST");
+						push_info.put("result",result_message);
+						/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
+						set_site_push_log(push_info);
+						//success_gcm=false;
+						/* ATA 전송 */
+						if(!success_gcm)
+						{
+							/* gcm 전송 실패시  */
+							regex_rule=message_info.get("ata_regex").split("&");
+							messages=chg_regexrule(message_info.get("ata_message"),message_info.get("ata_regex"), messageMap);
+							System.out.println(messages);
+							
+							plusfriend=getSenderKey(appid);
+							System.out.println("sender_key : "+plusfriend.get("bp_senderid"));
+							System.out.println("sender_key : "+plusfriend.get("bp_status"));
+							if(plusfriend.get("bp_status").equals("access"))
+							{
+								/* ATA 전송*/
+								Map<String, String> ata_info = new HashMap<String, String>();
+								ata_info.put("template_code",message_info.get("bt_code"));
+								ata_info.put("content",messages);
+								//ata_info.put("mb_hp",mb_hp);
+								ata_info.put("mb_hp",mb_hp);
+								ata_info.put("tel",store_info.get("tel"));
+								ata_info.put("sender_key",plusfriend.get("bp_senderid"));
+								wr_idx=set_em_mmt_tran(ata_info);
+								
+								/* Site_push_log*/
+								push_info.put("appid",appid);
+								push_info.put("stype","ATASEND");
+								push_info.put("biz_code",biz_code);
+								push_info.put("caller",mb_hp);
+								push_info.put("called",store_info.get("r_tel"));
+								push_info.put("wr_subject",messages);
+								push_info.put("wr_content","JAVA Safen_point TEST");
+								push_info.put("result","전송대기");
+								push_info.put("wr_idx",String.valueOf(wr_idx));
+								/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
+								set_site_push_log(push_info);
+							}else if(plusfriend.get("bp_status").equals("stop")){
+								messages="플러스 친구가 정지된 아이디 입니다.";
+								/* Site_push_log*/
+								push_info.put("appid",appid);
+								push_info.put("stype","ATASEND");
+								push_info.put("biz_code",biz_code);
+								push_info.put("caller",mb_hp);
+								push_info.put("called",store_info.get("r_tel"));
+								push_info.put("wr_subject",messages);
+								push_info.put("wr_content","JAVA Safen_point TEST");
+								push_info.put("result","전송대기");
+								push_info.put("wr_idx",String.valueOf(wr_idx));
+								set_site_push_log(push_info);
+							}else if(plusfriend.get("bp_status").equals("terminate")){
+								/* Site_push_log*/
+								messages="플러스 친구가 해지된 아이디 입니다.";
+								push_info.put("appid",appid);
+								push_info.put("stype","ATASEND");
+								push_info.put("biz_code",biz_code);
+								push_info.put("caller",mb_hp);
+								push_info.put("called",store_info.get("r_tel"));
+								push_info.put("wr_subject",messages);
+								push_info.put("wr_content","JAVA Safen_point TEST");
+								push_info.put("result","전송대기");
+								push_info.put("wr_idx",String.valueOf(wr_idx));
+								set_site_push_log(push_info);							
+							}
+						} /* ATA  전송 if(!success_gcm){...} */
+					}else if(message_info.get("gcm_status").equals("stop"))	{
+						messages="플러스아이디가  정지된 아이디 입니다.";
 						push_info.put("appid",appid);
 						push_info.put("stype","ATASEND");
 						push_info.put("biz_code",biz_code);
@@ -244,9 +289,22 @@ public class Safen_cmd_queue {
 						push_info.put("wr_content","JAVA Safen_point TEST");
 						push_info.put("result","전송대기");
 						push_info.put("wr_idx",String.valueOf(wr_idx));
-						/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
-						set_site_push_log(push_info);
-					} /* ATA  전송 if(!success_gcm){...} */
+						set_site_push_log(push_info);						
+					}else if(message_info.get("gcm_status").equals("terminate")){
+						messages="플러스아이디가 해지된 아이디 입니다.";
+						push_info.put("appid",appid);
+						push_info.put("stype","ATASEND");
+						push_info.put("biz_code",biz_code);
+						push_info.put("caller",mb_hp);
+						push_info.put("called",store_info.get("r_tel"));
+						push_info.put("wr_subject",messages);
+						push_info.put("wr_content","JAVA Safen_point TEST");
+						push_info.put("result","전송대기");
+						push_info.put("wr_idx",String.valueOf(wr_idx));
+						set_site_push_log(push_info);						
+					}
+
+
 				} /* while(dao.rs().next()) {...} */
 			} catch (SQLException e) {
 				Utils.getLogger().warning(e.getMessage());
@@ -275,20 +333,25 @@ public class Safen_cmd_queue {
 	 * @param appid
 	 * @return
 	 */
-	private static String getSenderKey(String appid) {
+	private static Map<String, String> getSenderKey(String appid) {
 		// TODO Auto-generated method stub
-
-		String sender_key="";
+		
+			// TODO Auto-generated method stub
+		Map<String, String> plusfriend=new HashMap<String, String>();
+		
 		StringBuilder sb = new StringBuilder();
 		MyDataObject dao = new MyDataObject();
-		sb.append("SELECT sender_key FROM cashq.bt_sender where appid = ?");
+		sb.append("SELECT * FROM cashq.bt_plusfriend where bp_appid = ?");
 		try {
 			dao.openPstmt(sb.toString());
 			dao.pstmt().setString(1, appid);
 			dao.setRs (dao.pstmt().executeQuery());
 			while(dao.rs().next()) 
 			{
-				sender_key=dao.rs().getString("sender_key");
+				plusfriend.put("bp_senderid", dao.rs().getString("bp_senderid"));
+				plusfriend.put("bp_status", dao.rs().getString("bp_status"));
+				plusfriend.put("bp_terminate_date", dao.rs().getString("bp_terminate_date"));
+				plusfriend.put("bp_stop_date", dao.rs().getString("bp_stop_date"));
 			}			
 		}catch (SQLException e) {
 			Utils.getLogger().warning(e.getMessage());
@@ -302,7 +365,7 @@ public class Safen_cmd_queue {
 		finally {
 			dao.closePstmt();
 		}
-		return sender_key;
+		return plusfriend;
 	}
 
 
@@ -516,7 +579,7 @@ public class Safen_cmd_queue {
 		
 		StringBuilder sb = new StringBuilder();
 		MyDataObject dao = new MyDataObject();
-		sb.append("select * from cashq.bt_template where po_status='1' and appid=? and bt_status='access' ");
+		sb.append("select * from cashq.bt_template where po_status='1' and appid=?");
 		try {
 			dao.openPstmt(sb.toString());
 			dao.pstmt().setString(1, appid);
@@ -531,6 +594,7 @@ public class Safen_cmd_queue {
 					message.put("gcm_title",dao.rs().getString("bt_name"));
 					message.put("gcm_message",dao.rs().getString("bt_content"));
 					message.put("gcm_regex",dao.rs().getString("bt_regex"));
+					message.put("gcm_status",dao.rs().getString("bt_status"));
 				}
 				else if(dao.rs().getString("bt_type").equals("ata"))
 				{
@@ -538,12 +602,14 @@ public class Safen_cmd_queue {
 					message.put("ata_message",dao.rs().getString("bt_content"));
 					message.put("ata_regex",dao.rs().getString("bt_regex"));
 					message.put("bt_code",dao.rs().getString("bt_code"));
+					message.put("ata_status",dao.rs().getString("bt_status"));
 				}
 				else if(dao.rs().getString("bt_type").equals("sms"))
 				{
 					message.put("sms_title",dao.rs().getString("bt_name"));
 					message.put("sms_message",dao.rs().getString("bt_content"));
 					message.put("sms_regex",dao.rs().getString("bt_regex"));
+					message.put("sms_status",dao.rs().getString("bt_status"));
 				}
 			}			
 		}catch (SQLException e) {
@@ -1953,8 +2019,9 @@ call_hangup_dt: 2016-07-22 18:13:16
 				returnValue=returnValue+keys[0]+"회 주문시 "+String.format("%,d", Integer.parseInt(keys[1]))+"원\n";
 			}
 		}catch(ArrayIndexOutOfBoundsException e){
-			returnValue="5회 주문시 10,000원\n";
-			returnValue="10회 주문시  20,000원\n";
+			returnValue="";
+			returnValue=returnValue+"5회 주문시 10,000원\n";
+			returnValue=returnValue+"10회 주문시  20,000원\n";
 		}
 		return returnValue;
 	}
