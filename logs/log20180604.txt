@@ -1,0 +1,854 @@
+Jun 04, 2018 12:04:59 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:06:45 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:15:00 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:25:01 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:35:01 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:37:24 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:45:03 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:55:06 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:05:07 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:15:10 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:25:13 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:35:16 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:45:20 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:55:23 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:59:56 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:05:25 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:15:26 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:20:57 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:25:27 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:35:27 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:45:28 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:55:31 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:05:34 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:15:35 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:24:55 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:25:37 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:35:40 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:45:42 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:55:45 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:04:17 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 4:05:45 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:15:46 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:25:49 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:34:54 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 4:35:50 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:45:50 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:55:51 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:05:55 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:15:59 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:26:03 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:36:07 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:46:11 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:56:14 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:06:18 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:16:22 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:26:26 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:36:28 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:46:31 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:56:35 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:06:36 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:16:40 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:26:42 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:36:43 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:46:47 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:56:49 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:06:53 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:16:56 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:25:33 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:26:57 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:37:02 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:47:03 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:57:04 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:07:07 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:17:08 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:27:10 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:37:14 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:47:17 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:57:18 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:07:19 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:07:23 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:17:22 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:27:23 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:37:24 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:38:03 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:43:53 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:47:25 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:57:26 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:01:59 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:07:27 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:08:06 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:13:26 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:13:30 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:17:09 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:17:28 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:22:17 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:24:49 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:25:06 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:27:29 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:30:20 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:32:02 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:34:30 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:36:58 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:37:30 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:47:31 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:48:42 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:55:17 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:57:32 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:59:50 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:01:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:01:57 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:06:15 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:06:22 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:06:28 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:07:32 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:12:48 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:17:34 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:18:25 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:18:27 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:23:39 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:27:25 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:27:34 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:37:35 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:39:01 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:41:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:43:54 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:45:09 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:45:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:46:04 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:47:35 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:49:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 12:57:36 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 12:58:04 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 1:07:37 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:16:09 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 1:17:39 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:19:36 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 1:20:31 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 1:23:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 1:24:18 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 1:27:40 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:37:41 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:38:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 1:47:42 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:57:42 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 1:59:01 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 1:59:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:07:42 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:08:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:13:53 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:17:42 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:20:51 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:25:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:27:43 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:29:46 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:37:43 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:40:39 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:47:43 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 2:53:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 2:57:45 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:01:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:02:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:07:47 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:11:36 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:17:48 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:27:49 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:29:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:31:59 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:36:19 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:37:49 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:41:55 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:47:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:47:51 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 3:54:15 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 3:57:51 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:03:19 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 4:07:52 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:08:07 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 4:11:33 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 4:17:54 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:21:46 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 4:27:54 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:37:54 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:38:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 4:47:55 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:50:30 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 4:50:32 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 4:57:57 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 4:59:48 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:02:37 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:05:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:07:57 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:10:09 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:11:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:14:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:16:48 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:17:58 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:19:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:20:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:21:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:22:13 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:22:44 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:25:18 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:26:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:27:58 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:31:17 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:36:43 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:38:00 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:38:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:39:44 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:44:18 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:48:00 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 5:48:03 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:49:24 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:51:35 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:51:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:52:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:53:07 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:53:54 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:55:24 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:57:26 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 5:58:02 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:01:18 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:03:17 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:08:03 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:09:57 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:15:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:17:20 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:17:33 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:18:03 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:18:36 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:20:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:21:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:21:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:21:32 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:22:35 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:23:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:24:01 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:25:09 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:28:04 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:28:53 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:29:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:30:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:30:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:31:17 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:33:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:33:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:34:21 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:34:54 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:37:43 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:38:05 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:38:50 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:42:04 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:46:03 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:46:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:47:31 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:48:06 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:49:57 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:53:21 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:54:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:54:55 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:56:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:58:06 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 6:58:07 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 6:59:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:00:28 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:00:54 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:01:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:02:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:06:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:06:15 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:07:20 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:08:10 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:10:30 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:11:31 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:13:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:13:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:14:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:14:39 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:14:56 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:15:37 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:16:21 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:16:57 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:17:19 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:18:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:18:12 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:19:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:19:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:20:23 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:20:54 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:21:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:21:37 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:23:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:23:18 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:24:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:24:43 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:27:51 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:28:13 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:28:25 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:29:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:30:19 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:31:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:31:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:34:36 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:38:14 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:38:21 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:39:04 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:40:14 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:41:51 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:43:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:43:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:45:38 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:47:31 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:48:15 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 7:54:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:55:25 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:55:31 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 7:58:15 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:04:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:04:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:04:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:04:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:07:35 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:08:17 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:09:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:09:55 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:11:17 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:11:19 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:14:26 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:15:33 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:16:17 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:18:17 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:18:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:18:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:19:59 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:20:16 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:20:54 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:21:25 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:25:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:25:35 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:28:19 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:29:18 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:30:15 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:30:24 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:30:50 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:34:23 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:35:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:38:21 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:39:39 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:41:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:42:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:44:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:45:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:48:21 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:50:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:51:53 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:56:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 8:58:21 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 8:59:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:01:18 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:06:26 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:06:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:07:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:08:17 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:08:22 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:12:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:13:22 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:14:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:16:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:18:22 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:19:08 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:19:19 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:20:16 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:28:24 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:28:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:31:12 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:35:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:36:19 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:36:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:36:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:37:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:38:25 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:39:48 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:41:15 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:45:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:46:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:47:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:47:12 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:48:26 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 9:48:46 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:49:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:52:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:53:28 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:55:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 9:58:27 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:00:04 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:00:50 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:04:23 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:08:27 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:08:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:10:36 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:12:08 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:14:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:15:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:18:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:18:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:18:28 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:19:26 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:25:28 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:26:13 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:28:07 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:28:28 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:33:54 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:33:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:38:29 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:40:25 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:43:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:45:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:48:30 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:49:51 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:56:33 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 10:58:30 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 10:59:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:02:15 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:08:31 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:11:50 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:14:17 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:17:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:18:32 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:21:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:24:31 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:28:33 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:38:33 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:40:27 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:46:24 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:48:34 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Jun 04, 2018 11:54:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Jun 04, 2018 11:58:35 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive

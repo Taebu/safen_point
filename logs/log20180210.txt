@@ -1,0 +1,288 @@
+Feb 10, 2018 12:05:59 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:15:59 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:26:01 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:36:01 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:46:01 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:56:02 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:06:02 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:16:04 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:26:05 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:36:08 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:46:09 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:56:11 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:06:14 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:16:17 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:26:17 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:36:17 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:46:18 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:56:18 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:06:21 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:16:21 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:26:23 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:36:25 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:46:29 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:56:32 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:06:35 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:16:38 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:26:40 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:36:44 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:46:44 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:56:46 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:06:48 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:16:51 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:26:53 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:36:57 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:47:00 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:57:04 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:07:07 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:17:11 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:27:14 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:37:18 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:47:21 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:57:25 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:07:28 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:17:32 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:27:35 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:37:39 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:47:43 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:57:45 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:07:48 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:17:50 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:27:54 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:37:57 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:47:59 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:58:00 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:08:02 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:18:03 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:28:05 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:38:05 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:48:07 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:58:10 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:08:10 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:18:10 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:28:11 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:38:13 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:48:13 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:58:14 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:08:15 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:18:17 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:28:18 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:38:18 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:48:19 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:58:20 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:08:20 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:18:21 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:28:21 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:38:21 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:48:22 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 12:58:23 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:08:23 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:18:24 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:28:25 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:38:25 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:48:25 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 1:58:26 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:08:26 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:18:26 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:28:27 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:38:28 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:48:28 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 2:58:29 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:08:30 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:18:30 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:28:31 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:38:31 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:48:31 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 3:58:32 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:08:33 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:18:34 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:28:35 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:38:36 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:48:37 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 4:58:38 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:08:38 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:18:38 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:28:40 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:38:41 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:48:42 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 5:58:42 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:08:42 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:18:43 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:28:43 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:38:44 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:48:44 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 6:58:45 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:08:46 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:18:47 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:28:48 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:38:49 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:48:51 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 7:58:51 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:08:52 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:18:52 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:28:53 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:38:53 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:48:53 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 8:58:53 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:08:54 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:18:54 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:28:54 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:38:54 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:48:55 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 9:58:55 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:08:56 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:18:56 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:28:57 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:38:58 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:48:58 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 10:58:59 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:08:59 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:18:59 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:29:00 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:39:01 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:49:01 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 10, 2018 11:59:01 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive

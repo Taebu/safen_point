@@ -1,0 +1,1299 @@
+2월 27, 2018 12:08:22 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:18:23 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:28:25 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:38:27 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:48:27 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:58:28 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:08:28 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:18:29 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:28:31 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:38:33 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:48:35 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:58:38 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:08:40 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:18:41 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:28:44 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:38:47 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:48:49 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:58:49 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:08:52 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:18:55 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:28:56 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:38:58 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:48:59 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:59:01 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:09:02 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:19:04 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:29:06 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:39:07 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:49:09 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:59:12 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 5:09:12 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 5:19:16 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 5:29:21 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 5:39:23 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 5:49:24 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 5:59:26 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 6:09:28 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 6:19:30 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 6:29:31 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 6:39:33 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 6:49:35 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 6:59:36 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 7:09:38 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 7:19:39 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 7:29:41 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 7:39:42 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 7:49:43 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 7:59:43 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 8:09:47 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 8:19:50 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 8:29:52 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 8:39:54 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 8:49:59 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 9:00:02 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 9:10:04 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 9:20:05 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 9:30:09 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 9:40:09 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 9:50:10 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 10:00:12 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 10:10:13 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 10:20:14 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 10:30:15 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 10:40:17 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 10:50:19 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 11:00:20 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 11:10:21 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 11:20:22 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 11:30:23 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 11:40:25 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 11:50:25 오전 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:00:26 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:10:27 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:20:27 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:30:28 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:40:29 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 12:50:29 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:00:31 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:10:33 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:20:34 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:30:35 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:40:36 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 1:50:36 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:00:36 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:10:37 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:20:38 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:30:38 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:40:38 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 2:50:40 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:00:40 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:10:40 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:20:42 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:30:43 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:40:44 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 3:50:45 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:00:45 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:10:46 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:20:47 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:30:47 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:40:48 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+2월 27, 2018 4:50:50 오후 kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+정보: SAFEN_CDR alive
+Feb 27, 2018 4:56:01 PM kr.co.cashq.safen_point.SAFEN_CDR main
+INFO: 0507_POINT program started!
+Feb 27, 2018 4:56:02 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 4:56:02 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 4:56:03 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 4:56:03 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 4:56:04 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 4:56:14 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 4:56:14 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 4:56:29 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 4:56:29 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 4:58:03 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 4:58:03 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 4:58:10 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 4:58:10 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 4:59:12 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 4:59:12 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:00:13 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:00:13 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:00:24 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:00:24 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:00:45 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:00:45 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:01:04 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:01:04 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:01:25 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:01:25 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:01:36 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:01:36 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:01:44 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:01:44 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:01:51 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:01:51 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:02:05 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:02:05 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:02:22 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:02:22 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:02:27 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:02:27 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:02:40 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:02:40 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:03:12 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:03:12 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:04:19 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:04:19 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:04:44 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:04:44 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:04:55 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:04:55 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:05:14 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:05:14 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:05:14 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:05:14 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:05:24 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:05:24 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:05:39 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:05:39 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:05:40 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:05:40 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:05:43 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:05:43 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:05:54 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:05:54 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:06:01 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:06:01 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:06:04 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 5:06:26 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:06:26 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:06:34 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:06:34 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:07:31 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:07:31 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:08:00 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:08:00 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:08:07 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:08:07 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:08:20 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:08:20 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:408)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:242)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:08:47 PM kr.co.cashq.safen_point.SAFEN_CDR main
+INFO: 0507_POINT program started!
+Feb 27, 2018 5:08:49 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 5:14:08 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:14:08 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:407)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:241)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:18:49 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 5:19:35 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: Column 'caller' cannot be null
+Feb 27, 2018 5:19:35 PM kr.co.cashq.safen_point.Safen_cmd_queue set_site_push_log
+WARNING: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'caller' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2145)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2081)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2066)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.set_site_push_log(Safen_cmd_queue.java:407)
+	at kr.co.cashq.safen_point.Safen_cmd_queue.doMainProcess(Safen_cmd_queue.java:241)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doWork(SAFEN_CDR.java:238)
+	at kr.co.cashq.safen_point.SAFEN_CDR.doMainProcess(SAFEN_CDR.java:78)
+	at kr.co.cashq.safen_point.SAFEN_CDR.main(SAFEN_CDR.java:39)
+
+Feb 27, 2018 5:24:23 PM kr.co.cashq.safen_point.SAFEN_CDR main
+INFO: 0507_POINT program started!
+Feb 27, 2018 5:24:25 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 5:34:26 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 5:38:37 PM kr.co.cashq.safen_point.SAFEN_CDR main
+INFO: 0507_POINT program ended!
+Feb 27, 2018 5:38:49 PM kr.co.cashq.safen_point.SAFEN_CDR main
+INFO: 0507_POINT program started!
+Feb 27, 2018 5:38:51 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 5:46:10 PM kr.co.cashq.safen_point.SAFEN_CDR main
+INFO: 0507_POINT program ended!
+Feb 27, 2018 5:46:22 PM kr.co.cashq.safen_point.SAFEN_CDR main
+INFO: 0507_POINT program started!
+Feb 27, 2018 5:46:24 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 5:56:25 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 6:06:25 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 6:16:26 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 6:26:28 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 6:36:29 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 6:46:30 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 6:56:31 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 7:06:32 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 7:16:32 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 7:26:33 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 7:36:35 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 7:46:37 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 7:56:38 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 8:06:39 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 8:16:39 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 8:26:40 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 8:36:40 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 8:46:41 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 8:56:42 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 9:06:42 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 9:16:43 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 9:26:43 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 9:36:44 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 9:46:45 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 9:56:45 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 10:06:46 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 10:16:47 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 10:26:47 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 10:36:47 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 10:46:48 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 10:56:49 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 11:06:49 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 11:16:49 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 11:26:49 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 11:36:50 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 11:46:52 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Feb 27, 2018 11:56:53 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
