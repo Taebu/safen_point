@@ -17,34 +17,34 @@ public class RegexTest {
 		
 		
 		Map<String, String> messageMap=new HashMap<String, String>();
-		messageMap.put("store.name","ì•…ë§ˆì¡±ë°œ");
+		messageMap.put("store.name","¾Ç¸¶Á·¹ß");
 		messageMap.put("store.tel","050-8515-0493");
-		messageMap.put("agencyMember.point_items","3ê°œ 5,000ì›ì ë¦½\n5ê°œ 10,000ì›ì ë¦½\n10ê°œ 20,000ì›ì ë¦½");
+		messageMap.put("agencyMember.point_items","3°³ 5,000¿øÀû¸³\n5°³ 10,000¿øÀû¸³\n10°³ 20,000¿øÀû¸³");
 
-		String bt_content="[#{ë§¤ì¥ëª…}]ì„ ì´ìš©í•´ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤.\n";
-		bt_content+="ì ë¦½ë²ˆí˜¸ : [#{050ë²ˆí˜¸}]\n";
+		String bt_content="[#{¸ÅÀå¸í}]À» ÀÌ¿ëÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.\n";
+		bt_content+="Àû¸³¹øÈ£ : [#{050¹øÈ£}]\n";
 		bt_content+="\n";
-		bt_content+="ê³ ê°ë‹˜ì—ê²Œ \"2,000ì›\" ì ë¦½ í•´ë“œë ¸ìŠµë‹ˆë‹¤.\n";
-		bt_content+="\"ë°°ë‹¬í†¡í†¡\" ì–´í”Œë¡œ ì ‘ì†í•˜ì‹œë©´ í™•ì¸ê°€ëŠ¥í•©ë‹ˆë‹¤.\n";
+		bt_content+="°í°´´Ô¿¡°Ô \"2,000¿ø\" Àû¸³ ÇØµå·È½À´Ï´Ù.\n";
+		bt_content+="\"¹è´ŞÅåÅå\" ¾îÇÃ·Î Á¢¼ÓÇÏ½Ã¸é È®ÀÎ°¡´ÉÇÕ´Ï´Ù.\n";
 		bt_content+="\n";
-		bt_content+="[ìƒˆë¡œìš´ ë¯¸ì…˜ë‚´ìš©]\n";
-		bt_content+="#{ë¯¸ì…˜ë‚´ìš©}\n";
-		bt_content+="ì ë¦½ê¸°ê°„ : ì£¼ë¬¸ì¼ ë¶€í„° 60ì¼ í›„ ì†Œë©¸\n";
+		bt_content+="[»õ·Î¿î ¹Ì¼Ç³»¿ë]\n";
+		bt_content+="#{¹Ì¼Ç³»¿ë}\n";
+		bt_content+="Àû¸³±â°£ : ÁÖ¹®ÀÏ ºÎÅÍ 60ÀÏ ÈÄ ¼Ò¸ê\n";
 		bt_content+="\n";
-		bt_content+="ìš”ì¦˜ íŠ¸ëœë“œì— ë§ê²Œ ë°°ë‹¬ìŒì‹ì„ ì£¼ë¬¸ ì‹œ ë§ˆë‹¤ í˜„ê¸ˆì ë¦½ ì–´í”Œì„ ìƒˆë¡­ê²Œ ì¶œì‹œ í•˜ì˜€ìŠµë‹ˆë‹¤.\n";
-		bt_content+="ê³ ê°ë‹˜ë§Œì„ ìœ„í•œ ë°°ë‹¬ì–´í”Œì„ ì§€ê¸ˆ í™•ì¸ í•˜ì„¸ìš”!\n";
+		bt_content+="¿äÁò Æ®·£µå¿¡ ¸Â°Ô ¹è´ŞÀ½½ÄÀ» ÁÖ¹® ½Ã ¸¶´Ù Çö±İÀû¸³ ¾îÇÃÀ» »õ·Ó°Ô Ãâ½Ã ÇÏ¿´½À´Ï´Ù.\n";
+		bt_content+="°í°´´Ô¸¸À» À§ÇÑ ¹è´Ş¾îÇÃÀ» Áö±İ È®ÀÎ ÇÏ¼¼¿ä!\n";
 		bt_content+="\n";
-		bt_content+="ì ë¦½ê¸ˆ ê´€ë ¨ ê¶ê¸ˆí•œ ì ì€ 1599-9495 ìœ¼ë¡œ ë¬¸ì˜í•´ ì£¼ì„¸ìš”\n";
+		bt_content+="Àû¸³±İ °ü·Ã ±Ã±İÇÑ Á¡Àº 1599-9495 À¸·Î ¹®ÀÇÇØ ÁÖ¼¼¿ä\n";
 		bt_content+="\n";
-		bt_content+="\"ë°°ë‹¬í†¡í†¡\" ì•± í¬ì¸íŠ¸ í™•ì¸ ë§í¬\n";
+		bt_content+="\"¹è´ŞÅåÅå\" ¾Û Æ÷ÀÎÆ® È®ÀÎ ¸µÅ©\n";
 		bt_content+="http://bdtalk.co.kr/m/p/ ";
 
-		String bt_regex="#{ë§¤ì¥ëª…}=store.name&#{050ë²ˆí˜¸}=store.tel&#{ë¯¸ì…˜ë‚´ìš©}=agencyMember.point_items";		
+		String bt_regex="#{¸ÅÀå¸í}=store.name&#{050¹øÈ£}=store.tel&#{¹Ì¼Ç³»¿ë}=agencyMember.point_items";		
 		
-		/* í…œí”Œë¦¿ì„ ì •í•´ì§„ íŒ¨í„´ëŒ€ë¡œ ë³€ê²½ í•©ë‹ˆë‹¤. 
-		 * @param bt_content í…œí”Œë¦¿ ë‚´ìš©, 
-		 * @param bt_regex í…œí”Œë¦¿ íŒ¨í„´
-		 * @param messageMap í…œí”Œë¦¿ íŒ¨í„´ì„ ë°”ê¿€ ë‚´ìš©
+		/* ÅÛÇÃ¸´À» Á¤ÇØÁø ÆĞÅÏ´ë·Î º¯°æ ÇÕ´Ï´Ù. 
+		 * @param bt_content ÅÛÇÃ¸´ ³»¿ë, 
+		 * @param bt_regex ÅÛÇÃ¸´ ÆĞÅÏ
+		 * @param messageMap ÅÛÇÃ¸´ ÆĞÅÏÀ» ¹Ù²Ü ³»¿ë
 		 * */
 		//String messages=chg_regexrule(bt_content,bt_regex, messageMap);
 		//System.out.println(messages);
@@ -59,9 +59,9 @@ public class RegexTest {
 	/**
 	 * @param point_set ="3_5000&5_10000&10_20000"
 	 * @return
-	 * 3ê°œ 5,000ì›
-	 * 5ê°œ 10,000ì›
-	 * 10ê°œ 20,000ì›
+	 * 3°³ 5,000¿ø
+	 * 5°³ 10,000¿ø
+	 * 10°³ 20,000¿ø
 	 */
 	private static String getPointSet(String point_set) {
 		// TODO Auto-generated method stub
@@ -69,38 +69,38 @@ public class RegexTest {
 		String[] keys;
 		String returnValue="";
 
-		/* bt_regex ì˜ í¬ê¸° ë§Œí¼ ë°˜ë³µí•˜ì—¬ ë³€í™˜í•œë‹¤. */
+		/* bt_regex ÀÇ Å©±â ¸¸Å­ ¹İº¹ÇÏ¿© º¯È¯ÇÑ´Ù. */
 		for (int i = 0; i < regex_array.length; i++) {
 			keys=regex_array[i].split("_");
-			returnValue=returnValue+keys[0]+"ê°œ "+String.format("%,d", Integer.parseInt(keys[1]))+"ì›\n";
+			returnValue=returnValue+keys[0]+"°³ "+String.format("%,d", Integer.parseInt(keys[1]))+"¿ø\n";
 		}
 		return returnValue;
 	}
 
 	/**
 	 * @param bt_content
-	 * ë©”ì„¸ì§€ ì „ë¬¸ê³¼ ë³€í™˜ë  í…ìŠ¤íŠ¸ê°€ ì§€ì • ë˜ì–´ ìˆìŠµë‹ˆë‹¤. ì •í•´ì§„ ë£°ì˜ íŒ¨í„´ì´ ì§€ì • ë˜ì–´ ìˆìŠµë‹ˆë‹¤.
-	 *  íŒ¨í„´ì˜ ì˜ˆ 
-	 *  #{ë§¤ì¥ëª…}ì„ ì´ìš©í•´ ì£¼ì…”ì„œ #{050ë²ˆí˜¸}
+	 * ¸Ş¼¼Áö Àü¹®°ú º¯È¯µÉ ÅØ½ºÆ®°¡ ÁöÁ¤ µÇ¾î ÀÖ½À´Ï´Ù. Á¤ÇØÁø ·êÀÇ ÆĞÅÏÀÌ ÁöÁ¤ µÇ¾î ÀÖ½À´Ï´Ù.
+	 *  ÆĞÅÏÀÇ ¿¹ 
+	 *  #{¸ÅÀå¸í}À» ÀÌ¿ëÇØ ÁÖ¼Å¼­ #{050¹øÈ£}
 	 * 
 	 * @param bt_regex
-	 *  ë£°ì˜ ê·œì¹™ì„ ë„£ìŠµë‹ˆë‹¤. bt_contentì—ì„œ ì„ ì–¸í•œ #{í‚¤ê°’}ì˜ ëª¨ë“  íŒ¨í„´ì€ ì•„ë˜ì™€ ê°™ì´ ëª¨ë‘ ì„ ì–¸ ë˜ì–´ ìˆì–´ì•¼ í•©ë‹ˆë‹¤.        
+	 *  ·êÀÇ ±ÔÄ¢À» ³Ö½À´Ï´Ù. bt_content¿¡¼­ ¼±¾ğÇÑ #{Å°°ª}ÀÇ ¸ğµç ÆĞÅÏÀº ¾Æ·¡¿Í °°ÀÌ ¸ğµÎ ¼±¾ğ µÇ¾î ÀÖ¾î¾ß ÇÕ´Ï´Ù.        
 	 *  
-	 *  ì˜ˆ) 
-	 *  #{ë§¤ì¥ëª…}=store.name&#{050ë²ˆí˜¸}=store.tel
+	 *  ¿¹) 
+	 *  #{¸ÅÀå¸í}=store.name&#{050¹øÈ£}=store.tel
 	 *  
-	 *  ë¼ë©´ ë‘ê°œì˜ ê·œì¹™ì´ ì¡´ì¬í•˜ê³  #{ë§¤ì¥ëª…}ì„ store.nameì˜ ë§µì˜ í‚¤ë¡œ ì§€ì •í•©ë‹ˆë‹¤.  
+	 *  ¶ó¸é µÎ°³ÀÇ ±ÔÄ¢ÀÌ Á¸ÀçÇÏ°í #{¸ÅÀå¸í}À» store.nameÀÇ ¸ÊÀÇ Å°·Î ÁöÁ¤ÇÕ´Ï´Ù.  
 	 * @param messageMap
-	 *  ìœ„ì—ì„œ ì§€ì •í•œ store.nameì˜ í‚¤ê°€ í•¨ìˆ˜ í˜¸ì¶œì „ì— ì•„ë˜ì™€ ê°™ì€ í˜•íƒœë¡œ ì •ì˜ ë˜ì–´ ì¸ìˆ˜ë¡œ ë“¤ì–´ê°€ì•¼ í•©ë‹ˆë‹¤.
+	 *  À§¿¡¼­ ÁöÁ¤ÇÑ store.nameÀÇ Å°°¡ ÇÔ¼ö È£ÃâÀü¿¡ ¾Æ·¡¿Í °°Àº ÇüÅÂ·Î Á¤ÀÇ µÇ¾î ÀÎ¼ö·Î µé¾î°¡¾ß ÇÕ´Ï´Ù.
 	 *  Map<String, String> messageMap=new HashMap<String, String>();
-		messageMap.put("store.name","íƒœë¶€ì¹˜í‚¨");
+		messageMap.put("store.name","ÅÂºÎÄ¡Å²");
 	 * @return
 	 */
 	private static String chg_regexrule(String bt_content, String bt_regex, Map<String, String> messageMap) {
 		// TODO Auto-generated method stub
 		String[] regex_array=bt_regex.split("&");
 		String[] keys;
-		/* bt_regex ì˜ í¬ê¸° ë§Œí¼ ë°˜ë³µí•˜ì—¬ ë³€í™˜í•œë‹¤. */
+		/* bt_regex ÀÇ Å©±â ¸¸Å­ ¹İº¹ÇÏ¿© º¯È¯ÇÑ´Ù. */
 		for (int i = 0; i < regex_array.length; i++) {
 			keys=regex_array[i].split("=");
 			bt_content=bt_content.replace(keys[0], messageMap.get(keys[1]));

@@ -10,11 +10,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -50,7 +45,7 @@ public class Safen_cmd_queue {
 	public static void doMainProcess() {
 		Connection con = DBConn.getConnection();
 		/* 대리점 정보 */
-		Map<String, String> agency_info   = new HashMap<String, String>();
+		Map<String, String>  agency_info	   = new HashMap<String, String>();
 		/* 상점 정보 */
 		Map<String, String> store_info      = new HashMap<String, String>();
 		
@@ -180,10 +175,27 @@ public class Safen_cmd_queue {
 						messageMap.put("function.get_rand_int",String.valueOf(get_rand_int()));
 						
 						
+						messageMap.put("downlink","http://hdu.cashq.co.kr/m/p/");
+
+						/* 개인이 보유한 모든 사용가능 0507_point에 발급한 모든  포인트 합산 금액을 불러옵니다. */
+						messageMap.put("function.total_point",get_total_point(mb_hp));
 						
+						/* 개인이 보유한 모든 사용가능 0507_point.status=1인 0507_point.point포인트가 sum한 결과를 불러옵니다. */
+						messageMap.put("function.get_point",get_point(mb_hp));
+						
+						/* #{사용가능포인트} = cashq.agencyMember.minimum_point */
+						messageMap.put("agencyMember.minimum_point",agency_info.get("minimum_point"));
+						
+						
+						/* 상점읨 공유 링크를 가져 옵니다. 
+						 * http://bdmt.cashq.co.kr/m/p/?seq=%s
+						 * */
+						messageMap.put("store.sharelink",get_sharelink(st_no));
+						
+
 						/* 템플릿을 정해진 패턴대로 변경 합니다. 
 						 * @param bt_content 템플릿 내용, 
-						 * @param bt_regex 템플릿 패턴
+						 * @param bt_regex 템플릿 패턴ㅋ`
 						 * @param messageMap 템플릿 패턴을 바꿀 내용
 						 * */
 						/* gcm messages */
@@ -381,7 +393,6 @@ public class Safen_cmd_queue {
 	/**
 	 * 사이트 푸시로그를 전송합니다.  
 	 * 입력 : 푸시 인포.앱아이디, stype,biz_code, caller, called, wr_subject, wr_content result
-
 	 */
 	private static void set_site_push_log(Map<String, String> push_info) {
 		// TODO Auto-generated method stub
@@ -692,6 +703,7 @@ public class Safen_cmd_queue {
 		agency.put("pointset","off");
 		agency.put("point_items","5_10000&10_20000");
 		agency.put("min_point","12000");
+		agency.put("minimum_point","10000");
 		agency.put("cell","01077430009");
 		
 		
@@ -713,6 +725,7 @@ public class Safen_cmd_queue {
 				}
 				agency.put("min_point",dao.rs().getString("min_point"));
 				agency.put("cell",dao.rs().getString("cell"));
+				agency.put("minimum_point",dao.rs().getString("minimum_point"));
 			}			
 		}catch (SQLException e) {
 			Utils.getLogger().warning(e.getMessage());
@@ -765,7 +778,7 @@ public class Safen_cmd_queue {
 			dao.closePstmt();
 		}
 	}
-
+ 
 
 	/**
 	 * @param bt_content
@@ -804,7 +817,6 @@ public class Safen_cmd_queue {
 				returnValue=bt_content;
 			}
 		}catch(NullPointerException e){
-			Utils.getLogger().warning(e.getMessage()+"<- 여기를 거치는지 여부? chg_regexrule.");
 			returnValue=bt_content;
 		}
 		return returnValue;
@@ -856,4 +868,91 @@ public class Safen_cmd_queue {
 	    }
 	    return result;
 	}
+
+
+	
+	/**
+	 * @param appid
+	 * @return
+	 */
+	private static String get_total_point(String mb_hp) {
+		// TODO Auto-generated method stub
+		
+			// TODO Auto-generated method stub
+		String total_point = "0";
+		
+		StringBuilder sb = new StringBuilder();
+		MyDataObject dao = new MyDataObject();
+		sb.append("SELECT * FROM cashq.0507_point where mb_hp = ?");
+		try {
+			dao.openPstmt(sb.toString());
+			dao.pstmt().setString(1, mb_hp);
+			dao.setRs (dao.pstmt().executeQuery());
+			while(dao.rs().next()) 
+			{
+				total_point = dao.rs().getString("bp_senderid");
+			}			
+		}catch (SQLException e) {
+			Utils.getLogger().warning(e.getMessage());
+			DBConn.latest_warning = "ErrPOS039";
+			e.printStackTrace();
+		}catch (Exception e) {
+			Utils.getLogger().warning(e.getMessage());
+			Utils.getLogger().warning(Utils.stack(e));
+			DBConn.latest_warning = "ErrPOS040";
+		}
+		finally {
+			dao.closePstmt();
+		}
+		return total_point;
+	}
+	
+	
+		/* 사용자가 가진 모든 포인트 값을 환산하여 더한 연산 결과를 가져옵니다.
+		 * 
+		 */
+		private static String get_point(String mb_hp){
+			String point = "0";
+			StringBuilder sb = new StringBuilder();
+			MyDataObject dao = new MyDataObject();
+			sb.append("SELECT ");
+			sb.append(" sum(point) sum_point ");
+			sb.append("FROM cashq.0507_point ");
+			sb.append("where mb_hp = ? ");
+			sb.append(" and status='1';");
+			
+			try {
+				dao.openPstmt(sb.toString());
+				dao.pstmt().setString(1, mb_hp);
+				dao.setRs (dao.pstmt().executeQuery());
+				while(dao.rs().next()) 
+				{
+					point = dao.rs().getString("sum_point");
+				}			
+			}catch (SQLException e) {
+				Utils.getLogger().warning(e.getMessage());
+				DBConn.latest_warning = "ErrPOS039";
+				e.printStackTrace();
+			}catch (Exception e) {
+				Utils.getLogger().warning(e.getMessage());
+				Utils.getLogger().warning(Utils.stack(e));
+				DBConn.latest_warning = "ErrPOS040";
+			}
+			finally {
+				dao.closePstmt();
+			}		
+			return point;
+		}
+
+		/* 가맹점이 설정한 코드 공유 링크 정보를 가져옵니다.
+		 * 
+		 */
+		private static String get_sharelink(String st_no){
+		String sharelink = "";
+		sharelink = String.format("http://bdmt.cashq.co.kr/m/p/?seq=%s",st_no);
+
+		return sharelink;
+		}
+
+
 }

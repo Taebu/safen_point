@@ -23,6 +23,8 @@ public class SAFEN_CDR {
 	private static Calendar pivotFutureTime;
 	private static long loggedTime = 0;
 
+
+
 	// 프로세스의 시작점
 	public static void main(String[] args) {
 		

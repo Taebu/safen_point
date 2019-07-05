@@ -1,0 +1,1835 @@
+Nov 06, 2018 12:03:38 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:04:16 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:08:10 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:08:10 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:09:44 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:09:44 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:13:41 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:23:41 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:31:14 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:31:14 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:33:42 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:43:43 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:53:44 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:58:51 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:03:47 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:13:48 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:23:48 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:33:52 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:43:53 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:53:55 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:03:55 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:13:56 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:23:58 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:33:59 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:44:00 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:49:02 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:54:02 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:04:06 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:08:49 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:14:08 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:24:12 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:34:13 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:44:16 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:54:17 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:04:17 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:14:18 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:24:19 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:34:19 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:44:21 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:54:21 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:04:23 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:14:24 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:24:24 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:34:24 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:44:25 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:54:25 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:04:25 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:14:26 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:24:26 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:34:26 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:44:27 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:54:27 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:04:28 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:14:28 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:24:29 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:28:09 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:28:09 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:34:30 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:36:28 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:44:32 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:54:35 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:00:48 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:04:38 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:14:39 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:18:57 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:18:57 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:24:41 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:34:43 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:44:44 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:54:47 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:04:47 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:14:48 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:19:37 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:24:50 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:34:52 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:44:52 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:54:53 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:04:55 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:08:50 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:08:50 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:10:50 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:14:56 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:24:57 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:27:10 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:34:57 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:38:44 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:38:44 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:44:58 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:46:47 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:46:47 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:55:00 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:56:16 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:58:48 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:59:43 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:00:14 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:05:02 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:07:29 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:07:29 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:11:21 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:13:08 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:15:02 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:16:38 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:16:58 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:16:58 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:17:04 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:17:04 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:22:15 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:24:25 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:24:25 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:25:00 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:25:03 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:32:11 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:33:36 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:34:19 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:34:19 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:35:04 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:35:08 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:36:40 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:36:40 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:42:54 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:44:47 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:44:47 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:45:05 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:46:58 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:47:38 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:48:58 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:51:37 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:51:37 AM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:53:55 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:55:06 AM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:55:21 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:55:49 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:56:18 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:57:32 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:57:34 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:57:39 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:57:54 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:59:22 AM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:01:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:03:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:05:06 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:06:06 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:08:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:08:52 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:08:52 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:11:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:11:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:12:11 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:12:11 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:15:07 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:16:06 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:16:06 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:17:04 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:17:04 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:20:38 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:21:31 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:21:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:22:46 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:22:46 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:24:55 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:25:07 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:26:27 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:29:15 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:29:15 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:35:09 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:35:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:37:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:37:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:40:36 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:41:25 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:41:25 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:44:18 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:45:09 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:48:10 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:48:10 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:49:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 12:49:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 12:50:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:50:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 12:55:10 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 12:58:53 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:02:23 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:03:15 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 1:03:15 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 1:05:10 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:05:50 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 1:05:50 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 1:06:53 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:09:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 1:09:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 1:10:08 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 1:10:08 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 1:10:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:13:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:15:11 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:15:12 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 1:15:12 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 1:24:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:24:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:25:12 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:25:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:26:04 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:27:40 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 1:27:40 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 1:31:20 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:33:37 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:35:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:35:13 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:36:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 1:36:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 1:37:46 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 1:37:46 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 1:38:14 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:45:14 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:45:54 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 1:45:54 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 1:51:04 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:52:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:55:14 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 1:55:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:56:04 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 1:58:32 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:01:20 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:03:07 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:04:23 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 2:04:23 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 2:05:16 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:06:35 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:07:43 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 2:07:43 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 2:15:16 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:18:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:21:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:22:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:25:16 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:27:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:28:48 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:29:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:32:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:35:17 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:36:26 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:37:38 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:38:02 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 2:38:02 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 2:42:13 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 2:42:13 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 2:45:18 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:50:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 2:55:19 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 2:58:36 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:03:22 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:05:21 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:15:21 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:19:22 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:20:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 3:20:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 3:22:28 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:25:22 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:28:50 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 3:28:50 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 3:31:32 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:35:23 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:42:33 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 3:42:33 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 3:45:25 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:46:27 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:48:07 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:52:22 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 3:52:22 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 3:55:28 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 3:57:53 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:58:02 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 3:58:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 3:58:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:04:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:04:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:05:28 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:08:55 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 4:15:28 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:25:29 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:26:21 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 4:28:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:28:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:30:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 4:32:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:32:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:32:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 4:35:29 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:36:32 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 4:42:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 4:43:40 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:43:40 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:44:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:44:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:44:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:44:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:45:31 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:49:13 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 4:52:25 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:52:25 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:52:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:52:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:53:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:53:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:54:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:54:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:55:32 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 4:57:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:57:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 4:59:25 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 4:59:25 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:01:06 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:02:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:03:09 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:05:33 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:06:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:06:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:09:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:10:08 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:10:08 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:10:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:10:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:12:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:13:30 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:13:30 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:14:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:14:53 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:15:03 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:15:35 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:16:53 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:17:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:17:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:17:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:17:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:20:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:20:27 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:25:36 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:26:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:26:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:27:58 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:27:58 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:30:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:30:44 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:30:44 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:34:11 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:34:11 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:35:08 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:35:37 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:36:31 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:37:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:37:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:37:51 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:37:51 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:38:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:38:54 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:40:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:40:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:42:51 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:42:51 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:45:38 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:50:19 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:53:02 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:53:02 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:53:07 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:54:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:54:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:54:56 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:55:30 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:55:41 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 5:55:54 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:56:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:56:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:57:26 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:57:26 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:58:01 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:58:01 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:58:37 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 5:59:01 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:59:01 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:59:40 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:59:40 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 5:59:42 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 5:59:42 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:02:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:02:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:02:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:02:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:02:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:02:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:03:10 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:03:10 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:03:46 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:04:07 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:04:33 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:05:43 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:06:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:06:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:08:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:08:39 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:09:18 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:10:20 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:10:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:10:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:11:19 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:11:19 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:11:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:14:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:14:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:14:41 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:14:41 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:14:46 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:15:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:15:44 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:16:17 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:16:17 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:16:23 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:16:23 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:16:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:16:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:17:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:17:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:18:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:18:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:18:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:18:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:18:41 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:18:41 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:20:36 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:20:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:22:46 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:22:46 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:22:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:24:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:24:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:25:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:25:37 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:25:46 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:30:38 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:30:53 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:30:53 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:31:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:31:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:31:48 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:32:36 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:33:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:33:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:35:10 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:35:10 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:35:47 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:36:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:37:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:37:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:39:13 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:39:15 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:42:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:42:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:42:11 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:42:11 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:43:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:43:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:44:14 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:44:40 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:44:40 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:45:33 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:45:51 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:47:24 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:47:35 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:47:35 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:48:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:50:04 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:50:04 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:50:24 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:51:50 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:51:50 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:54:25 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:55:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:55:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:55:16 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 6:55:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:55:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 6:55:52 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 6:58:58 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 6:58:58 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:01:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:02:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:02:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:02:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:02:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:02:25 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:02:53 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:03:14 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:03:14 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:04:48 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:05:46 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:05:53 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:07:44 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:08:35 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:08:35 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:09:08 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:09:32 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:10:14 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:10:14 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:12:33 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:13:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:13:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:13:46 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:13:58 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:13:58 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:14:17 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:14:17 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:15:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:15:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:15:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:15:54 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:15:54 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:15:55 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:16:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:16:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:18:19 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:18:19 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:18:59 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:19:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:19:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:20:26 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:21:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:21:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:23:56 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:25:13 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:25:22 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:25:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:25:47 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:25:55 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:26:10 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:27:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:29:55 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:31:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:34:44 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:34:44 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:35:55 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:36:14 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:36:14 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:38:03 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:39:33 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:39:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:39:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:39:43 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:39:43 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:39:50 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:39:50 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:40:15 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:41:07 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:41:07 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:41:11 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:41:11 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:41:53 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:41:53 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:41:55 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:41:55 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:41:57 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:42:08 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:44:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:44:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:45:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:45:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:45:58 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:47:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:47:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:52:09 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:52:09 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:52:23 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 7:52:39 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:52:39 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:54:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:54:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:55:59 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 7:56:12 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 7:56:12 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 7:59:16 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:00:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:00:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:01:00 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:03:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:03:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:05:08 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:05:59 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:06:33 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:06:33 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:07:32 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:08:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:09:56 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:09:56 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:10:19 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:10:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:13:02 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:13:02 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:13:56 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:14:13 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:14:13 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:16:00 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:16:51 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:16:51 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:17:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:17:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:21:04 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:21:04 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:21:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:21:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:22:29 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:23:37 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:25:52 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:25:52 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:26:00 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:26:11 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:26:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:26:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:26:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:26:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:28:30 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:29:25 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:29:25 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:30:46 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:30:46 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:33:07 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:34:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:35:28 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:36:01 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:39:22 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:39:48 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:39:48 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:39:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:39:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:40:34 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:40:34 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:43:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:43:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:43:34 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:45:25 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:45:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:46:02 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:46:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:46:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:46:23 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:46:35 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:46:35 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:46:55 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:47:03 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:48:28 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:49:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:49:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:49:54 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:49:54 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:50:51 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:52:57 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:53:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:53:18 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 8:55:45 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 8:56:03 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 8:56:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 8:56:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:00:15 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:03:56 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:03:56 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:05:22 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:05:22 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:05:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:06:03 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:09:21 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:09:41 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:09:41 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:09:58 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:09:58 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:12:23 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:12:23 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:12:56 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:14:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:15:59 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:16:04 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:16:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:18:12 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:19:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:19:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:22:43 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:22:43 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:26:05 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:26:39 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:26:43 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:26:46 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:27:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:27:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:30:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:30:36 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:35:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:35:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:36:05 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:37:14 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:38:34 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:38:34 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:40:17 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:42:15 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:42:15 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:42:49 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:43:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:45:33 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:46:06 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:47:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:47:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:49:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:49:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:49:07 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:49:07 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:51:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:51:21 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:51:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:51:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:52:07 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:52:07 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:54:33 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:54:33 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:55:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:55:16 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:55:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:55:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:56:07 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 9:57:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:58:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 9:58:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 9:58:58 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 9:58:59 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:00:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:00:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:00:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:00:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:00:49 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:00:51 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:00:51 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:00:53 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:00:53 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:06:09 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:06:26 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:06:26 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:08:06 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:08:06 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:08:24 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:09:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:09:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:09:41 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:11:12 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:16:09 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:17:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:17:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:23:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:23:57 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:26:11 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:26:40 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:26:42 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:27:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:27:03 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:31:50 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:32:31 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:34:53 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:34:53 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:35:03 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:36:12 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:36:32 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:36:43 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:36:43 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:38:08 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:38:08 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:39:24 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:44:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:44:24 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:46:12 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 10:46:47 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:48:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:48:27 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:50:48 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:50:48 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:51:39 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:51:39 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:54:00 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:54:00 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:54:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:54:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:55:33 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 10:55:33 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 10:56:05 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 10:56:14 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:05:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:05:05 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:06:15 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:06:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:06:37 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:10:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:10:32 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:11:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:11:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:13:59 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:16:17 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:19:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:19:20 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:26:18 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:26:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:26:31 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:31:52 PM kr.co.cashq.safen_point.Safen_cmd_queue chg_regexrule
+WARNING: null<- 여기를 거치는지 여부? chg_regexrule.
+Nov 06, 2018 11:36:01 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: null
+Nov 06, 2018 11:36:01 PM kr.co.cashq.safen_point.Safen_cmd_queue doMainProcess
+WARNING: java.lang.NullPointerException
+
+Nov 06, 2018 11:36:20 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:46:23 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive
+Nov 06, 2018 11:56:23 PM kr.co.cashq.safen_point.SAFEN_CDR doMainProcess
+INFO: SAFEN_CDR alive

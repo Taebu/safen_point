@@ -124,7 +124,7 @@ public class DBConn {
 	public static String isExistTableYYYYMM() 
 	{
 		boolean isExistLogTable = false;
-		String hist_table = "safen_cdr_" + Utils.getYYYYMM();
+		String hist_table = "cdr_" + Utils.getYYYYMM();
 		isExistLogTable = isExistTable(hist_table);
 		if (isExistLogTable == false)
 		{
@@ -136,8 +136,8 @@ public class DBConn {
 //			}
 			
 			try {
-				stmt.execute("create table sktl." + hist_table
-						+ " as select * from sktl.safen_cdr limit 0");//테이블만 생성하고 데이터는 옮기지 않는다.
+				stmt.execute("create table ifpl." + hist_table
+						+ " as select * from ifpl.cdr limit 0");//테이블만 생성하고 데이터는 옮기지 않는다.
 			} catch (SQLException e) {
 				Utils.getLogger().warning(e.getMessage());
 				DBConn.latest_warning = "ErrPOS018";
