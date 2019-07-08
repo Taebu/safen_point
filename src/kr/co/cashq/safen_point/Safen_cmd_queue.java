@@ -657,7 +657,7 @@ public class Safen_cmd_queue {
 		
 		StringBuilder sb = new StringBuilder();
 		MyDataObject dao = new MyDataObject();
-		sb.append("select * from cashq.bt_template where po_status='1' and appid=?");
+		sb.append("select * from cashq.bt_template where po_status='1' and bt_status='access' and appid=?");
 		try {
 			dao.openPstmt(sb.toString());
 			dao.pstmt().setString(1, appid);
