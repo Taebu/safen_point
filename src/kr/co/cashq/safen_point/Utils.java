@@ -46,7 +46,7 @@ public class Utils {
 
 	/**
 	 * 로거를 리턴한다.
-	 * new File을 하기 전에 SAFEN_CDR.strPrePath를 더해야 함에 유의해야 한다.
+	 * new File을 하기 전에 SAFEN_POINT.strPrePath를 더해야 함에 유의해야 한다.
 	 * linux에서 cd경로 문제 때문에
 	 * 
 	 * @return
@@ -54,7 +54,7 @@ public class Utils {
 	public static Logger getLogger() {
 		String strHandler = getLoggerFilePath();
 
-		File logsf = new File(SAFEN_CDR.strPrePath + "logs");// logs폴더
+		File logsf = new File(SAFEN_POINT.strPrePath + "logs");// logs폴더
 
 		if (checked_logs == false && logsf.exists() == false) {
 			logsf.mkdirs();
@@ -93,7 +93,7 @@ public class Utils {
 	 * @return
 	 */
 	public static String getLoggerFilePath() {
-		return SAFEN_CDR.strPrePath + "logs" + File.separatorChar + "log" + getYMD() + ".txt";
+		return SAFEN_POINT.strPrePath + "logs" + File.separatorChar + "log" + getYMD() + ".txt";
 	}
 
 	/**

@@ -122,7 +122,7 @@ public class Env {
 
 		try {
 			properties = new Properties();
-			properties.loadFromXML(new FileInputStream(SAFEN_CDR.strPrePath + "env.xml"));
+			properties.loadFromXML(new FileInputStream(SAFEN_POINT.strPrePath + "env.xml"));
 		} catch (InvalidPropertiesFormatException e) {
 			System.err.println(e.getMessage());
 			e.printStackTrace();

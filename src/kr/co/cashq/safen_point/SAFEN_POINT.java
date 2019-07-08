@@ -12,7 +12,7 @@ import java.util.Calendar;
  * @author pgs
  * 
  */
-public class SAFEN_CDR {
+public class SAFEN_POINT {
 	
 	public static String strPrePath = "";//경로가 입력된경우는 해당 경로를 로그나 환경변수에서 읽어오게 한다.
 	
@@ -109,7 +109,7 @@ public class SAFEN_CDR {
 							}
 
 							if (log10Minute()) {
-								Utils.getLogger().info("SAFEN_CDR alive");
+								Utils.getLogger().info("SAFEN_POINT alive");
 							}
 
 							/* doSMSProcess */
@@ -251,7 +251,7 @@ public class SAFEN_CDR {
 	private static boolean terminate_this() {
 		boolean is_file_exist = false;
 		// 종료를 명령하는 파일이 있으면 안전한 종료를 수행한다.
-		File file = new File(SAFEN_CDR.strPrePath + "killme.txt");
+		File file = new File(SAFEN_POINT.strPrePath + "killme.txt");
 		is_file_exist = file.exists();
 		if (is_file_exist) {
 			is_file_exist = file.delete();

@@ -34,7 +34,15 @@ import org.json.simple.JSONValue;
  *  @date : 2018-02-27 오후 3:59:13
  *  개선전 : 현금 할인 북인 경우 무조건 전송이 되지 않는 문제 발생 원래는 발송을 했으나 무조건 실패 루틴을 타개 했고, 이 부분을 간혹 발생치 않는 문제가 발생
  *  개선후 : 캐시북(appid=="cashb") 인 경우, 무조건 GCM 발송 없이 ATA 발 
+ *  					
+ * 2019-07-05 [ 금 ]
+ * https://github.com/Taebu/cashq/issues/381
  *  
+ * #{상점링크} = "http://bdmt.cashq.co.kr/m/p/?seq=%s"
+ * #{누적금액} = function.total_point
+ * #{사용가능포인트} = agencyMember.minimum_point
+ * #{상점링크} = store.sharelink
+ * store.sharelink = "http://bdmt.cashq.co.kr/m/p/?seq=%s"
  */
 public class Safen_cmd_queue {
 	
@@ -53,8 +61,13 @@ public class Safen_cmd_queue {
 		Map<String, String> message_info = new HashMap<String, String>();
 		
 		Map<String, String> push_info = new HashMap<String, String>();
+		
 		/* 플러스친구 */
 		Map<String, String> plusfriend=new HashMap<String, String>();
+		
+		Map<String, String> cid_point_info = new HashMap<String, String>();
+		
+		Map<String, String> messageMap=new HashMap<String, String>();
 		
 		String biz_code="";
 		
@@ -62,10 +75,16 @@ public class Safen_cmd_queue {
 		String appid="cashq";
 		
 		String st_no="";
-		
+		String st_name="";
+		String cp_no="";
+		String store_tel ="";
+		String mb_id = "";
 		String messages="";
+		String r_tel = "";
+		
 		String[] regex_rule;
 		String[] regex_array;
+		String[] split;
 		int eventcnt = 0;
 		
 		/* 포인트 갯수를 센다. */
@@ -83,6 +102,7 @@ public class Safen_cmd_queue {
 		/* SMS 전송 성공 여부 */
 		boolean success_sms = false;
 		
+		boolean is_cidpoint = false;
 		/* 비즈톡에 입력된 값 */
 		int wr_idx=0;
 		String sender_key="";
@@ -118,13 +138,46 @@ public class Safen_cmd_queue {
 				dao.setRs(dao.pstmt().executeQuery());
 			  /* 2. 값이 있으면 */
 			   while(dao.rs().next()) {
-					SAFEN_CDR.heart_beat = 1;
-					biz_code=dao.rs().getString("biz_code");
-					mb_hp=dao.rs().getString("mb_hp");
-					
+					SAFEN_POINT.heart_beat = 1;
+					is_cidpoint = dao.rs().getString("ed_type").equals("cidpt");
 					
 					/* 매장의 고유 번호를 불러 옵니다. */
 					st_no=dao.rs().getString("store_seq");
+					
+					/* cid point 이면 */
+					if(is_cidpoint)
+					{
+							/* prq.cid_point_log 정보를 불러 온다.*/
+							cp_no = dao.rs().getString("cp_no");
+							cid_point_info = get_cid_point_log(cp_no);
+						biz_code = cid_point_info.get("prq_store.biz_code");
+						mb_hp = cid_point_info.get("mb_hp");
+						st_name = cid_point_info.get("prq_store.st_name");
+							mb_id = cid_point_info.get("prq_store.mb_id");
+							split = mb_id.split("@");
+						store_tel = split[0];
+						r_tel = store_tel;
+					}
+					
+					/* cid point 가 아니면 */
+					if(!is_cidpoint)
+					{
+						/* 12. 상점 정보를 불러 옵니다. */
+						store_info=get_store(st_no);
+						biz_code=dao.rs().getString("biz_code");
+						mb_hp=dao.rs().getString("mb_hp");
+						st_name = store_info.get("name");
+						store_tel = store_info.get("tel");
+						r_tel = store_info.get("r_tel");
+					}
+					
+					
+					messageMap.put("store.name",st_name);
+					
+					/* 매장(상점)전화번호 */
+					messageMap.put("store.tel",store_tel);
+					
+					
 					System.out.println(dao.rs().getString("seq"));
 					/* 3. 포인트를 사용가능으로 변경합니다. */
 					update_point(dao.rs().getString("seq"));
@@ -141,9 +194,6 @@ public class Safen_cmd_queue {
 					
 					System.out.println(appid);
 					
-					/* 12. 상점 정보를 불러 옵니다. */
-					store_info=get_store(st_no);
-					
 					/* 템플릿 메세지를 가져옵니다. */
 					message_info=get_bt_template(appid);
 					System.out.println(message_info.get("gcm_message"));
@@ -151,48 +201,56 @@ public class Safen_cmd_queue {
 					{
 						regex_rule=message_info.get("gcm_regex").split("&");
 					}
-					
+										
 					/**/
-					if(message_info.get("gcm_status").equals("access")){
+					if(message_info.get("gcm_status").equals("access"))
+					{
+						/*
+						 * 
+						 * 
+						 * 
+					cid_point_info.put("prq_store.st_no", dao.rs().getString("prq_store.st_no"));
+					cid_point_info.put("prq_store.st_name", dao.rs().getString("prq_store.st_name"));
+					cid_point_info.put("prq_store.cid_point", dao.rs().getString("prq_store.cid_point"));
 
-						Map<String, String> messageMap=new HashMap<String, String>();
+						 * 시아이디포인트금액
+						 * */
 						/* 매장이름 */
-						messageMap.put("store.name",store_info.get("name"));
+
 						
-						/* 매장(상점)전화번호 */
-						messageMap.put("store.tel",store_info.get("tel"));
-						
-						/* 미션조건 */
+						/* 적립금액(미션조건), #{적립금액}  */
 						messageMap.put("agencyMember.point_items",getPointSet(agency_info.get("point_items")));
 						
 						/* 포인트 최소 인정금액 */
-						messageMap.put("agencyMember.min_point",String.format("%,d", Integer.parseInt(agency_info.get("min_point"))));
+						messageMap.put("agencyMember.min_point",String.format("%d", Integer.parseInt(agency_info.get("min_point"))));
 						
 						/* 대리점 관리자의 핸드폰 번호를 불러 옵니다. 기본값 01077430009 */
 						messageMap.put("agencyMember.cell",agency_info.get("cell"));
 						
 						/* 랜덤 6자리 치환 */
 						messageMap.put("function.get_rand_int",String.valueOf(get_rand_int()));
-						
-						
-						messageMap.put("downlink","http://hdu.cashq.co.kr/m/p/");
 
-						/* 개인이 보유한 모든 사용가능 0507_point에 발급한 모든  포인트 합산 금액을 불러옵니다. */
+						messageMap.put("downlink","http://hdu.cashq.co.kr/m/p/");
+						
+						 /* 개인이 보유한 모든 사용가능 0507_point에 발급한 모든  포인트 합산 금액을 불러옵니다. */
 						messageMap.put("function.total_point",get_total_point(mb_hp));
 						
 						/* 개인이 보유한 모든 사용가능 0507_point.status=1인 0507_point.point포인트가 sum한 결과를 불러옵니다. */
 						messageMap.put("function.get_point",get_point(mb_hp));
 						
-						/* #{사용가능포인트} = cashq.agencyMember.minimum_point */
+						/* agencyMember.pointset=cashbag
+						 * #{사용가능포인트} = cashq.agencyMember.minimum_point 
+						 * */
 						messageMap.put("agencyMember.minimum_point",agency_info.get("minimum_point"));
 						
-						
-						/* 상점읨 공유 링크를 가져 옵니다. 
-						 * http://bdmt.cashq.co.kr/m/p/?seq=%s
+						/* 상점 공유 링크를 가져 옵니다. 
+						 * http://bdmt.cashq.co.kr/m/p/?seq=%s 형태로 상점 링크를 생성합니다.
 						 * */
 						messageMap.put("store.sharelink",get_sharelink(st_no));
 						
-
+						/* 로그에 기록된 시아이디포인트를 가져온다. */
+						messageMap.put("prq_store.cid_point",cid_point_info.get("prq_store.cid_point"));
+						
 						/* 템플릿을 정해진 패턴대로 변경 합니다. 
 						 * @param bt_content 템플릿 내용, 
 						 * @param bt_regex 템플릿 패턴ㅋ`
@@ -219,7 +277,7 @@ public class Safen_cmd_queue {
 
 						push_info.put("biz_code",biz_code);
 						push_info.put("caller",mb_hp);
-						push_info.put("called",store_info.get("r_tel"));
+						push_info.put("called",r_tel);
 						push_info.put("wr_subject",messages);
 						push_info.put("wr_content","JAVA Safen_point TEST");
 						push_info.put("result",result_message);
@@ -304,7 +362,7 @@ public class Safen_cmd_queue {
 						push_info.put("stype","ATASEND");
 						push_info.put("biz_code",biz_code);
 						push_info.put("caller",mb_hp);
-						push_info.put("called",store_info.get("r_tel"));
+						push_info.put("called",r_tel);
 						push_info.put("wr_subject",messages);
 						push_info.put("wr_content","JAVA Safen_point TEST");
 						push_info.put("result","전송대기");
@@ -316,7 +374,7 @@ public class Safen_cmd_queue {
 						push_info.put("stype","ATASEND");
 						push_info.put("biz_code",biz_code);
 						push_info.put("caller",mb_hp);
-						push_info.put("called",store_info.get("r_tel"));
+						push_info.put("called",r_tel);
 						push_info.put("wr_subject",messages);
 						push_info.put("wr_content","JAVA Safen_point TEST");
 						push_info.put("result","전송대기");
@@ -955,4 +1013,60 @@ public class Safen_cmd_queue {
 		}
 
 
+		/**
+		 * @param cp_no
+		 * @return
+		 */
+		private static Map<String, String> get_cid_point_log(String cp_no) {
+			// TODO Auto-generated method stub
+			
+				// TODO Auto-generated method stub
+			Map<String, String> cid_point_info=new HashMap<String, String>();
+			/* 
+			 * 
+			 * */
+			cid_point_info.put("mb_hp", "01012345678");
+			cid_point_info.put("prq_store.mb_id", "0319044084@naver.com");
+			cid_point_info.put("prq_store.st_no", "st_no");
+			cid_point_info.put("prq_store.st_name", "st_name");
+			cid_point_info.put("prq_store.cid_point", "cid_point");
+			cid_point_info.put("prq_store.biz_code", "biz_code");
+			cid_point_info.put("cp_datetime", "cp_datetime");
+			cid_point_info.put("cp_status", "cp_status");
+			cid_point_info.put("tcl_seq", "tcl_seq");
+			
+			StringBuilder sb = new StringBuilder();
+			MyDataObject dao = new MyDataObject();
+			sb.append("SELECT * FROM prq.prq_cidpoint_log where cp_no = ?");
+			try {
+				dao.openPstmt(sb.toString());
+				dao.pstmt().setString(1, cp_no);
+				dao.setRs (dao.pstmt().executeQuery());
+				while(dao.rs().next()) 
+				{
+					cid_point_info.put("mb_hp", dao.rs().getString("mb_hp"));
+					cid_point_info.put("prq_store.mb_id", dao.rs().getString("prq_store.mb_id"));
+					cid_point_info.put("prq_store.st_no", dao.rs().getString("prq_store.st_no"));
+					cid_point_info.put("prq_store.st_name", dao.rs().getString("prq_store.st_name"));
+					cid_point_info.put("prq_store.cid_point", dao.rs().getString("prq_store.cid_point"));
+					cid_point_info.put("prq_store.biz_code", dao.rs().getString("prq_store.biz_code"));
+					cid_point_info.put("cp_datetime", dao.rs().getString("cp_datetime"));
+					cid_point_info.put("cp_status", dao.rs().getString("cp_status"));
+					cid_point_info.put("tcl_seq", dao.rs().getString("tcl_seq"));
+				}			
+			}catch (SQLException e) {
+				Utils.getLogger().warning(e.getMessage());
+				DBConn.latest_warning = "ErrPOS039";
+				e.printStackTrace();
+			}catch (Exception e) {
+				Utils.getLogger().warning(e.getMessage());
+				Utils.getLogger().warning(Utils.stack(e));
+				DBConn.latest_warning = "ErrPOS040";
+			}
+			finally {
+				dao.closePstmt();
+			}
+			return cid_point_info;
+		}
+		
 }
