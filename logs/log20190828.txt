@@ -1,0 +1,288 @@
+Aug 28, 2019 12:04:53 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:14:53 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:24:54 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:34:56 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:44:57 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:54:58 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:05:00 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:15:00 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:25:02 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:35:04 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:45:04 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:55:04 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:05:08 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:15:11 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:25:14 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:35:14 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:45:16 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:55:17 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:05:21 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:15:24 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:25:26 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:35:27 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:45:29 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:55:30 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:05:31 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:15:33 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:25:34 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:35:35 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:45:36 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:55:37 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:05:38 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:15:42 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:25:45 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:35:45 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:45:48 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:55:49 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:05:50 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:15:51 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:25:53 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:35:54 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:45:55 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:55:56 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:05:58 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:16:00 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:26:04 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:36:07 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:46:12 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:56:13 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:06:14 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:16:16 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:26:17 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:36:18 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:46:19 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:56:22 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:06:22 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:16:25 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:26:26 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:36:29 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:46:29 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:56:29 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:06:32 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:16:32 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:26:34 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:36:35 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:46:36 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:56:37 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:06:38 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:16:38 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:26:39 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:36:41 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:46:41 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:56:42 AM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:06:42 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:16:43 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:26:43 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:36:44 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:46:44 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 12:56:45 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:06:45 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:16:46 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:26:46 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:36:48 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:46:49 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 1:56:50 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:06:51 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:16:51 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:26:51 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:36:53 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:46:54 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 2:56:55 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:06:56 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:16:57 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:26:58 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:36:59 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:47:00 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 3:57:02 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:07:06 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:17:07 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:27:08 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:37:08 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:47:08 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 4:57:09 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:07:10 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:17:10 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:27:11 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:37:12 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:47:13 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 5:57:14 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:07:15 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:17:17 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:27:17 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:37:18 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:47:19 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 6:57:20 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:07:21 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:17:24 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:27:24 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:37:25 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:47:26 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 7:57:31 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:07:32 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:17:34 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:27:35 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:37:36 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:47:39 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 8:57:40 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:07:40 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:17:41 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:27:42 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:37:45 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:47:46 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 9:57:46 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:07:48 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:17:51 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:27:52 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:37:53 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:47:56 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 10:57:57 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:07:58 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:17:59 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:28:00 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:38:01 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:48:01 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive
+Aug 28, 2019 11:58:03 PM kr.co.cashq.safen_point.SAFEN_POINT doMainProcess
+INFO: SAFEN_POINT alive

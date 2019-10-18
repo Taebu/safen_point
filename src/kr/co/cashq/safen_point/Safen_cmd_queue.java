@@ -4,10 +4,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.net.URLEncoder;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -16,7 +18,7 @@ import java.util.Random;
 
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
-//import com.nostech.safen.SafeNo;
+
 
 /**
 
@@ -68,7 +70,13 @@ public class Safen_cmd_queue {
 		Map<String, String> cid_point_info = new HashMap<String, String>();
 		
 		Map<String, String> messageMap=new HashMap<String, String>();
+
+		Map<String, String> ata_info = new HashMap<String, String>();
 		
+		Map<String, String> codes = new HashMap<String, String>();
+		
+		Map<String, String> munjac_info = new HashMap<String, String>();
+						
 		String biz_code="";
 		
 		String mb_hp="";
@@ -103,6 +111,8 @@ public class Safen_cmd_queue {
 		boolean success_sms = false;
 		
 		boolean is_cidpoint = false;
+		
+		boolean is_munjac_result = false;
 		/* 비즈톡에 입력된 값 */
 		int wr_idx=0;
 		String sender_key="";
@@ -144,19 +154,23 @@ public class Safen_cmd_queue {
 					/* 매장의 고유 번호를 불러 옵니다. */
 					st_no=dao.rs().getString("store_seq");
 					
+					
+					
+					
+					
+					
 					/* cid point 이면 */
 					if(is_cidpoint)
 					{
-							/* prq.cid_point_log 정보를 불러 온다.*/
-							cp_no = dao.rs().getString("cp_no");
-							cid_point_info = get_cid_point_log(cp_no);
+						/* prq.cid_point_log 정보를 불러 온다.*/
+						cp_no = dao.rs().getString("cp_no");
+						cid_point_info = get_cid_point_log(cp_no);
 						biz_code = cid_point_info.get("prq_store.biz_code");
 						mb_hp = cid_point_info.get("mb_hp");
 						st_name = cid_point_info.get("prq_store.st_name");
-							mb_id = cid_point_info.get("prq_store.mb_id");
-							split = mb_id.split("@");
-						store_tel = split[0];
-						r_tel = store_tel;
+						mb_id = cid_point_info.get("prq_store.mb_id");
+						st_no = cid_point_info.get("store.seq");
+						store_tel = cid_point_info.get("store.tel");
 					}
 					
 					/* cid point 가 아니면 */
@@ -171,7 +185,10 @@ public class Safen_cmd_queue {
 						r_tel = store_info.get("r_tel");
 					}
 					
-					
+					codes.put("code_3023","N");
+					/* 상점의 모든 코드 정보를 불러온다. */
+					codes = get_codes(st_no);
+					System.out.println(String.format("st_no = > %s ",st_no));					
 					messageMap.put("store.name",st_name);
 					
 					/* 매장(상점)전화번호 */
@@ -194,8 +211,17 @@ public class Safen_cmd_queue {
 					
 					System.out.println(appid);
 					
-					/* 템플릿 메세지를 가져옵니다. */
-					message_info=get_bt_template(appid);
+					if(is_cidpoint)
+					{
+						/* 템플릿 메세지를 가져옵니다. */
+						message_info=get_bt_template(appid,"cid_point");
+					}
+					
+					if(!is_cidpoint) 
+					{					
+						message_info=get_bt_template(appid,"call_point");
+					}
+					
 					System.out.println(message_info.get("gcm_message"));
 					if(message_info.get("gcm_regex").indexOf("&")>-1)
 					{
@@ -298,7 +324,7 @@ public class Safen_cmd_queue {
 							if(plusfriend.get("bp_status").equals("access"))
 							{
 								/* ATA 전송*/
-								Map<String, String> ata_info = new HashMap<String, String>();
+								ata_info = new HashMap<String, String>();
 								ata_info.put("template_code",message_info.get("bt_code"));
 								ata_info.put("content",messages);
 								ata_info.put("mb_hp",mb_hp);
@@ -328,22 +354,53 @@ public class Safen_cmd_queue {
 							System.out.println("sender_key : "+plusfriend.get("bp_status"));
 							if(plusfriend.get("bp_status").equals("access"))
 							{
-								/* ATA 전송*/
-								Map<String, String> ata_info = new HashMap<String, String>();
-								ata_info.put("template_code",message_info.get("bt_code"));
-								ata_info.put("content",messages);
-								//ata_info.put("mb_hp",mb_hp);
-								ata_info.put("mb_hp",mb_hp);
-								ata_info.put("tel",store_info.get("tel"));
-								ata_info.put("sender_key",plusfriend.get("bp_senderid"));
-								wr_idx=set_em_mmt_tran(ata_info);
 								
-								/* Site_push_log*/
-								push_info.put("wr_subject",messages);
-								push_info.put("stype","ATASEND");
-								push_info.put("wr_idx",Integer.toString(wr_idx));
-								/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
-								set_site_push_log(push_info);
+								/* MUNJA-C 사용여부 YN code_3023 */
+								if(codes.get("code_3023").equals("Y"))
+								{
+									messages=chg_regexrule(message_info.get("mjc_content"),message_info.get("mjc_regex"), messageMap);
+									/* 문자씨 전송데이터 구성*/
+									munjac_info = new HashMap<String, String>();
+									
+									munjac_info.put("cid",mb_hp);
+									
+									/* MUNJA-C.rid (MMS발송할 핸드폰번호) code_3024 */
+									munjac_info.put("rid",codes.get("code_3024"));
+									munjac_info.put("mid",message_info.get("mj_mid"));
+									munjac_info.put("txt",messages);
+
+									
+									/* 문자 전송 하는 곳에 문자를 전송하고 결과 값을 가져온다. */
+									is_munjac_result = set_munjac(munjac_info);
+									
+									/* Site_push_log*/
+									
+									push_info.put("called",codes.get("code_3024"));
+									push_info.put("wr_subject",messages);
+									push_info.put("stype","MUNJAC_SEND");
+									push_info.put("wr_idx",Integer.toString(wr_idx));
+									push_info.put("result",is_munjac_result?"전송성공":"전송실패");
+									/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
+									set_site_push_log(push_info);
+								}else{
+									/* ATA 전송*/
+									ata_info = new HashMap<String, String>();
+									
+									ata_info.put("template_code",message_info.get("bt_code"));
+									ata_info.put("content",messages);
+									//ata_info.put("mb_hp",mb_hp);
+									ata_info.put("mb_hp",mb_hp);
+									ata_info.put("tel",r_tel);
+									ata_info.put("sender_key",plusfriend.get("bp_senderid"));
+									wr_idx=set_em_mmt_tran(ata_info);
+									
+									/* Site_push_log*/
+									push_info.put("wr_subject",messages);
+									push_info.put("stype","ATASEND");
+									push_info.put("wr_idx",Integer.toString(wr_idx));
+									/* 전송 성공 여부에 따라 사이트 푸시 로그를 생성합니다.*/
+									set_site_push_log(push_info);
+								}
 							}else if(plusfriend.get("bp_status").equals("stop")){
 								messages="플러스 친구가 정지된 아이디 입니다.";
 								/* Site_push_log*/
@@ -650,17 +707,26 @@ public class Safen_cmd_queue {
 	 * @param appid
 	 * @return
 	 */
-	private static Map<String, String> get_bt_template(String appid) {
+	private static Map<String, String> get_bt_template(String appid,String ed_type) {
 		// TODO Auto-generated method stub
 		Map<String, String> message=new HashMap<String, String>();
 
 		
 		StringBuilder sb = new StringBuilder();
 		MyDataObject dao = new MyDataObject();
-		sb.append("select * from cashq.bt_template where po_status='1' and bt_status='access' and appid=?");
+		sb.append("select * from cashq.bt_template ");
+		sb.append(" where po_status='1' ");
+		sb.append("  and bt_status='access' ");
+		sb.append("  and exam_num1='N' ");
+		sb.append("  and appid=? ");
+		sb.append("  and ed_type=? ");
+		
+		
+		
 		try {
 			dao.openPstmt(sb.toString());
 			dao.pstmt().setString(1, appid);
+			dao.pstmt().setString(2, ed_type);
 			dao.setRs (dao.pstmt().executeQuery());
 
 			while(dao.rs().next()) 
@@ -688,6 +754,13 @@ public class Safen_cmd_queue {
 					message.put("sms_message",dao.rs().getString("bt_content"));
 					message.put("sms_regex",dao.rs().getString("bt_regex"));
 					message.put("sms_status",dao.rs().getString("bt_status"));
+				}else if(dao.rs().getString("bt_type").equals("munjac"))
+				{
+					message.put("mjc_name",dao.rs().getString("bt_name"));
+					message.put("mjc_content",dao.rs().getString("bt_content"));
+					message.put("mjc_regex",dao.rs().getString("bt_regex"));
+					message.put("mjc_status",dao.rs().getString("bt_status"));
+					message.put("mj_mid",dao.rs().getString("mj_mid"));
 				}
 			}			
 		}catch (SQLException e) {
@@ -941,14 +1014,15 @@ public class Safen_cmd_queue {
 		
 		StringBuilder sb = new StringBuilder();
 		MyDataObject dao = new MyDataObject();
-		sb.append("SELECT * FROM cashq.0507_point where mb_hp = ?");
+		sb.append("SELECT sum(point) total_point FROM cashq.0507_point where mb_hp = ?  and ev_ed_dt>now() and status='1' ");
+		
 		try {
 			dao.openPstmt(sb.toString());
 			dao.pstmt().setString(1, mb_hp);
 			dao.setRs (dao.pstmt().executeQuery());
 			while(dao.rs().next()) 
 			{
-				total_point = dao.rs().getString("bp_senderid");
+				total_point = dao.rs().getString("total_point");
 			}			
 		}catch (SQLException e) {
 			Utils.getLogger().warning(e.getMessage());
@@ -1030,14 +1104,19 @@ public class Safen_cmd_queue {
 			cid_point_info.put("prq_store.st_no", "st_no");
 			cid_point_info.put("prq_store.st_name", "st_name");
 			cid_point_info.put("prq_store.cid_point", "cid_point");
-			cid_point_info.put("prq_store.biz_code", "biz_code");
+			cid_point_info.put("prq_store.biz_code", "cidpoint01");
+			cid_point_info.put("store.seq", "1");
+			cid_point_info.put("store.tel", "");
 			cid_point_info.put("cp_datetime", "cp_datetime");
 			cid_point_info.put("cp_status", "cp_status");
 			cid_point_info.put("tcl_seq", "tcl_seq");
 			
 			StringBuilder sb = new StringBuilder();
 			MyDataObject dao = new MyDataObject();
-			sb.append("SELECT * FROM prq.prq_cidpoint_log where cp_no = ?");
+			String hist_table = "prq.prq_cidpoint_log_" + Utils.getYYYYMM();
+			
+			sb.append("SELECT * FROM "+hist_table+" where cp_no = ?");
+			
 			try {
 				dao.openPstmt(sb.toString());
 				dao.pstmt().setString(1, cp_no);
@@ -1050,9 +1129,12 @@ public class Safen_cmd_queue {
 					cid_point_info.put("prq_store.st_name", dao.rs().getString("prq_store.st_name"));
 					cid_point_info.put("prq_store.cid_point", dao.rs().getString("prq_store.cid_point"));
 					cid_point_info.put("prq_store.biz_code", dao.rs().getString("prq_store.biz_code"));
+					cid_point_info.put("store.seq", dao.rs().getString("store.seq"));
+					cid_point_info.put("store.tel", dao.rs().getString("store.tel"));
 					cid_point_info.put("cp_datetime", dao.rs().getString("cp_datetime"));
 					cid_point_info.put("cp_status", dao.rs().getString("cp_status"));
 					cid_point_info.put("tcl_seq", dao.rs().getString("tcl_seq"));
+					
 				}			
 			}catch (SQLException e) {
 				Utils.getLogger().warning(e.getMessage());
@@ -1069,4 +1151,129 @@ public class Safen_cmd_queue {
 			return cid_point_info;
 		}
 		
+
+		/**
+		 *  코드 정보들 가져오기
+		 *
+		 * @author Taebu Moon <mtaebu@gmail.com>
+		 * @param string $st_no  상점아이디
+		 * @return codes 코드 값
+		 */
+	 	private static Map<String, String> get_codes(String st_no)
+	    {
+
+			String sql="";
+			Map<String, String> codes = new HashMap<String, String>();
+			codes.put("code_3023","N"); // 초기값 널포인트 값 
+			MyDataObject dao = new MyDataObject();		
+			
+			sql="select ";
+			sql+="cv_code, ";
+			sql+="cv_value ";
+			sql+="from ";
+			sql+="code_values ";
+			sql+="where cv_no='"+st_no+"';";
+			
+			try {
+				dao.openPstmt(sql);
+				dao.setRs(dao.pstmt().executeQuery());
+				
+				while(dao.rs().next()){
+					codes.put("code_"+dao.rs().getString("cv_code"), dao.rs().getString("cv_value"));
+				}
+			} catch (SQLException e) {
+				Utils.getLogger().warning(e.getMessage());
+				DBConn.latest_warning = "ErrPOS021";
+				e.printStackTrace();
+			}
+			catch (Exception e) {
+				Utils.getLogger().warning(e.getMessage());
+				Utils.getLogger().warning(Utils.stack(e));
+				DBConn.latest_warning = "ErrPOS022";
+			}
+			finally {
+				dao.closePstmt();
+			}
+			return codes;
+	    }
+	 	
+
+	 	/**
+		 * @return
+	 	 * @throws UnsupportedEncodingException 
+		 */
+		private static boolean set_munjac(Map<String, String> munjac) throws UnsupportedEncodingException {
+			// TODO Auto-generated method stub
+			String query="";
+			String test = "";
+			URL targetURL;
+			URLConnection urlConn;
+			boolean result = false;
+			
+			query+="cid="+munjac.get("cid");
+			query+="&rid="+munjac.get("rid");
+			query+="&mid="+munjac.get("mid");
+			
+			if(!munjac.get("txt").equals("null")||!munjac.get("txt").equals(""))
+			{
+				query+="&txt="+munjac.get("txt").replaceAll("\\r\\n","%0A").replaceAll(" ", "%20");
+				test = munjac.get("txt").replaceAll("\\r\\n","%0A").replaceAll(" ", "%20");
+				System.out.println(test);
+				// 출처: https://arabiannight.tistory.com/entry/자바Java-URLEncoder와-URLDecoder-란 [아라비안나이트];
+			}
+			
+			try {
+				
+				targetURL = new URL("https://imkaching.com/cidtxt_anpr.html?"+query);
+				System.out.println("https://imkaching.com/cidtxt_anpr.html?"+query);
+				urlConn = targetURL.openConnection();
+				HttpURLConnection cons = (HttpURLConnection) urlConn;
+				// 헤더값을 설정한다.
+				cons.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+
+				cons.setRequestMethod("GET");
+				//cons.getOutputStream().write("LOGIN".getBytes("UTF-8"));
+				cons.setDoOutput(true);
+				cons.setDoInput(true);
+				cons.setUseCaches(false);
+				cons.setDefaultUseCaches(false);
+				
+				/*
+				PrintWriter out = new PrintWriter(cons.getOutputStream());
+				out.close();*/
+				//System.out.println(query);
+				OutputStream opstrm=cons.getOutputStream();
+				opstrm.write(query.getBytes());
+				opstrm.flush();
+				opstrm.close();
+
+				String buffer = null;
+				String bufferHtml="";
+				BufferedReader in = new BufferedReader(new InputStreamReader(cons.getInputStream()));
+
+				 while ((buffer = in.readLine()) != null) {
+					 bufferHtml += buffer;
+				}
+				 
+				 if(bufferHtml.equals("true"))
+				 {
+					 result = true;
+				 }
+				//Utils.getLogger().info(bufferHtml);
+				in.close();				
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				Utils.getLogger().warning(e.getMessage());
+				Utils.getLogger().warning(Utils.stack(e));
+				DBConn.latest_warning = "ErrPOS035";
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				Utils.getLogger().warning(e.getMessage());
+				Utils.getLogger().warning(Utils.stack(e));
+				DBConn.latest_warning = "ErrPOS036";
+			}
+			return result;
+		}
 }

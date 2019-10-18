@@ -34,7 +34,7 @@ public class SAFEN_POINT {
 			strPrePath += File.separatorChar;
 		}
 		
-		Utils.getLogger().info("0507_POINT program started!");
+		Utils.getLogger().info("SAFEN_POINT program started!");
 		try {
 			terminate_this();// killme.txt파일이 존재하여도 프로그램구동시 정상구동되도록
 							// killme.txt파일을 지우고 시작한다.
@@ -42,7 +42,7 @@ public class SAFEN_POINT {
 			DBConn.close();
 			CdrTrigger w = CdrTrigger.getInstance();
 			w.disconnectCallLogServer();
-			Utils.getLogger().info("0507_POINT program ended!");
+			Utils.getLogger().info("SAFEN_POINT program ended!");
 		} catch (Exception e) {
 			Utils.getLogger().warning(e.getMessage());
 			Utils.getLogger().warning(Utils.stack(e));
